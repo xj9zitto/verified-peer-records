@@ -1,0 +1,19 @@
+{
+  "name": "smart-factory-llm-contracts",
+  "version": "1.0.0",
+  "description": "PureChain smart contracts for PI supply event logging",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:purechain": "hardhat run scripts/deploy.js --network purechain",
+    "node": "hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.0"
+  }
+}

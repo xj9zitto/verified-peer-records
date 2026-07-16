@@ -1,0 +1,98 @@
+{
+  "overall_mcnemar": {
+    "C3_vs_C0": {
+      "acc_a": 0.8917,
+      "acc_b": 0.5,
+      "cohens_h": 0.9,
+      "p_value": 1.91e-08,
+      "chi2": 31.5821,
+      "b": 57,
+      "c": 10,
+      "n_discordant": 67,
+      "exact": false,
+      "significant_bonferroni": true,
+      "significant_uncorrected": true
+    },
+    "C3_vs_C1": {
+      "acc_a": 0.8917,
+      "acc_b": 0.9917,
+      "cohens_h": -0.488,
+      "p_value": 0.0004882812,
+      "chi2": null,
+      "b": 0,
+      "c": 12,
+      "n_discordant": 12,
+      "exact": true,
+      "significant_bonferroni": true,
+      "significant_uncorrected": true
+    },
+    "C3_vs_C2": {
+      "acc_a": 0.8917,
+      "acc_b": 0.775,
+      "cohens_h": 0.3176,
+      "p_value": 0.0107874493,
+      "chi2": 6.5,
+      "b": 20,
+      "c": 6,
+      "n_discordant": 26,
+      "exact": false,
+      "significant_bonferroni": true,
+      "significant_uncorrected": true
+    }
+  },
+  "per_type_c3_vs_c2": {
+    "reorder": {
+      "n": 30,
+      "strict_acc_c3": 0.9333,
+      "strict_acc_c2": 0.9,
+      "cohens_h": 0.1212,
+      "p_value": 1.0,
+      "significant": false
+    },
+    "reroute": {
+      "n": 30,
+      "strict_acc_c3": 0.8333,
+      "strict_acc_c2": 0.4333,
+      "cohens_h": 0.8635,
+      "p_value": 0.0075378418,
+      "significant": true
+    },
+    "path": {
+      "n": 30,
+      "strict_acc_c3": 0.8,
+      "strict_acc_c2": 0.5667,
+      "cohens_h": 0.5098,
+      "p_value": 0.0390625,
+      "significant": true
+    },
+    "carrier": {
+      "n": 30,
+      "strict_acc_c3": 0.9667,
+      "strict_acc_c2": 0.6333,
+      "cohens_h": 0.9337,
+      "p_value": 0.001953125,
+      "significant": true
+    }
+  },
+  "tamper_mcnemar": {
+    "targeted": {
+      "n": 120,
+      "acc_c3": 0.8667,
+      "acc_c2": 0.7333,
+      "cohens_h": 0.3377,
+      "p_value": 0.0001449585,
+      "significant": true
+    },
+    "high": {
+      "n": 120,
+      "acc_c3": 0.8,
+      "acc_c2": 0.7333,
+      "cohens_h": 0.158,
+      "p_value": 0.1698105051,
+      "significant": false
+    }
+  },
+  "alpha": 0.05,
+  "alpha_bonferroni": 0.016666666666666666,
+  "n_scenarios": 120
+}

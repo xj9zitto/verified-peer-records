@@ -1,0 +1,32 @@
+{
+  "baseline_C2": {
+    "n": 120,
+    "accuracy": 0.9083,
+    "delta_vs_c3_base": 0.9083
+  },
+  "baseline_C3": {
+    "n": 120,
+    "accuracy": 0.9167,
+    "delta_vs_c3_base": 0.0
+  },
+  "targeted_C2": {
+    "n": 120,
+    "accuracy": 0.7333,
+    "delta_vs_c3_base": -0.1833
+  },
+  "targeted_C3": {
+    "n": 120,
+    "accuracy": 0.8667,
+    "delta_vs_c3_base": -0.05
+  },
+  "high_C2": {
+    "n": 120,
+    "accuracy": 0.7333,
+    "delta_vs_c3_base": -0.1833
+  },
+  "high_C3": {
+    "n": 120,
+    "accuracy": 0.8,
+    "delta_vs_c3_base": -0.1167
+  }
+}

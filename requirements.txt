@@ -1,0 +1,33 @@
+# ── Blockchain ────────────────────────────────────────────────
+web3==6.15.1
+eth-account==0.11.0
+
+# ── LLM and RAG ───────────────────────────────────────────────
+openai==1.30.0
+langchain==0.2.0
+langchain-openai==0.1.7
+langchain-community==0.2.0
+
+# ── Vector store and embeddings ───────────────────────────────
+chromadb==0.5.0
+sentence-transformers==3.0.0
+
+# ── Llama 3 70B (local via Ollama) ────────────────────────────
+ollama==0.1.9
+
+# ── Data and scientific computing ─────────────────────────────
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.0
+scikit-learn==1.5.0
+
+# ── Visualisation ─────────────────────────────────────────────
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# ── Utilities ─────────────────────────────────────────────────
+python-dotenv==1.0.1
+pydantic==2.7.1
+tqdm==4.66.4
+loguru==0.7.2
+rich==13.7.1

@@ -1,0 +1,173 @@
+\documentclass[journal]{IEEEtran}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{cite}
+\usepackage{url}
+
+\title{Supplementary Material for\\
+       ``Content-Bound Verified Peer Records for Adversarially Robust
+       Battery-Safety Agents in Industrial IoT''}
+
+\author{%
+\IEEEauthorblockN{Mohamed Abubakar Dini Rage, Muhammad Sannan Khaliq,
+                  Md Mehedi Hasan Somrat, \\
+                  Subroto Kumar Ghosh, Dong-Seong Kim, Jae Min Lee}%
+}
+
+\begin{document}
+\maketitle
+
+\section{Provenance-Substrate Platform Comparison}
+\label{sec:supp-platforms}
+
+Table~\ref{tab:blockchain-comparison} evaluates seven permissioned and
+consortium platforms against the three substrate requirements of the
+main paper (R1 deterministic finality, R2 zero marginal logging cost,
+R3 native EVM\,/\,Solidity with receipt-query verification); PureChain
+is the only one meeting all of R1--R3 with a live IIoT-scale mainnet.
+Quorum and Besu expose the same
+\texttt{eth\_getTransactionReceipt} interface but only \emph{configure}
+gas to zero (R2) and offered no live IIoT deployment for latency
+measurement (``not meas.''); Fabric, Corda, and Sawtooth reach
+integrity through non-EVM APIs (gRPC, Flow, REST) that fail R3.
+VeChain is EVM-native but meters VeThor per transaction (R2) and is
+slow: its Thor REST receipt query is 45$\times$ slower than
+PureChain's, so the five per-decision hash checks of the main paper
+would add ${\approx}$4.6\,s, impractical for the online pipeline.
+
+Receipt-query latencies for PureChain and VeChain were measured in
+this work against their live mainnets.  A warm \texttt{web3.py}
+session of $n=60$ queries to committed PureChain hashes gave mean
+$22.7$\,ms, median $20.1$\,ms, and $p_{95}$ of $39$\,ms with no
+errors, and the same campaign committed $570$ events in $9.0$\,s
+($2{,}082$ total on-chain events for this work, including the 337
+peer-anchoring transactions of the content-bound condition, no
+failures); $n=25$ VeChain Thor REST receipt queries gave a median of
+$913.9$\,ms ($p_{95}$ $1{,}228$\,ms).  Throughput and commit-latency
+ranges for the remaining platforms are taken from published
+surveys~\cite{belotti2019vademecum,liu2019performance} and vary with
+block size, endorsement policy, and cluster scale.
+
+A few provenance notes apply to the table.  PureChain's throughput is
+the platform benchmark of ${\approx}2{,}336$ transactions per second
+(TPS) sustained and ${\approx}7{,}000$\,TPS
+peak~\cite{kim2026purechain}; the $570$ events committed in $9.0$\,s
+above reflect our sporadic logging workload, not a capacity limit.
+VeChain's ${\approx}100$--$165$\,TPS reflects 2024 PoA\,2.0 mainnet
+statistics (launched 2021) that the 2019 surveys predate.
+Hyperledger Fabric's BFT (SmartBFT) ordering service appears only in
+v3.0~(2024), whereas v2.x supports Raft (crash-fault-tolerant)
+consensus alone, and Hyperledger Sawtooth reaches deterministic
+finality only in PBFT mode (PoET uses probabilistic leader election at
+${\approx}3$--$5$\,TPS) and provides EVM support only through the
+non-native Seth extension, so it satisfies R3 only partially.
+
+\begin{table*}[!tbp]
+\caption{Comparison of permissioned and consortium blockchain platforms
+for inference-time record verification.  Receipt-query latencies for
+PureChain and VeChain are measured in this work; throughput and
+commit-latency ranges are from published
+surveys~\cite{belotti2019vademecum,liu2019performance}.}
+\label{tab:blockchain-comparison}
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llllllll}
+\toprule
+\textbf{Property}
+  & \textbf{PureChain}~\cite{kim2025purechain,kim2026purechain}
+  & \textbf{H.\,Fabric}
+  & \textbf{Quorum}
+  & \textbf{H.\,Besu}
+  & \textbf{R3 Corda}
+  & \textbf{VeChain}
+  & \textbf{H.\,Sawtooth} \\
+\midrule
+Consensus
+  & PoA\textsuperscript{2} & Raft\,/\,SmartBFT & IBFT\,2.0\,/\,QBFT
+  & IBFT\,2.0\,/\,QBFT & Notary (BFT) & PoA\,2.0 & PoET\,/\,PBFT \\
+Transaction finality
+  & Deterministic & Deterministic & Deterministic & Deterministic
+  & Deterministic & Deterministic & Deterministic (PBFT) \\
+Write throughput (TPS)
+  & ${\approx}$2{,}336 (7{,}000 peak) & 1{,}000--3{,}500 & 150--300 & 200--500
+  & 100--170 & ${\approx}$100--165 & 30--100 (PBFT) \\
+Commit latency (ms)
+  & ${\approx}$2{,}000 & 500--2{,}000 & 1{,}000--2{,}000 & 1{,}000--2{,}000
+  & 1{,}000--3{,}000 & ${\approx}$10{,}000--30{,}000 & 1{,}000--3{,}000 \\
+Receipt-query latency
+  & \textbf{20.1\,ms} {\scriptsize(p95\,39)} & N/A (gRPC) & not meas.
+  & not meas. & N/A (Flow) & 913.9\,ms {\scriptsize(p95\,1{,}228)}
+  & N/A (REST) \\
+Fee model
+  & \textbf{Zero} (design) & Zero & Config.\,(0) & Config.\,(0) & Zero
+  & VeThor energy & Zero \\
+Smart contract
+  & Solidity (EVM) & Go\,/\,Java\,/\,JS & Solidity (EVM) & Solidity (EVM)
+  & Kotlin\,/\,Java & Solidity (EVM) & Python\,/\,Go\,/\,JS \\
+Privacy
+  & PoA whitelist & Channels, private data & Tessera & Tessera\,/\,Orion
+  & Need-to-know & Limited & None native \\
+Live IIoT mainnet
+  & \textbf{Yes} {\scriptsize(2{,}082\,txs)} & No & No & No & No & Public
+  & No \\
+\midrule
+R1 -- Deterministic finality
+  & \textbf{Yes} & Yes & Yes & Yes & Yes & Yes & Yes \\
+R2 -- Zero marginal logging cost
+  & \textbf{Yes} & Yes & Config. & Config. & Yes & \textbf{No} & Yes \\
+R3 -- Native EVM\,/\,Solidity
+  & \textbf{Yes} & \textbf{No} & Yes & Yes & \textbf{No} & Yes & Partial \\
+\midrule
+\textbf{All R1--R3 + live mainnet}
+  & \textbf{All met} & Partial (R3) & No mainnet & No mainnet
+  & Partial (R3) & Partial (R2) & Partial (R3) \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+
+\section{Legacy Supply-Chain Thermal Checker}
+\label{sec:supp-checker}
+
+For the legacy Physical-Internet supply-chain task, the deterministic
+physics checker evaluates whether a carrier and route choice remains
+within the allowable thermal envelope.  The safe arrival temperature
+threshold is computed as
+\begin{equation}
+\label{eq:t-safe}
+T_{\mathrm{safe}}
+=
+45 - 0.2\max(0,80-d),
+\end{equation}
+and the estimated arrival temperature is
+\begin{equation}
+\label{eq:t-arr}
+T_{\mathrm{arr}}
+=
+T_{\mathrm{amb,max}}
++
+V_{\kappa}
++
+0.1\max(0,80-d),
+\end{equation}
+where \(d\) is residual battery capacity in percent,
+\(T_{\mathrm{amb,max}}\) is the maximum ambient temperature along the
+route, and \(V_{\kappa}\) is the carrier-class thermal-variance term.
+A route and carrier assignment is thermally feasible when
+\begin{equation}
+\label{eq:thermal-feasible}
+T_{\mathrm{arr}} \leq T_{\mathrm{safe}}.
+\end{equation}
+The thermal thresholds are anchored to the literature on lithium-ion
+thermal abuse and battery-safety
+standards~\cite{iec62133,feng2018thermal,finegan2017characterising}.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

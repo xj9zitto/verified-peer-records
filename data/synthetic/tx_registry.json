@@ -1,0 +1,3422 @@
+{
+  "740a63b5f56ecd0236a9d32e343b3f3a0f6ca3fa512284a1da61ea236f1cccbe": {
+    "type": "asset_state",
+    "asset_id": "B-100",
+    "timestamp": "2026-04-04T14:52:19.795588+00:00",
+    "sensor_hash": "6410c43d4c21ee20def4819ec7d4a370cc0d345073f5d8fb002230ba48283e02"
+  },
+  "e21c79a793dc354a3ea02d7b55d76ad70ba870192e30d6ae8ed6b8287317da94": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "1455fcd5bf704d56759cc636bcb741432e7c384bcb9c0d5c963e36e6a9554b5b": {
+    "type": "asset_state",
+    "asset_id": "B-101",
+    "timestamp": "2026-04-04T14:52:19.795911+00:00",
+    "sensor_hash": "65c376ea146ed44dc5dd79e660a078c74e873176202e676c7a60a18bc69eb10a"
+  },
+  "caae0b5a7920806fb35477e5df4ed66b538ee53993a63d03dc7582f3424ba8c2": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "8247e7cf2e167da99b77f1f71290c4a98d3c25c911d82de6881ad4e30e6c89fc": {
+    "type": "asset_state",
+    "asset_id": "B-102",
+    "timestamp": "2026-04-04T14:52:19.796167+00:00",
+    "sensor_hash": "12b41f9991e1e7e18ee1676f617d48ab6de8f430c60ff70e71c3722e6b3da990"
+  },
+  "ebeb9f7d2ac76989a607f276234fedf067145aab2ef1d124f43fe2eac02a6d29": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "7da67fa239c3276b4ff995696643134e0387c8df5c27cc55db57739e64bd76cf": {
+    "type": "asset_state",
+    "asset_id": "B-103",
+    "timestamp": "2026-04-04T14:52:19.796371+00:00",
+    "sensor_hash": "c525e52a32824a3cf37eee98deecd1f20d0a59408ef9091bd745c3174ae796c2"
+  },
+  "fcb1d9060843eaddbcc81e2d3404635b12b59749067821b41116d86030a08cf1": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "d3650094822532b5f51af46ccee8c7a5cc807e48d34fc4d0c106c5164e03c1c0": {
+    "type": "asset_state",
+    "asset_id": "B-104",
+    "timestamp": "2026-04-04T14:52:19.796548+00:00",
+    "sensor_hash": "0fa458afecb7f747aa900274f41723ed0d18aedf6ca039fafb60b26b2006f575"
+  },
+  "66977734bc3113e9fcfe8da725508919a720ad7484d7b2f468b18bb3f121c8e4": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "94e43f880758478b7e51b8bcd7b9304f224e27ed727f341fe4214438ee50b1cd": {
+    "type": "asset_state",
+    "asset_id": "B-105",
+    "timestamp": "2026-04-04T14:52:19.796723+00:00",
+    "sensor_hash": "da435394bd0dfabf13ba01b413524433ff6c66fb155cf9d1d4e72bdc570deb4c"
+  },
+  "1878b29dde71f2a9005db7e2764dcd6c5ddb939872d953afa3c03d3b5341d6e4": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "0a5e7f3b72eda73e600702d8dc8a63a717c8bb6615906185a5ffdb7334bad96d": {
+    "type": "asset_state",
+    "asset_id": "B-106",
+    "timestamp": "2026-04-04T14:52:19.796926+00:00",
+    "sensor_hash": "fc936002d4099336bc3c5d6fc22407cbba49fc68b7564bc7d6f0dbf09069b1bf"
+  },
+  "c8ebe3a96f3a298217b597988fbc562900e5c1282af5136136a7ec682b587b00": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "e8adc8eee0a71edb1ff30fdaaa4f50274a88ec1b9c7ea734cb06d166e99d2fc2": {
+    "type": "asset_state",
+    "asset_id": "B-107",
+    "timestamp": "2026-04-04T14:52:19.797107+00:00",
+    "sensor_hash": "c090192037d29c524ca28f830b2db10a0dcc0db5b034009d27716ce81201efe6"
+  },
+  "405942673fd817283bccd061f97e2e1a3016897837439ac2a62ed07df1e3b63d": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "4a5372ebf8aa37cb83f3d7b98ce5ed7a5faa8c88aff888c666cbcd8946d2a42a": {
+    "type": "asset_state",
+    "asset_id": "B-108",
+    "timestamp": "2026-04-04T14:52:19.797297+00:00",
+    "sensor_hash": "e792a8fc049f2b8c67c7f9a26f363fa25c897c14706fbe5de0a6ce62d4438353"
+  },
+  "7b16e5fcc7d82ec5cb0eec473920f26ce379d47264ab29806c646c5ab8e583c2": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "d3ce3342b2bd6b2b72f09afeff6b76b45d43a065f7dfa4a1766014217aee7bd6": {
+    "type": "asset_state",
+    "asset_id": "B-109",
+    "timestamp": "2026-04-04T14:52:19.797497+00:00",
+    "sensor_hash": "bf8477f10bad44a1a02e262afd5b37104e67094c2329a805f1f09961c1de27e8"
+  },
+  "05c68273a7f9a6c40be9391cac1797aeac6c62b0b22985fd8a22ae289ef0ef61": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "fdf0e9e2746e90510373fa16f058d3e80d0f2e1d90e0f1a5f809ee56029732e4": {
+    "type": "asset_state",
+    "asset_id": "B-110",
+    "timestamp": "2026-04-04T14:52:19.797686+00:00",
+    "sensor_hash": "fe3d7b1bf2c2b049fc4d208a2df7451999d66a442d6ae129cdb270d1fdc69d10"
+  },
+  "e6c9669e56f41fc6eefb0d681f6f913daeb95416675d75b4dec6ffa1ffd5b368": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "c040b31a1cf10e3ae055fb42b4c742e3527b4e08a6ad5d95cc833c462c1c99b6": {
+    "type": "asset_state",
+    "asset_id": "B-111",
+    "timestamp": "2026-04-04T14:52:19.797897+00:00",
+    "sensor_hash": "d5708ef6632e7ba8623af01997b3be902945eb087d8979bdcff5084e7d133bd4"
+  },
+  "96066938ecb36df5a33de48a0e19206d4ea48821e73bf0f821d7625dc6cfce7c": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "971ad60b5e639ac2aa0dc4926256723f54ad4c2d55d4da6b894288a2eca8c2b5": {
+    "type": "asset_state",
+    "asset_id": "B-112",
+    "timestamp": "2026-04-04T14:52:19.798148+00:00",
+    "sensor_hash": "445f5d7a3eb25f6b5d44050c32c97eb3b29f6fbecd9297c0013d18c83c02fbb7"
+  },
+  "a2c33aa2032c98bdf51bf857bb0bf5a5cb7a8da572d1bd46a0bf8452003b1542": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "fef2c6cb0af18468414913f965685dfebe348c82b3d47044278cb30cb3664725": {
+    "type": "asset_state",
+    "asset_id": "B-113",
+    "timestamp": "2026-04-04T14:52:19.798379+00:00",
+    "sensor_hash": "300ec639c49b2aea0229ee9b845286c4477fbe55a049f1c3ae532b56e2cfcfd5"
+  },
+  "96e0e34e4e5145b2694378feb23e5c75bd391f737294fcf11a5398367b1e414f": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "00a57007b421d2c9673e367d67646e5b99e117ec78b02737195fc70ac33eb233": {
+    "type": "asset_state",
+    "asset_id": "B-114",
+    "timestamp": "2026-04-04T14:52:19.798611+00:00",
+    "sensor_hash": "ef84a00fbfe5fff32aa426918ba1c6928a470e23c6f1d4a55e2885197448ee97"
+  },
+  "6fed11306509ef7375d084e939da746583c9abca9cdc6b8c7bb36a330978e0e4": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "c59aa2c7b9d10d7f79d9825e5014ed11cc3a84fa829f04b40476f1fad2cf029f": {
+    "type": "asset_state",
+    "asset_id": "B-115",
+    "timestamp": "2026-04-04T14:52:19.798814+00:00",
+    "sensor_hash": "ddbf7aa0e0a2ff4c6ed124da790535eeeb01c7b82650f40808e4aae3e4221f03"
+  },
+  "f5a5071ed3754c6bb9e535f1fda7d8e7849b7b6218b4f6d3dbbab2bba1a417cd": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "247c47c3fd0e33a8509f9cd13072b2305a5f1f3d30a5f1c965c73e17ea745520": {
+    "type": "asset_state",
+    "asset_id": "B-116",
+    "timestamp": "2026-04-04T14:52:19.799013+00:00",
+    "sensor_hash": "4a11be06e212c1364d922d288d61c5c2e38eb3ed88be82ff20f2216a7707a341"
+  },
+  "e2528f03632b2aec83856e9986fbbafbd35779ba8da67840ff214088d7821549": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "1fd3b06c52f04b52e79d72a6a4fe6a3898294010bbfbe79e0d228c80940b1315": {
+    "type": "asset_state",
+    "asset_id": "B-117",
+    "timestamp": "2026-04-04T14:52:19.799207+00:00",
+    "sensor_hash": "01ea9c78a87a0ebd875833c57d0c1b7d8a15e889454aa0489ff3bdbf754f16bb"
+  },
+  "a93c1dd26e9668bcd5a88785e5fa062c9989cc5ef76cd3083df2174e27a97bba": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "389cb80c7a0cd35944390d03398547e194a07f6391af278f28b70647def48bb9": {
+    "type": "asset_state",
+    "asset_id": "B-118",
+    "timestamp": "2026-04-04T14:52:19.799405+00:00",
+    "sensor_hash": "a7894ed7836767b1353d0f249054cffc67b3dfdf3cec8e56b4a97ca7a41cd247"
+  },
+  "86d7204988526c73d9c7214e323b93edd227ad03549f8a7dd0ceab4cc00cc945": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "aa992fe45c6b113922837357bf209ce91b98e22cf4f5f01f6ea9cc466878b678": {
+    "type": "asset_state",
+    "asset_id": "B-119",
+    "timestamp": "2026-04-04T14:52:19.799628+00:00",
+    "sensor_hash": "34b7e897873ab8233b1da8f33d20ef70cfa5f815085dd1583335bf42df6487a5"
+  },
+  "36d1c7d8f526d8a9235ffe77bff3671082ceb966c448939641ac0e556a1b501d": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "dc53ef02e7931767ef5a5d831e83b006e5112b1ce7676072c99235575b724f2a": {
+    "type": "asset_state",
+    "asset_id": "B-120",
+    "timestamp": "2026-04-04T14:52:19.799839+00:00",
+    "sensor_hash": "b7b38ca474067d83ac0524b73c53302a14349cd7d835809a1a2ed8f91d435310"
+  },
+  "f0ae9ee4920d4d0fadafee62d12512d5a80ec9e44630452b23d6521b29202421": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "90043da2b813cb80724a21356e077f246fb4d5d76d3ed03e387055059ea84955": {
+    "type": "asset_state",
+    "asset_id": "B-121",
+    "timestamp": "2026-04-04T14:52:19.800060+00:00",
+    "sensor_hash": "7eb9221fd7db687805bee29a5cd35231f7b9626ad69aa2dd9e3a162de2e05e4c"
+  },
+  "bd0f43585df1613cfa34df5dfcaaee37e95247822b21320a89d1fb1f13cd46da": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "f0e12b47acbec826953435282ca1e2635e13932e0cac834bbc2c3c89dff23141": {
+    "type": "asset_state",
+    "asset_id": "B-122",
+    "timestamp": "2026-04-04T14:52:19.800240+00:00",
+    "sensor_hash": "d6d95b035c15aa26d2f821b347ba94cb089c4f85212dbf22d8cc174a5232ae8d"
+  },
+  "93a424f956d4d32e6a481626ad6f2ebcea31741df14651f718bb9fbdbe1cb2e7": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "d3b39855f93442f537b290ddf9f8870aafcf89285cdbefb1742e1349b04c6668": {
+    "type": "asset_state",
+    "asset_id": "B-123",
+    "timestamp": "2026-04-04T14:52:19.800402+00:00",
+    "sensor_hash": "943c9e2a994693324648e94c54904d01748d8645192806a000b7a17babec633a"
+  },
+  "458fa28baf7f17bded2ae143f04668952a108c168b432cfae1ab91aad389c607": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "3e7785d6d81952f3f008d71ba7e6ef518c9db7030a926c9a954098770a985f80": {
+    "type": "asset_state",
+    "asset_id": "B-124",
+    "timestamp": "2026-04-04T14:52:19.800675+00:00",
+    "sensor_hash": "52614b2d67b0bb3906d8491e000dd480587bf04a7c74bd58af660bc0b0a32075"
+  },
+  "5fd733d76a5f9ff8a091234fa52c64e79386404dc4030deb345eeb936ce970d2": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "12c4cf375b727f0094703ca17cba11be179ed88edf3e94ed4f7fb0b0f11837b4": {
+    "type": "asset_state",
+    "asset_id": "B-125",
+    "timestamp": "2026-04-04T14:52:19.800831+00:00",
+    "sensor_hash": "c2242990fb06bbc82203d0fa02ab1512933468046f8b2baf9f5b2052d0a1da7e"
+  },
+  "90a25c974fb4c2e846f4984aad77b21deff8294056ede04eed945e71dbef82a7": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "85e55c35b8d259fc2dd4c8242fcce1c375db411752a5840c4eda63106d497fb1": {
+    "type": "asset_state",
+    "asset_id": "B-126",
+    "timestamp": "2026-04-04T14:52:19.800980+00:00",
+    "sensor_hash": "6885ec909e68a12a6595ba5557e3165c47790bc816907a11620315a20963c658"
+  },
+  "e023cb319671c7e8d348f77df1b70a88ed1b9181f6920b89adaa8b6596fbb0de": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "316b2cf94432a45a80a3a92b9efbe0091a2ee1509eb2243d1d81d46c4db9ab3f": {
+    "type": "asset_state",
+    "asset_id": "B-127",
+    "timestamp": "2026-04-04T14:52:19.801163+00:00",
+    "sensor_hash": "05f975fb81450e93a26e272f4268c481b144786f62d3c3be525c80dca1cc045a"
+  },
+  "26ffabc1a4b93d7b959ae614b64619d4f5817904fe48e2aebf32ce32e22fd7da": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "9fa2b84e77a16e4151d09a277fb599b88329e4b8c8fda7ac66b06886f5935f67": {
+    "type": "asset_state",
+    "asset_id": "B-128",
+    "timestamp": "2026-04-04T14:52:19.801355+00:00",
+    "sensor_hash": "1cfc546d86a3eb977dd4749a3ee1bc144e433a202d9f0ff753dbc4eadd39347a"
+  },
+  "9d43f1b76e80973a687743bef0dbad2df81225afd4edddb189f140ecff9a690e": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "ac6cc578e2f73f7aff8d39070224ae8f24923ec448c1c81a6c90455fc8227737": {
+    "type": "asset_state",
+    "asset_id": "B-129",
+    "timestamp": "2026-04-04T14:52:19.801656+00:00",
+    "sensor_hash": "3f8cdc93df024fcbe4077926ce69d8d419c95c977fa5a9085a06fd8b748f74c0"
+  },
+  "102dae286ab6c48273f1ed4a969f3bdcea1f027a1c2a593ff93a2bd43b0f171d": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "ad8b00b10b22609a243d6a6c0f9dcf6a63ef828f83b95796ce346f1c85e042d1": {
+    "type": "asset_state",
+    "asset_id": "B-200",
+    "timestamp": "2026-04-04T14:52:19.802239+00:00",
+    "sensor_hash": "618876fa728b47a9a9e7245cab9c56949d047324409326d37ba8724014589727"
+  },
+  "096774ee0873c7c656e9638b9f0ec12027c0eccd649b49b90418c48981b04d28": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "2d8e737eb330ac7e5bb11978f4f8b423303b2c536e09bbacf16124f4c1b2b16b": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "e0cb20a0d519e4ada1745117d8eb77f87d51ba62ef6bbedadd7a5706a37b57b7": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "dc46adc95d0c6dd4229899f1d77dcb08c0f38193501c253db891807c40148d30": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "a8340e1f184bbd04760f4a885d69b36efe58436fa8787019a9a55e7001b05bd7": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "9e63ccf985ecd8bc86c63dd5b8d768df90f35c0225d04bb4082448c411aa9ba6": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "d8cc847552389e573cfcd5402c5675a2b44f0df19341e411469f0a9d7485ea88": {
+    "type": "asset_state",
+    "asset_id": "B-201",
+    "timestamp": "2026-04-04T14:52:19.803383+00:00",
+    "sensor_hash": "751976cfb36c0ef666312fd90f59b88b90df4dd8e987e4cdb244b4f7c756bfc4"
+  },
+  "c7847042956394bc394384970d2f9f149de9c3e4bf106510fca1c90c02d9a15a": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "54f0ec2a2c4ad8268425143c984b5a1e9fde548b8e136dd550d28ba6e43c5a16": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "7c69bc0e1ec3f24480e4d1fd385a81416523bc5f2dc9aaecf2f3c9316ccb4a26": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "47e7241c0d20d28382db53344a15b988eccee6b13b47524c9e8fdb50938235da": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "dd2ca669e4302b2e67f4c1bfa060ebd0290e68abbbe20cb7b1fad6ba8cd175af": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "1f6d123dfdadcd363b331cdcb4554191c3f9fba61ea41c2c378eabbd4804cce2": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "82fbf4fe4b388bb251607cd0d0e4d69ccaa5c34229f11fe6f8f0d6c4c01e2a5d": {
+    "type": "asset_state",
+    "asset_id": "B-202",
+    "timestamp": "2026-04-04T14:52:19.803880+00:00",
+    "sensor_hash": "1cd9877be671edd4805900471e88e803ccd0dbc193b2fd6004c69b157915eb46"
+  },
+  "68a99a4955069496c365d68f5980c2026424ebf0e21d27a6e670da92486581a6": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "ba858ce9fb655b75b7d21f9c4565cf227dfcfa806f99d93ff1c329cbd8333877": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "ce62e07c6b6316691743f0192cef1a83295e860230864d511ead08aa6f2e399d": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "3fd4d2e2bbab571d0a60423b1bae6304a30dcf4ebfe3598892b97191be672719": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "4ef2ab32ef474cda1ee888e6162e935d533e40996c9f629e4862ac2d90c0e1e0": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "dc509e550ccd6593830a92d16ff0fbd40cbaccc457d5125debfce117c46e0932": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "ecce9986a0a785ab3a54d8a00f36d780d4c255e3fd52f6932a696680604610fc": {
+    "type": "asset_state",
+    "asset_id": "B-203",
+    "timestamp": "2026-04-04T14:52:19.804243+00:00",
+    "sensor_hash": "f9d321ee896604bdf9ac5c3e081638a716cc5bbc105f29afb7f84a314ecd45e8"
+  },
+  "aceb78b5b6ab232761c071e2adfa6214840e12e2b5cecca0cac34e48ed13898c": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "1ea33962dc8e1128a8929040a6b597b0bcf32ac8e7950fcbfce17e46e76b9606": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "4c963e8e627646031aa00dd288ee9463d19182052be6f84231861baff2db1e8e": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "4d2749ca884f4af8818256c78ce41e29c5c8c0ff42528664c9cd0a1c9251fe91": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "61ffe8f6d9937b8c4cd1fc47bf2370fb157fe8b3502f8f5ad145a6d52d7a7036": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "1dca6b94865b58e1b16f7a36ef779afb7738072741ba63a36d6ba9ac71a1b3d5": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "6d3eaaf79dfd7f8d575f614817d36b2214b3acf1ae7e49027184cf6e9b6e7a1a": {
+    "type": "asset_state",
+    "asset_id": "B-204",
+    "timestamp": "2026-04-04T14:52:19.804641+00:00",
+    "sensor_hash": "00429ac470c1320c1c0023df34758966246359817ec2b499b76d767f0d89fe80"
+  },
+  "1d72044c531f217cd0f0a6e3c9b17c0bbf755431f0cc864bdac7c1b33fdf26e4": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "b265f461c8460a27f63b87194feb2f8bc69c7da33ab3166d01838a72e3ff6820": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "24eef601f4c22fae433eab7c1b4c91b024beb411b4d59e266a24f04d91a8a2bd": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "12ae3182ac2bb41e1971bb1938460da22ca68e3828c24ef8603c19283015da8a": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "8a5d1bab37c1fcca742a0eaf350d800553791c9cd738d8f825fc2c3aeb6cb9ea": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "388f856dbda5d1fc443cace8a889b5e6c4fa2c279da69cb903584f7b18925acb": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "edbab47b7b644442ada7a2d2f11b17c5acd6c8d9bdf075e9e7b25530564f3e49": {
+    "type": "asset_state",
+    "asset_id": "B-205",
+    "timestamp": "2026-04-04T14:52:19.805390+00:00",
+    "sensor_hash": "393484898a750d5653201937150e94b3578c2f56883a96c2ef883d063ac0d637"
+  },
+  "58390023f8b554497cb3178dd24620c8dad721ecf9498812dd0a47ccbd39bfd4": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "898bc76a8b6b6e82e15e5d211a317c7064cd36126a3043aebea132c0beb1a816": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "6fff7d5e795de40525b33ee77367f907aaa2df7085ad16fe01eefd2ff70c13d3": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "e821851fa7dc59a3fbb87b1ca711a0ac1f0f8b696091a506a5fec90ac5d4f800": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "4324acee10b7853c8e12bf72f19f1228c2cba85542a4642d6a9fb4fa9dfe9dfa": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "854fc8c87333f68512e1fd8724a6a48ba42da724d4352825f50da8d3da8d6011": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "58cc5b6d8dd922849bf593754fb7115cb47e1ff9899dca8b2678252f23160cee": {
+    "type": "asset_state",
+    "asset_id": "B-206",
+    "timestamp": "2026-04-04T14:52:19.805921+00:00",
+    "sensor_hash": "cf0d0eaa21d3f038bab0d77044ed2c85589090f2ebabc2ba096a412afd639ad4"
+  },
+  "a3d454111f701b4c7451a9cd6058507a86eb8bdbfb6fb7835434809a41e79ffc": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "d82a138ba077f9694fc8952770647a2f2afda2944fc4d5bda9ff475bb46f5652": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "cfa2a1ab9aca3fa4e336389c998791e130becb82ceb23f0f483793ede0d72445": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "2eb478d14bb43507df78944f70b3e2a60bc9baa062a2fbf2eb254bfbae4fc9e8": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "a49ccb095896d01920ed569a2724efb7a8155c44371f7698c386971a7ecd5785": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "7b8eb38aa755259135622e0320083b19d7093c39565ad95274699db0c701690f": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "2e63080c9b642ec1ba9b13c8d14237d4e044c886a24648dbcb5d4c4ecce4e160": {
+    "type": "asset_state",
+    "asset_id": "B-207",
+    "timestamp": "2026-04-04T14:52:19.806416+00:00",
+    "sensor_hash": "294c39b96947fe07a975bd6fa4a0a980394c2bcc8cdea3b4f9a229187176b110"
+  },
+  "bfcda7bb3257489d1e381ddaeffe54bac19da844d7548987a02e07d19432fb35": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "dd7d13ee1f354e4cfad444ea3aac11cb1e8a93d1d92740efacfcea2fe0cf4897": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "da2446334cfa4a6dbc8798ea0b4efcfc8de7cf7431f4206e5957964622233bc2": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "2fa1255a89e03ce8eb23eacf16ffe3b6471039de4b753a072ab4e426ddda7d74": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "ff610cb14a127dec18c49ec1454fa045c47a4a1f44da9186e173ea01ad9f5dae": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "0c3f100bcce7b44658058fb04d26784e3bb304f1add84362ec5b961200a6a8c1": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "50e76f99564efaeb7d05dfd69980b79f27c55c0267d8b05757e0af2db00f83f4": {
+    "type": "asset_state",
+    "asset_id": "B-208",
+    "timestamp": "2026-04-04T14:52:19.807582+00:00",
+    "sensor_hash": "1d4a06987e54a3a4aa2ba915e7e648c781e2254a068a2282a83d17cdc18525a2"
+  },
+  "d8ca5552a6f744879890021fbba805463d165fb9bd1da6d57ffca0567749eb0a": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "67902fa34dfae4a5f448700517040411528cba7b752a8099a9d3c89c7953ab89": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "6d1f2e0269ec361c086b3dbe9584c00f572fdcdc8b443202ae979f8df28d83ab": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "975799036e05b702e04aead4549e9e15014ff1094f7ca3c8f374d75060546e1f": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "d50faa825500d05675f421c63bfea129d9cc29f9d87980961cb593923c7125fc": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "12fa7ecbde0b3559f1ff42236b09e271de4797f0fd11f6a302582c8b72124713": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "ae04f91846e7b507c2cdcdcded4b757d6a555e933aca44894fb75dcd94feaf22": {
+    "type": "asset_state",
+    "asset_id": "B-209",
+    "timestamp": "2026-04-04T14:52:19.808781+00:00",
+    "sensor_hash": "11102b74f6fa07af37f53b62b800356c6d060d70f52776d804969f4a5cf98acf"
+  },
+  "1a352232112c57fa0d2d62dc863c23f51b839a76e278860d5880120e89613bb8": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "6a10e2fc7ecbcb08bb2801258bc05400ad7fe69eae773bb18587e77d8031d534": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "b69c5ed254678155ca899208fe7a6948a771aaaf68b65bedfb8112c3344108f0": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "b9161ffc162280647a0fb004e5c9ca007784de36dc1327036b94d75ec82f7999": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "717233d6093c9e2f9f26db29c215e80a88f04050ff22ddc6141aa67c452d7907": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "a0a49f4e66e6ed1cb333bec7bb168c03a55388d1c394b95048f12ff11af07a35": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "8d63ba3f7e683fc784af4a29a3cadc22b68b746f26eb5db33b38e43b519ae232": {
+    "type": "asset_state",
+    "asset_id": "B-210",
+    "timestamp": "2026-04-04T14:52:19.809466+00:00",
+    "sensor_hash": "e2cbd38818560e42b90cdc2100d0e445f9a0810bfba0d37e78dc1067d2177347"
+  },
+  "8d721e12365671805459037b3a2492832796f794cda60cc0717e2526d92b7063": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "3e27f6386bd8963edd333fe310059e108220e2b091bf6596e46a379d2036d29d": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "ff7cea86f3efc2f01b6a40833fa4867b88bbfd80716f12607a6d1095927bc04f": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "a04fad773a673d840366c0867b3dc290239999e7d1583e8f093982a8503410e9": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "fe4836c6cbae4d376a69495a77281ce9bb0e80a35e45bbed9574d55719068f80": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "f6f5ae07945e4017fedc9b24ce4a6779a914f6f01578ce4cf50c6a0ee35998ad": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "74d41602cfecf1030941808d5de1b79c5f069023a66ecd78bf0ed90f6e3668c3": {
+    "type": "asset_state",
+    "asset_id": "B-211",
+    "timestamp": "2026-04-04T14:52:19.810219+00:00",
+    "sensor_hash": "7b264bc348dd5a3736f7a8bfe16aeb76f9b821c464f8681a04b86d3f940d3ba1"
+  },
+  "2e8437fc2d3c0344654e9c0bab2e385b370b0771d7d8666f0627aa1f18557f11": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "467287676d8398c97c01a69fe1a6217987d72c95b1f4c1e918f2aced6022ec9a": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "46dadf4854125c3cc9f9ab8f05b4522366d440dbfc18f6b18f49590274bc3d86": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "55237cf2085046d9fc81e4f2d520d1c04b5e1d018e4fdaa808e1cba57f1c63a5": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "73e78b5236d378bbdc730078dc138a8342ef25e29f332f4eddf1d6c66223dfa3": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "856735dad91873fe77c3ef83c521bcee2fe392f7c385b5a6d283448172f96f25": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "b3affbd49b35a28bdfe87b7aa9f58aea1ae57dd3e096384db20945e89e0851c3": {
+    "type": "asset_state",
+    "asset_id": "B-212",
+    "timestamp": "2026-04-04T14:52:19.810819+00:00",
+    "sensor_hash": "e070a7d62558f709cecbb0bcd46ae1fea8f2f84ec3379e42c7069478a1f140e7"
+  },
+  "4cce9ea710cafebed8c106812dcc79549fc974aed45f67de58864b413aa78d6e": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "6053cf7747298cda4049cd2f9d12fc5f6862a20406e11254f106f4a1b6aa8d09": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "d093865a53485dd18d9deb0c864ee0e534d7c3bc3a90d8add7c91bc65afb908c": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "f044fb3b6cdae7b1358a035a231e3953d864260450cf70fcc45e500ddae1cc92": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "944db2d798052faf57941d98311e5d33652cb174313e1badc8d42a3b297841d1": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "8172ed4a159fae2b20e68f7f36958d5fb00264ed1327126d4afdea6bae23556c": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "fd494d4d0f220424c7416470decc87a18ba43d25264960e9060b5783f5d12556": {
+    "type": "asset_state",
+    "asset_id": "B-213",
+    "timestamp": "2026-04-04T14:52:19.811427+00:00",
+    "sensor_hash": "4c0e1a05c6f742d105fa19a48929e71bb33bd86c3b4f81e7c6c7797fb1daea7a"
+  },
+  "ca88d7a120b03f35a0e94231ca8d629046230c6785c07f14b62de6bb86a91721": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "45661fa44e7045d41c4f35c1720ae3dfa4fcf8b2b98cddaddf750f16a6feae7f": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "794729de31e8aaaae443bb7f950363502913a61aa5fced85b45c14f5f4dea5e9": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "773da46094e3e8fa05b5db95ddd3b6349042d8e2575519bda7bc6e6a1ae456ef": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "30852b5536dffd4e14b7384a8f89d7fb8a353d502a2853072d33a220d32938eb": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "99fc2e67e43031cd2fdccae5eb8a76a976f2ec1cffe04d24d3728300343489ee": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "f9e2529858121854c2739e9a003c507417ade22dd42a111ec58d9c2c32c7c8e6": {
+    "type": "asset_state",
+    "asset_id": "B-214",
+    "timestamp": "2026-04-04T14:52:19.812036+00:00",
+    "sensor_hash": "0dd69d8db2f78303f0c0374b44fb2a4d4565493ea1fdc08d8a9fe240b97fff31"
+  },
+  "3f1ef6a74895d139832ce6b29d20c2cbadf4bccd31a7eb86483446f8aa2927e2": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "7d9421d48168417a00570523f600d07bdc6587552f7b1076c894d135aa30c91c": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "5649c39826e09fbbf821b8deeeccc758c779933e822c823ad583c71794acea22": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "a958f1e01b941cf2890103d3f0263697ccc75af7b7df58d3dee215e6b1e1abee": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "4c315adad1abe5fd89f7a34d5e611339238720ca9af0471e180c336db012f174": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "f4c41cc67fa27be8b9c1580e0efc60f79a78692771f6dd983479d88347b2c7a3": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "ef6a51910859a323f563d45f36f9b661d854dff9f9eaa3664c0a86702d01d021": {
+    "type": "asset_state",
+    "asset_id": "B-215",
+    "timestamp": "2026-04-04T14:52:19.812685+00:00",
+    "sensor_hash": "9dd2eca11030d083236179bea2caf604ec647d193e0877b3d8e97002ffba6fa4"
+  },
+  "819d5443fbe741577434797235c5f40b6f7701edb2cb31148e5cb991da73c225": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "c117e2ec17814c4f91d2d8f87a73d194c45e7028e98f0200394be8ec55812b8d": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "da39d973e6d0d15e1d7a01fd8417adafc3d271185c14fbb3915a502d634e373b": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "6868e3ea611e4a3b8f35b44be40aa7dc81ad0de8f58d58c98c7e8643225b4b6e": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "3595e692ca8a12cd3337dd931a6b75781224e2204c028629a79eded96c5aae58": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "8e2557ae12d1418a2e7b04328088d77b14f8790d600c309924fbecc6484ec514": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "411ba734939f10c47b2c60138e94c40edac55da46af639a294beae4b87cdc5c6": {
+    "type": "asset_state",
+    "asset_id": "B-216",
+    "timestamp": "2026-04-04T14:52:19.813244+00:00",
+    "sensor_hash": "4bf664b98cfcb4fe312bbf7b3bba1b583d1169f1f253520599c570371e941230"
+  },
+  "a250518c5c746a873b98098f2f9b5317b5e37c94f5e73451d9331a9092df222e": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "6b8d02b127a5f4650bba2dd626b45f34ad2eb07b622033de27a571d2bc445488": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "94bc0c96e9f0fef78410ea60b8717fc3dfd23812bc25fe83b5425949b72900ef": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "5014594a1e29a22c16091b98fd155b034b76064f1c21224e145285701d0d2f3b": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "01bd4ec34b8cafa6bb3cf9f94978779c0fee2c8b895fd7c606a4df5340b6228e": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "1b536f70a587701db66a3f639bbe700e79d8d0749ab602a23651f23be620783b": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "2b121fcb641b4b7bb0e7fc01d21216e689523841b98869b0c97a9d9d3bead9b7": {
+    "type": "asset_state",
+    "asset_id": "B-217",
+    "timestamp": "2026-04-04T14:52:19.813798+00:00",
+    "sensor_hash": "48cba2bdc0eb92846d0c6d7cbe358ef8a97265b2f126969caad24c7ac9ddaed5"
+  },
+  "03f19b0622b962732acf388031dce460bfe1f654ac1db2d1efc4d898c2add0e1": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "b0e06e113b911b04a8b40a2674e81798af80d55b91a2a3b4bd61435c95dd7a05": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "795a701ac27768d60383216803cb06583296760dd6eb1ace6ea6cdea8f10648c": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "430b7820f490a331a20e2597bf41ebd84bf65f1eaaea1170f910401faf70dcf9": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "727d2710c4258dce5b4f0abd0c7987243e635efc5f32b22ea4462b0da1fdb251": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "4af05c1012512e2874ce064e29af72f3a2aafb6ab54a143449d0514190bfb7d8": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "3737b6d9303a834d10ffe644295e04354f052544e299362e8798d0b532e44dbd": {
+    "type": "asset_state",
+    "asset_id": "B-218",
+    "timestamp": "2026-04-04T14:52:19.814307+00:00",
+    "sensor_hash": "2971f0c3c1b050107aa6eadb6c78d3dda74a1d833cee4d4c678e724f8ad24738"
+  },
+  "3013a845495c786bbeb7c3855b0b73737dbcf1eb22ca2b64fefd02680c47d8da": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "2980c9fac635891369f9503fb9a3844c3a5f34ff14a47e909722d86174b2d1c9": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "11c2e64be3ae477d1f757873401074f5f991f90082fd7b69b334195b9f94fb6d": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "f1fca01ccca48e4415133ee3586bafd2e72f31e2cbf84ded186a61502601fd6b": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "664a2fec3926d2f402e8d0e56fbd92c0f32e1b4f523dea8695a9585b7f4bf245": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "e8a4f78b35d37112cb22e3a79b249f2a4618bfa263b02373649db5063e118b7f": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "d5a68f6d983a6a2eea47d1125d5e8efb34795043638aedbc869a411492bcf838": {
+    "type": "asset_state",
+    "asset_id": "B-219",
+    "timestamp": "2026-04-04T14:52:19.814926+00:00",
+    "sensor_hash": "04a12ed1bbd84b6b4e1b32f8e5a04da2f1977d2bbb57847b8e4a00863b9d777c"
+  },
+  "76af64dc751d48cf329a49b51a13c777a8affd2830b6b521e40155f07e91ae38": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "1575bcf6ff96df3abc5903d5b4f08ad588b8ef3a8b5f65aa504bb171f168ee75": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "0009206ac37f526a129ee830869b6c092ac34c69e5f55f45cbddfb86d9fc7f20": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "d3430d5568fac88e68e0dfeb9a2e91c86f59862d6433750474045c73ac4d54bd": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "40140986415c9423af137149c76c573f52e5c74e16a8a25ebb96e13a6b8f1481": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "5f5dac844590322eb1d818b92538de8167416aaa910484214d2f4e8190fd0c6c": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "d521e33ac9857b430c28cc2e94ff36bd1943b6ec9bbf1606e3c4dd76907af726": {
+    "type": "asset_state",
+    "asset_id": "B-220",
+    "timestamp": "2026-04-04T14:52:19.815511+00:00",
+    "sensor_hash": "a4a6ae0184c67b41ac0d40751edb0eb0952ec6254497372b6a11f2a06a2f3f74"
+  },
+  "af3cb435f45d650590e866191b5e87a3e16f79d43ff6304bc6d87431277770ca": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "effad20e913191b9b08867f924d6c9a88f1885bbe4a2f8b028b45f7c7787efe5": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "4c91bae8fa5d513b238d691f4ea2edb3668a0c5a43bf222174d5227e8f1048aa": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "870f4d44a2746f9ee85f2cb33fc9be5c42f65b01e6b0e401ecd65bdbf071d502": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "e8b685c75e91caac624ea853017f40b7864c1ebf861ec59db18a732710c746ac": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "663dc953cca1681e415387d6d88caa95ca1666c77e9b4fab2c78c57785a95bc1": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "cde511960c632fe8276c24d4090fde8ff838a8c35ba83c9ad336d0e812253444": {
+    "type": "asset_state",
+    "asset_id": "B-221",
+    "timestamp": "2026-04-04T14:52:19.816002+00:00",
+    "sensor_hash": "e3cb9022db903f9f0f35c1caf9840b323803f882623750c31a1a66c8c31deceb"
+  },
+  "c8ef373f0571fefe7f2a00b0fdebebf9fa9af5aedba4d531718c0d3706bb59c2": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "1081a415a5c40db8d289e2f4dfb152c7e66da7d455fa1ddae2ca6afc2a43cd53": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "3d565dbc72ef5dd4464bb1844602329b9c7f8fb6e074a6c2fb7a4a4d0090a266": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "c84b0ffc3dd1e10bc8f1c8427a56e96894f63948c253a243b6e4e359b60edb3e": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "de2d9a3e0e81df3f421dc858f73ca4033c60399cb0b7c9408d5cc807736664b9": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "b8065fed9869be5bea3ec52bd7e8bdcdd77b8ef0d2559742906551f887244b29": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "5955c22b14fd575ccc0dfc1319a18eed5445e419432f60d132acf581ad934129": {
+    "type": "asset_state",
+    "asset_id": "B-222",
+    "timestamp": "2026-04-04T14:52:19.816574+00:00",
+    "sensor_hash": "c02d68290d4a32cbef65d7d81913888ad5ac44c275489afad23842b84be324e0"
+  },
+  "fec5cc878808f716fef44452cbcef1d1b331f26a741439a997733c69800a9d6f": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "737323230af539f193352760b6497eb348583ff678cc9c946d5a568023ebde7a": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "1cf06d775a0e0305b5c70b0f93b648b44d22b56936305447f08667dde2b84b08": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "50098ee88735273f48e4bceb0c52dc7ea05fd1512d7a066d03d8a815de1a0b76": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "40d13058de2b51f37cb91653dc305292cd8330fdcdfe315bd18c997689c6c6c3": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "53e0f58af3644a9b260c7d5679e8ff63d49ef73ac64f32672cb6f68e3011876b": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "0cbb7653e13f69ba12bf571ba3993be3ee76c9692c34b9c6a00352fd794ed67e": {
+    "type": "asset_state",
+    "asset_id": "B-223",
+    "timestamp": "2026-04-04T14:52:19.817147+00:00",
+    "sensor_hash": "1fc05d4f022264a9a08e6d7b79484c173b40bad30b81c7a492466fc8d1ad52c5"
+  },
+  "459fedc5f91ea1984e028ed2b608700265c96c28f30459570ff0c2e9b0266ea4": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "b414b2eb9cefe56b9fa0cbe694aa631d3ab624c1c234f9df12bfbc8b001212f1": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "8298dab727ebf132c98a0d89d3d53427c387a4a39c0ca2ccd96eb79d49e91a5a": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "6915db7a5aaf144bc9158925db353a8c3c5c7ab96fca7f463c1ffe5adf33b289": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "18bf8ce14d4664aea5ce54afb8ee8fb262e0e72bc7011154d6eec4e2bd894dd9": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "45b799aecb333fe31f0066be4b97ef4087272d351926750dcb00baee37e34d22": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "8109923bd89f28568b65e105229d573f2ebbb73071940562185e88532009b8e0": {
+    "type": "asset_state",
+    "asset_id": "B-224",
+    "timestamp": "2026-04-04T14:52:19.817764+00:00",
+    "sensor_hash": "7c0064c65d8d15f50cad3050b67193a38cbdf6080035b71fb099adde6b36d6cd"
+  },
+  "ba2c15563fc6c6c937a795a52f6047c7b1d92b28f2d3e1692ec7d5208b25b1f4": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "1e97b6e6adee5724af8b3656301612fd5b8853b294a3dda5e0f540814d570117": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "c16bcdbd5870cb7bccd227e189a1a41b348e1f1ff6c4eaf7b20c9d031adb0145": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "b2867eebda417eab2013dbb1dd1028bf786281b521639c4ef4685d8991812224": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "a4d96c596f71b6204b47bb7e9b95689f5b01797bffb5b15786a2dba0812e8b0f": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "415f1d58932da322142c4785d6d2d5d9587b4379bca55b77af521de19b98c659": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "d2346433090a761350543c90d498c5230cce5602dbe165ac93a17e7a3439ffd8": {
+    "type": "asset_state",
+    "asset_id": "B-225",
+    "timestamp": "2026-04-04T14:52:19.818332+00:00",
+    "sensor_hash": "d3a355519c28bf87b8630b23f6ff30ea69c79fe8c82ea9d9d4ec5b3ba4fb60d0"
+  },
+  "073789eae8cf421eca71c3ec082475805a584e871c931556afcf8fe9c990889f": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "f8a3dd6d7e87b3337d25ca6a7f63556fe0b9440bc24d579cba8db78e53f7f968": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "c744eb7333365578105855f5c938fa69ecb99c91614a29bebbf57233f07e624c": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "37e2f2ea9dab32077ee814d32f9bd5589752ca4c00a106bc866989fb274f4d54": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "174e1a173bad8638bdf8ea863b182b0510e3aa7115399e337993a675fbb2abc6": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "2fc3a71f3ca63c0eddc85b2352c498adfe59c3ebc1113462a5dd627c135c9199": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "dbaf3c3e4ab305a08cb917b47d3c78b9c2af732dc2b91fbc723d5aa60d4a4460": {
+    "type": "asset_state",
+    "asset_id": "B-226",
+    "timestamp": "2026-04-04T14:52:19.818901+00:00",
+    "sensor_hash": "9fe42eaafece865359775cb8a65ef47484533f3c5aba5322dba3771187fdf836"
+  },
+  "aeac9d2a7e712e94c6bd164d3521d0ae875b9f1fb70abdc3ca414a2cfc996c7f": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "260821cc1557a4eb6aee637d9354524a12406faf92f07ec6d62e8b5977a34ef0": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "d8fb46c66e88d1e55173e5d612ba409da6892cfb165e46105bf84bf2344063af": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "e3df1360a87e1d18daf7cb09742c065ed36235800df237f746b46ef85b135ba6": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "591d62dfd57ad1f97da8741f241d55f69eeee9a980214d0b4e406c08d1131e97": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "a8dab47fdbc1b184bd23647491235b7bc0e87ca691c02bfb608f3d06696ee066": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "2608b419fd725eb9cf6f74ecf0f23bd1352d2cf2669b7ca40cdd91160750d1cb": {
+    "type": "asset_state",
+    "asset_id": "B-227",
+    "timestamp": "2026-04-04T14:52:19.819386+00:00",
+    "sensor_hash": "15e55cad56985afeed3c05f3339cb517d3f1a6e389292a53bff0572f01486018"
+  },
+  "9ec14231ec7c1ea051c30ce21869e283c4d99fd15b2ebd7404d202305c48dc68": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "6668e189dc5e337b764f79583b7fff488931dd175e424a0b865180004d2c0eef": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "b81f6e34c374ff1d0c32430d6d3481cfbe51f60ee60e95a5255027e57aac904c": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "f67ab0107e94d1ce34e0da95a59fbc2214312d86edfb9242633e14edfc3cd48a": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "33a8d09a99a39cae14eb052ec405a9870ad1263144066821c90e11d0e2633046": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "cdc3895bf18ad59bf34dad53735741b566f27b866800826b0c9df78f74d47af2": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "d3d302add9104a923b62ba9fbcfbbdc23cfa44786a3eca1e621e53eb6a80e0b9": {
+    "type": "asset_state",
+    "asset_id": "B-228",
+    "timestamp": "2026-04-04T14:52:19.819741+00:00",
+    "sensor_hash": "24facd3f26b48bc762a4825782bb869dbd6b8ea064e342c636289d42c0480ec4"
+  },
+  "53c7c5c275a040fc9a3d8e3889e93ac0e12fd5a9342b12b50f9dd1ab63257eb7": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "7f41eb02639df6e5f441c1b1e17d4c661f418f43fc43e4652c8020ef9089f503": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "d067acc932f3afabd16704d0c98dfca56e34887f5a2ecc36a8b737d08ae6b956": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "b276c6f1dad33db3f89a63c77671b0b66fa0b49b487a24a1694bbe8228680ae4": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "085b269e8fd4e442fa7626c7a7c9fd37e39e0368a42f67581411350a37aa1442": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "f2d8df99deafcb9f0cdd614f1d2e45be73e8154c86a599e58240ce0eadfd7a39": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "006dfa2ea48ef46bc00b88f2fc5f9598bffdbd1f031033e35e9b8f43c2e12ae1": {
+    "type": "asset_state",
+    "asset_id": "B-229",
+    "timestamp": "2026-04-04T14:52:19.820250+00:00",
+    "sensor_hash": "f1e969e4de3ddadcf5e35e77027628da2722a8190ff517b8561183e6804cf040"
+  },
+  "0ae7246c73af17ee38df0f5ff9f796af6ce7ec06dce372866d57ca5f8c6497c9": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "783e6b3c1e55a5f5569c652d35f996051a518b0d9848a9a887cbee85af8de37d": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "cbcd9d4aab1f910ea664ce66c27cdbe26b62eea8b1e2a2e42c7a5e260c1abaf5": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "e187828c8b616ddd93c39d7c72e5ac37c944e638d14aecb95c24860d2c1424c7": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "f3fb11bfafacd0fd2cdd20925a73e1b8073c29afe7970fac1bf6390bda4d2ece": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "c6e42a62e74465d56aabc0320e80474d8beeceddd205c3e13272cd9284356bb5": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "6c139f8549fc94594c0134175e7c151ca6a8357e99636d47e639e3caf3457f81": {
+    "type": "asset_state",
+    "asset_id": "B-300",
+    "timestamp": "2026-04-04T14:52:19.820808+00:00",
+    "sensor_hash": "c51daebb7e039f95e03c55d13e62de81acdf4bd5e9c156fc4d66f2b992d0247b"
+  },
+  "26094301e3f7a596b5704502879c4576b5f282ff0bda392247eddc527e796d5a": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "59c0991c1c55c904162d24d3812a1134b2f07ad151c825434238d5cd87ede1ef": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "fd38777f7335680a9bc3f1f3d316754b89852232f359f2e17bd8c2a5552b6f76": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "224458f38d20e9471ee1ea55c364e72889898603a60f5ba3e0beb70913249a39": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "ebb3a4bbbad9b39d3c18e82456bc4134650eefe3b978ad50f6011948b515697a": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "f6546cac461a1fc106a8337a3221a8dbcc9ead21f055d50673e08a04a0803327": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "06eab7045736aec0df0f2aa1c0c556adf8ba03f2ff99c89933b19f0b5dfbd248": {
+    "type": "asset_state",
+    "asset_id": "B-301",
+    "timestamp": "2026-04-04T14:52:19.821269+00:00",
+    "sensor_hash": "1e94bc2f87e7deabad5926ae72735bbf2f7a956b82bd325bce2c580e3a0d9259"
+  },
+  "efaa8cefe5e39fe231f6aeb494a70ec617b054da0fd65e4973f3400e90df5757": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "4bac06447bee99919a4f29f2a07aeac27f447c06041a4028061f3e126e43c8ad": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "f9a3838c5bc5ab476e70aaf8ea1f6a1140a8756af205c5fb80d94924bfcc7d04": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "cb6b1babfc7e75eea85d3528fb951a5ad54c51dc58f16b034e340fa60615ace4": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "75528982c12dd4a385a44c3b9724aff457d43f9a85896b7e05c8b9521f90d218": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "54387714608bd5bd8925ae65812ba107fcb2932c6fbd8e52286b46397b614049": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "cc4b9e19b13885fae65a297c345b92a8d427b640ae0d8e5928c10b0f06cc43fc": {
+    "type": "asset_state",
+    "asset_id": "B-302",
+    "timestamp": "2026-04-04T14:52:19.821859+00:00",
+    "sensor_hash": "7d34d3a37cf03d4475efc60d5e6012295c9489c31dd3f075c95f87ff32fe6904"
+  },
+  "abc310737096862b99734fc8393fce1a0773929aabca547e00baf56bdcee6332": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "b5922bcfdb8a5daff87098a639102210ea836c467403156080b3f679c61473ac": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "d146aadbfd7a9cb563a59f3f8591b81190d16a21783be98013dff8902b6dab16": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "65b0f72659989912a17ecc2c77a109d3b7df6608c9d9e149a4a7f260e12bd639": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "33c4eb92607239c679ce458028368270464633086224551491d76dd65bdcb3c8": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "482cd8d26f7c9f887fa1158a9119933d67644c4f0544c27eb82ce75db2c15731": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "ba1b05a96ed6ccbaa54ded01f6c9493841885b0830f6e408f0316470533c6609": {
+    "type": "asset_state",
+    "asset_id": "B-303",
+    "timestamp": "2026-04-04T14:52:19.822496+00:00",
+    "sensor_hash": "eda260f53c30e39e46da895365c91372d240f24549fec824949f80b080b3315f"
+  },
+  "5eb7f53b1d0693582d1fc96934183e78d6b556f591c993852fa23b9fcbce3e38": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "00f2a58dcb69e893b89ec82a91dfab8355a9fb8a03ed0de459c86a6e8f791d01": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "ef8dbea6c1ee44c64fe8f59bc968d39853f020e9153a0433a2310c182af66ad0": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "cece9b5b1fed47c7d7e95d42e571869e0200471c58cc9848b67cf7f2db4f3979": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "3b6e0c5d17042c994a8a228278e6b167d3bfb283c447ea714b0c7c225ed43cf3": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "117a48198f2b15873c0b0375c61a5a3e79f58cac65211e3e0a2caec6dceeb949": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "dfedfd9ab4c177086ed2dcdcaa72cdf76850986c60e2ea373f896d9afdd4c1a5": {
+    "type": "asset_state",
+    "asset_id": "B-304",
+    "timestamp": "2026-04-04T14:52:19.823121+00:00",
+    "sensor_hash": "bbb25ee1bbe3f79b7721a67e987ff1174e0fe04b0da6087d0c681ab72e2ee274"
+  },
+  "ded7365c45788915fa66a9f29c86ceab59d101e692d371d623bd89a00453c54f": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "0d66fb628a0746ca19334b46478bc8b850eb1cbfd8d672c1cdd214b306c3acf6": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "f029585b2de871cd53e9132bd3dde530749f59d605ed046ffb8d470133991a2c": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "3ead7bd7db2f9d522caedc1db90479aba54922b3656640368684a06f45a7ef90": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "f9f38c2bd2cae8f857b06dead395ee263a225ae911409c5082aba11bcb24f5d3": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "cee8cae052e3e5b3a7b1e7a2afce0b8654e0cffc94461a0fb5c83040eeda8dfe": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "47c6a91b7acc74a8c171491939908215ffe521c41dc286c09f74d04d9192b1c4": {
+    "type": "asset_state",
+    "asset_id": "B-305",
+    "timestamp": "2026-04-04T14:52:19.823934+00:00",
+    "sensor_hash": "b43b38f8e3d7ce04fa53e4ef282442aff00720e6a0cb932acf8d3416ed3ec651"
+  },
+  "ce52c9572229adcb8729436c11ac1df820b23ab9bfb8ae951d715c58c75220d5": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "712bdbd1dc0e32bf991255e4f192c65d68ab4acb7d4fc16f486a2b9e3bff04e3": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "0d87d8b201da47f5134d6e0b95ac43106693b13d47d391edf091261872749c75": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "c4bb7d19e9308a5dd7580f89f9d3c231588bdc71d391ef0e6547e08fd75bdfde": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "9a09817783aafc091132ca7824b217ac427d13c9ec5e416871562598e933c719": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "0124c2fb72603ca419478af55754461b5df51f392f142c7f5d052ff3e25d4bbf": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "2a5305582e96afc611b101382fb03e76285780d5fee776a6cb164ed6848de9db": {
+    "type": "asset_state",
+    "asset_id": "B-306",
+    "timestamp": "2026-04-04T14:52:19.824445+00:00",
+    "sensor_hash": "1b9ddbb746184c8d669d2c72372d4d8de0b672fd98026a42b26bb1f623a66edf"
+  },
+  "49ada930e66257849bfcf7dd093a06d7f57948c6c0edb907ea408e732cc44893": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "df755a783172b74ead4232d7886f9ae8e07bb3ae20c0de7ef2306915544abb52": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "f62edf156d4b56a88fb95a2234ba30f3a88139533c9ab062f4f470a8ae1d6046": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "6addf2f5f2c89623a30343de4ae2da792bb189bc25f365a3b3caf57475e3f7d9": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "2507735e56972dc11a21a66884d2cdc1641e088a42dc68f34778b27320318515": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "1ad87b7881dae2610d39abcaacaa042a6ea0c3bd0cd9a36b13723f0790515348": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "c5c939dc70c180b12bcc48c684fda7d07c336fc3ba70c3ecb9d303f817edc859": {
+    "type": "asset_state",
+    "asset_id": "B-307",
+    "timestamp": "2026-04-04T14:52:19.825020+00:00",
+    "sensor_hash": "3df53ea1b8e0e925b3b1daa70b4412d8af2096ef9fb6a036c111647ca0e90450"
+  },
+  "140524542011c9efa093c251e445a91ff3da1bd7e0558d106627edd6cc772824": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "92c6eefb983971e37cd1b1f80077d7fb7d3f2bbac55762e5de3a5fc94661883e": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "a411b900e1b63520d14a9f88c7fb9b1d96b9e2218eed84d924550540e4e3f73b": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "6851d6d2041af528c77beb7bf84e7946bd2306f4a43e1214364babb57eab28c9": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "ff5e5c485cafff5bf8d5cbcffb5fc21a82f3eed71564fc12f4b1f82bd529a74b": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "532e9e192c2c4a16146310ac9a9ac7070800e61d947a0b72ee87cef620387d0c": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "f3fc44155616e79a2b5d0610e6474664fd2fec49a1ed730555176bee9fc8c40a": {
+    "type": "asset_state",
+    "asset_id": "B-308",
+    "timestamp": "2026-04-04T14:52:19.825474+00:00",
+    "sensor_hash": "095c5a10391a3066a7647ba0135445a4ed16046921ed391e1a3e2870897c41e4"
+  },
+  "f15edbd47c8e348f4030f3a3a0a9daa8ee8a18ea4ed17628ff924b5639055f65": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "dc42babce1c8f609349318dd6ac62e4749d624610338bd060d7b48e7fec67d11": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "3843feca10fc8f033b40f4a0944ededdb0daaede754aa2e0a96a75a33ff1aa7e": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "36c175bd9e6430c72970b64320f2564bbb72b9be35ee17a0995dbce86401ecbd": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "6a9268a7cd57d01f36078840537a2088eb89c8f4a07a467c110c548cfe21c8cd": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "a76cca159ffca4b4e25bf5b37f8d71f9ca6359c88df517de3f3b45f643066668": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "a092208f97d51e0bd87381a6f1eb8e9983728e06f6bc16f01f5cf6c88db978a3": {
+    "type": "asset_state",
+    "asset_id": "B-309",
+    "timestamp": "2026-04-04T14:52:19.826308+00:00",
+    "sensor_hash": "2bdedf78844ef88f6c0b0c2e7bbf9e85b737056328ec8b5983ee30975265383f"
+  },
+  "df999c4a1bdcee97b04d655770451a03454ecef6af293b87faea3a9bc8913667": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "8f1115fe3359567a81e4a3e522b47efd7b19b4253ad19165a97b5edc2d692a5b": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "6261284186521792fa628cffd7486d7d196b66ac59a93b7445d74bf81733400d": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "291663f9ad0496bdc0e8509726d0d0ea34a672581e13ea9ba104becba2eb9a08": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "76191d5fd422d4526edcc213232c5fd14e35f5be9c93678fd580a36189890c7b": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "ff180f01e5203395b5c7c4253686b83b220a069b597deaeedf82f515b93174d3": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "0e4c3e62fb3a96b03a4be35041fa2e47f0a9ac40bc495370b13f6f38795627ef": {
+    "type": "asset_state",
+    "asset_id": "B-310",
+    "timestamp": "2026-04-04T14:52:19.827258+00:00",
+    "sensor_hash": "075249b637a1ca83d001a1be8fc387a0c724fd41a2af244f9bcc3fd0e0bf35f2"
+  },
+  "4e035510d38ae6ee7a79b1b84e4258c35c4e4a45fcca5e55dfbd76970bd5da8f": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "0a1e1fd10f27499777936e0deadf407d9ddf2a1df0e164aa9531dfb11fd976ef": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "109ce8c81f56b68751b86ae3703670c613633cefbc17043e246fa0fc835e2cd5": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "f36cfc5cacfbc5df64d4bc9bbf8fe7530cd70866a3815c6c44ddd55599616cdb": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "a6b41b548936ad40511cd92b81579a2f7bad8d5f764eb9caa1cbe6144f42bfa3": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "36944272cc598b8f986cff9bc1610c13d463239058c133e85ec3537cdd5d99e6": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "efaa5abf3784b1da29eb781820cb491e92b27011dd122e4675885e00cbb611e3": {
+    "type": "asset_state",
+    "asset_id": "B-311",
+    "timestamp": "2026-04-04T14:52:19.828112+00:00",
+    "sensor_hash": "bb02c97b34cab90df585143acdc9e2e2c4f982dc02f8ede5acd766e6fabc4fd5"
+  },
+  "41d52edac972cdaf36842bc212c4c8cc321034514e39a9cc8d6d24e106cd86a0": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "5cad1f7cb162de903194adc4e0dd72b041a1d42b1802f00a33cb067ce533daf2": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "b4290a563ec0824ae730cea1af15db7fe13a94ce736424e342595291b1921147": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "cd16c1d67faf8f4ec90931458a8644f4f922ed6bfda138f4df08f457336b9861": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "5096cb19fe9f2602368481092fe463c16bc2f0e51f1258d8f853bfe044fd406c": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "6295b4c8a88e2eaa1a989a3118060f0e8e4379d4f298cc3b9b5d268a3eed2266": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "1c063de392de5e9043619d9d787b2d83dc2267473969ec2d4beb855278d0688e": {
+    "type": "asset_state",
+    "asset_id": "B-312",
+    "timestamp": "2026-04-04T14:52:19.828765+00:00",
+    "sensor_hash": "12befe77ee37a8e60fe4a755fced9dc0fa7b107d7c1aedf8ad9993959e2b9eb3"
+  },
+  "c79589bef152548ffb6563de398c4f0fd8e22ca717a18d9cfdc0678c5a502d45": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "7aec0170268b3af91a21cb8338632eef50011364d2b8f3d170bda19570aa71e8": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "aa91f7bd496fd17231924b2c29fb33a4ebcbff49588b7d26dd8213c2c21d0852": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "4a864a7b079574dec25b31e30c4e8439dd27cc23fcd2922afcaa569474de2d89": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "7d55a88166ca93df890be0215003dd97acfa3f228aafdb8a8bb5d29675711a43": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "b1abb3312729f142add3b57f086b89c49b5428949a1d7ab5d7a67473560c05a2": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "d421dd31531d3de89173ca5bc7c13d87376d0a848d7cc63385b264d24c5548e8": {
+    "type": "asset_state",
+    "asset_id": "B-313",
+    "timestamp": "2026-04-04T14:52:19.829395+00:00",
+    "sensor_hash": "20adb96a1a0e035014f009e2abe95b435e840bf94f377caa80324f58d7a42941"
+  },
+  "4bf545c2cbbb28accfd06952f00d0e32a7f3efca44752a30d48597375be8d155": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "057d4b93d167598ceef81d6b9331c3149850cdea9cb06b2054f2882d6f533a92": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "b2af672a537888eee0661f7c334993f2d82234184fc59f7a051960252e1f6799": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "08bc9128a87142c8a27cc9b0c01b666556d0609749b2603e3db0b73267adaf82": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "57a6bca1b57e35f32c7a82cfe4057d438634fd4a142f35c829fb7c6f246b5cd0": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "74e8cb90dabf1cec135e8de7e26b60ea58dcd7de87834471b8a13af70fcdbe66": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "9a308160e87aae05a8424163e6ba9067d2e7ea106118bb56b1c02d72b81afcff": {
+    "type": "asset_state",
+    "asset_id": "B-314",
+    "timestamp": "2026-04-04T14:52:19.829954+00:00",
+    "sensor_hash": "931dfd125253dab2d0de15f431209b84bde406f580e5970309d24201b70d4b78"
+  },
+  "b41bf13f2f99fcb3f9bf2710d64fb5e5ddcdf732909161216177348a3371a395": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "e337a812ff54709472d9bea8e0f4f997ace66937c33b2430f70d09091599f38d": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "f05bcbafc90b32d04ef2df29c982b41e95fd1825823cea73bba63737f23fa5db": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "ad1ca060e8a69d5830411ce8b134a3f83923058b5f20b4eee62a41f3f8bb49e3": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "82d2490d64c60c66dde0105de5b29f26c449a87e032e14f2ad5bb8b726214bae": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "51744a171b46d6618a89a4b8c52087008e3c20fdb9fffaf95c10ff0459c97d49": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "8e2768062e0b36ab1eb15a9885542c824dc8ee1368698bc46b10eb292581b34c": {
+    "type": "asset_state",
+    "asset_id": "B-315",
+    "timestamp": "2026-04-04T14:52:19.830672+00:00",
+    "sensor_hash": "58fb2dae4d0c412a3a2c73f88a1f609b1e1f2171e443d11264baff5e16e4b6fc"
+  },
+  "4b5428192c07dba182b0e11f0854d72c42910fa9f291501124f1dd14ae634d03": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "20253336ed196e7abf098bed6b297e3daac306fa71a43ee9bdc66e4756d008d3": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "0388ca678924129c94d09ba48262daa01209f5897d559b92f7c740b352612e25": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "b39a6b3cdd6940b70699d015f08e2b10202a8686dfdcc75a7a18ea3f349d311f": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "59642a0474833e22bc3952d79033e3a4fb4330e26505aa96358adadb6886a39c": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "bfa0df73467a9cacc0871e698eb0c2ac357abdc0ebe04fe2b54370d75051c57b": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "7178475d38dbe3ee781ff9b27ba46d6fea01243c15c328d7755245ad5d95221c": {
+    "type": "asset_state",
+    "asset_id": "B-316",
+    "timestamp": "2026-04-04T14:52:19.831176+00:00",
+    "sensor_hash": "8225865c1f92398f5b05c92315303806fde250bdfca7d2ffd4a1a15e009dda03"
+  },
+  "d1e5bcd9271047c9c3ff571ac7bf6eb35bc24f13dbf8e37f9ea414214921bd7f": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "05fb58d854e86349ab466e011512cdae628a17bba8b8c3a814fc37f77fe0bcc8": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "0fa1bbd592f9b0c09dcc9a912f4bc02f0044b212ee4e5901b3c365ed817845c1": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "1cbc0c66853544b5063cc7cbd7689f4ab40ce46567a07dd6fb05cf1d9292d270": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "33a8b917e4c249829e76bb7490eb35456151ce5ac3dd16145922bc7c034be33b": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "6c3257e0765ee4a9ec1704ebe350e33542f236e129a701f00084e320f43e85f1": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "31ed7f6aee9ba40ff1649800a5eccdce367e1a0aea5afd7a4fae36069167a373": {
+    "type": "asset_state",
+    "asset_id": "B-317",
+    "timestamp": "2026-04-04T14:52:19.831804+00:00",
+    "sensor_hash": "31ca7cade7f12bb59afb252289cacc26e9d7bb2da6d602eb1d77bb41aa4efa3f"
+  },
+  "e138fab89604845273a89c0c8b2467d028b239e597386b3ae1d04cc2e992e95c": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "92e57c71686d01a720a5b235a174390cb605f6022835591de50153f258be27e3": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "d5bd5a5a31c54fb0f0f452764bd5e6f22886a2c6711d05cefd382bf27b81658d": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "b98f0242ce5a19cf985e580b688751ae88dce6cf914380c7bffbd6939bc1608e": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "402f4105ce4ec0727df0802f92a6478596bde106f2749479c1a149889a23f26a": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "2e91f09048cb6a700d0e4adc5f68688917340c63bf080d2d8023170329aea6a0": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "2969f2f7c82a4df146db90faa7910cb97e80ef14ecd2b5aea0268989a6bea504": {
+    "type": "asset_state",
+    "asset_id": "B-318",
+    "timestamp": "2026-04-04T14:52:19.832382+00:00",
+    "sensor_hash": "b6bc77fdd9a2e8c8b419695551183d165af981763754f4802e8e23ff733393a5"
+  },
+  "1bbd29037d9a0642af18da14f088448e047f0e02112ae37c08c16e4a1794483e": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "51fee442dd911dd4d6675b1885b0e882f95b77596b7b89f24d0b63cffdf653cd": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "53e65df4aa3ebcaff26982ec998a8e5c19682e1f6cdea5304048cde851d21aab": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "b478935b5ad55223d9bd3c1090f655be5835e26fc46a29f37797f76c7b73ed16": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "7e7b09ce485a471a797bb00e63d60d156dd87fe79b40cff0a0fc8c2f723f3a00": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "3db23b1c63567bf9d99f0dd7856e321133b379eb29c297ad4cf7fad5f907cebd": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "2574b9c3e3989fd9eebeecbdd08e2d2c3f6f67cd3c84555b26c04e2095bba15b": {
+    "type": "asset_state",
+    "asset_id": "B-319",
+    "timestamp": "2026-04-04T14:52:19.832930+00:00",
+    "sensor_hash": "63c171657531173b3f368312d3d2ef36ce6074ba8e73c6537206d76e69e94494"
+  },
+  "bb336c0803c706c453cccc9fe766a30d2de6496120930e387dcd9391d156e10b": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "2a4e824fb06f011bd4f07d1cb9050677af2b21d20621467a7287a302052c19b5": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "a8115eae751667948234e07704f29b9ae102b0eee5ca1255e1f30c562bae6234": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "91bc1a10a14d6d67a535fdc82e18e5d6d0ca69d19c7b6c338587e9122784ec2d": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "a14b0e8a8810ed45c78f6dff6f56fe01455ce698d941d0b6a7049923bf0395ed": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "2c88ac4ec1d9b93673caac1216d7ba1343b7ded200fb17db0b092233b477ae0b": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "1071e1171b44934fffb99de3d7d875835be2feb718c4072a40e0da605579be1e": {
+    "type": "asset_state",
+    "asset_id": "B-320",
+    "timestamp": "2026-04-04T14:52:19.833505+00:00",
+    "sensor_hash": "0e34f2eff886eccbb0b1d627dbd253027428ae54bc5f43e5bb9f13b599f42884"
+  },
+  "446b6bf14709408c223693ddc7a6d006d14559505072ac54a09f0fe900a077e7": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "1a6af45391fbfa54ab11da3f64d839894c7dba37eb870beddac160a1f152d2f4": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "296684be98f835d6e1a8c27ebaeef4155349f99f540d04882b4b130e001225fa": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "2a4549b210f5d6957e71f7abf7f9261027d4660eaf6668cfdd6b5e4201abf575": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "8bc443a75e9a64f2f3a98d8949f781c0d63b305aa25321559884aab7b42c7450": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "c25d2aed867f568e3acb89fcd676813e50a9c3c9d076627751ea28d76219cefc": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "49088a59dc8fa61b127b4ec2683e6677c2d59b73ce412e521360cb3d157256f3": {
+    "type": "asset_state",
+    "asset_id": "B-321",
+    "timestamp": "2026-04-04T14:52:19.834072+00:00",
+    "sensor_hash": "894ae020a1c5b6eb51754bb9477a1c66ba4f22861259afc3a583f7c105e0b51f"
+  },
+  "40c0bb7c7910f77f0e8eeb418f591178d40c16db349b29ea4032ec8e564589c9": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "a4848455fcb404cf58674acab4c5ac843082a6ff86df027726f7d5a9b79ef03b": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "d900313745de938c43ac9d91a792904438222b9cc65d64d487be40e19e6acaab": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "801427a1a7a03983e5eb189bf46fe76525fdb19c353d434724f2d27811823dd9": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "4a14c54651f23958746f9c920d682345abf2ab36d0864e7ee1b9138f51e1f359": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "007bfd69cd8e9d75c8279c67b2b3a59a9a5828f3ada18329ccc1bf52c30622a7": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "64f48def7a33e0803daa4d48ebc26598cad60933f750df3890b2e5268ecf05e2": {
+    "type": "asset_state",
+    "asset_id": "B-322",
+    "timestamp": "2026-04-04T14:52:19.834660+00:00",
+    "sensor_hash": "4c3914a33020b3e58ae1acfe79100d790f45c8a86c9897a72c96a5fbe02fc856"
+  },
+  "9f1e462dfe1ebf5f82d8fa3aa4f97ab27ce2191adaafebd8789829d5ba108870": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "710487975bd16c218779a7770069b89431ede13bc9505c819f9efc345d7207a5": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "644634f9dcdd8f38b5d4298b0f91a84b40426f0aa4d17f287847b38698ea828f": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "f5af20585f23ccbbd519c36e3ac35aa0244cae8156ddc75775178b18ef31ae08": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "6bfe43a94e0e2ab6198045b84956c9f3d746a7226997108159ee56279db0f3c8": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "b2c0d14f576b64097a9f5150be2deda880ecda3a11bf735ec16e9f08f79afefe": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "97b4543f501412d57624e691191e479f9382a669e531ca3df8c178bde4d2d52e": {
+    "type": "asset_state",
+    "asset_id": "B-323",
+    "timestamp": "2026-04-04T14:52:19.835314+00:00",
+    "sensor_hash": "773da7bd508b955ba25617d5e172abc7f206c925a6f9510e418a519cc37fff96"
+  },
+  "c86545c5928914138d211f9592052fd7edec5b6fcee62f5878178d3894de089b": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "8e00e624a1d0f136b3b4080ffb8e836694089ac580ef2fc18c35a8919ca41d82": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "fe38c97baf8f92eac48f4c4763c8ad059cfc9018e60124222c46218c6eac18cd": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "7cb7b315df8eb0ae4fea12813ba63b11db0537beeccedf549a09cbc31f77a974": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "4cba6ca599cc86c0c634bac5965a22038d02fe018bfc169998c7324289f2656a": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "6b07ddabcbbe390aacd032ddee10c8e64483c7f97167b638b8fef32d66c6640d": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "1d2ca6777d80812a1c575f3fa5639666b772738dd37c1381500a11ad27ca04e0": {
+    "type": "asset_state",
+    "asset_id": "B-324",
+    "timestamp": "2026-04-04T14:52:19.835871+00:00",
+    "sensor_hash": "34c761412aa2e5555dc8437ab53344e1fe74fa35bbeaf386a7a87162fc431c32"
+  },
+  "b6aa7b93909bd72c747921c4f72d158e4ba62e81d187737028bca3d4d1551f91": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "93b98010b3c44abf1c9357911931361c878a8cec3a7213b6776627b4f84cc51d": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "37103b047a668acaca591f3fffedd871e5817acec7848b9bdb411b1928d0c36c": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "68925f74e6a21f4107ba4e57fefc1f61a7da0063fd1c9b638065bc0b6bd83270": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "8e21fc21910bce39a619b7c5fff641cb1a0afe4f875bda89af14c24aefeff41c": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "90f173662f81662d972556b3307447ff25570d68b226019acbac683dd74d8e9a": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "6a4e99b95521557a0e9ac5da22545356f62d6a9b7cdcb46f1bdfd1058a7581e4": {
+    "type": "asset_state",
+    "asset_id": "B-325",
+    "timestamp": "2026-04-04T14:52:19.836292+00:00",
+    "sensor_hash": "1c1cffc0f62351636cc46acb4e9990e89d0f4e1ab43e1972545c6f0946f71487"
+  },
+  "10037186715e35c6d624ec76f14342b3aa3f6a4aaaba4b16841b2f094650fc40": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "726cff941fe7157a1ba162ed58d9e9eff54e94aa0e46924f00292aa6eb13d7b2": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "542bf945a339259fd94737eca2162ce5f623699fcbf981c4046ecb3dfbc4801b": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "caae10702d1689ab5c6efa70a1d1b65f93ff028e47e77da8dd20cf497bc5aad1": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "9d895cffa4a3f4b92c88687949b23c98db2cb3789967a1c9b45c87fbbc222938": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "30f615b8f351df147c4c22551d06c54e011eedfac748c62b0eb129cea39fccb8": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "09565331d1664c7ec51deb29983003c73bddac71184861c9092888af9763ea54": {
+    "type": "asset_state",
+    "asset_id": "B-326",
+    "timestamp": "2026-04-04T14:52:19.836804+00:00",
+    "sensor_hash": "4c07306f484195e78312f50a735690db587265012135fa0027e7f6d95ac3df1e"
+  },
+  "d13e56a3fb5e00524b3fd89dc599bb69ecdf16b0b00fdfb357fbac0566b9b17f": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "a752a0b640a51e1ffba752e546cd66bd6fc590d5bef52bebd1863c806e087013": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "9e15351183fa0df9c9e792064d0af8da0eb6eb3435f39d03746b61d1449c55cc": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "2a05f848a3e04a241202b52e464a11bae1376e510d8fe2b6f1c8cc2aaf527207": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "4df743cd610e939c70b92698fcd8b230e8ecdf76700c207ed7202531cd8cbd5f": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "fd4e24c8e05ef947a404b8b4f6fb0869ab3572b230bb4f2baa7b9dda85a9c40f": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "fe9d6f620b21f3471332bdcc29d4097b39d136e77b6c99567e73d8fe366732d4": {
+    "type": "asset_state",
+    "asset_id": "B-327",
+    "timestamp": "2026-04-04T14:52:19.837291+00:00",
+    "sensor_hash": "209503166c74e12dbf7a2d9a9609a8f3704d7ba6862d63da77d40bbe69f4a050"
+  },
+  "a5f26203dcb5fabc205616533e4f7994eb978816389ac9c0a8183816a74531ac": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "afe4a8bd72034d43ed8d90f12c0b1165881adf41a46b044b3bfc5a5afbfcb8d6": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "ec268469aa6da2fc419f2ad8b59972ade0f15055815daf7f96362e189b5bd4a0": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "45e3ef818a2b651ebf8b904df23bef1e8debc06627a599fd3a2f96b6e198037e": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "cb942855362a8ab5df8d7aaa86c5b02bad9910a6ed42c8aefc2c778312f32ab9": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "7f8e2494de2dbcdff725dbc3f91efe4ef6f03bb73d9e6296814917495fee2a2f": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "27fdc3bd03029858c3a8ad2a76f9c4ce46f3e44377d47ccbb870aa9f138c5e5b": {
+    "type": "asset_state",
+    "asset_id": "B-328",
+    "timestamp": "2026-04-04T14:52:19.837803+00:00",
+    "sensor_hash": "b84cb17d920b192d5e6109497b3fcd75420ea4a0c95dc4b469973a9899f7533b"
+  },
+  "d6ff846a521b3c66b50eca0a02d2749a91e54b51c3ba6c19d599f370a016dc1f": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "a079c747efb483359af766599aab719ba3fdaf44a5981ea96a1a2ed4f1a6a017": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H1",
+    "hop_dest": "H3"
+  },
+  "88e59d1885feb105e03db34e1da33c175edce5743cf3095dd6bfbd4aa5ffb247": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "737468eec7b649dfe3fa0a92a6ef0a6b0673cdbdac667f0a9ffbbecf80bf042f": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "6364c6fe01a3fca2f5168dfdeadf957311fcfda8c95b7930ab64f6151544a22e": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H1",
+    "hop_dest": "H4"
+  },
+  "cc9bc240742aa86013426db1e9dbcbd14e94bcff196350e61333bf3c7c174e74": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "dce8d722236b7955dac5cf0cc7c8724be3783a79a77a933e6f492c0b70a00f1c": {
+    "type": "asset_state",
+    "asset_id": "B-329",
+    "timestamp": "2026-04-04T14:52:19.838276+00:00",
+    "sensor_hash": "0132e82fd2cb6e0a752ece251753ff11fc35c509ffea1952c5469ee52998e6e0"
+  },
+  "c29394942630c67e4f935c23c167f9d106d822658382f1c7c6514fd9d3c928cb": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "ad810ec0388f6808bdbb5d27ece065a4752618405330bdf223cdbb1964b947fb": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H2",
+    "hop_dest": "H3"
+  },
+  "69611b04c308b77a6012d3d316375b378184f8ada76d7c21d3ae03575b09c319": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "H3",
+    "hop_dest": "F"
+  },
+  "7ba3331766be9d72dd95e149cd8ac8084f7bae3c57f704844168e65cb7cb1690": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "891ca99742c05401b170a58ed5bfa253733197496ca4d9985a057353f0ae87d4": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H2",
+    "hop_dest": "H4"
+  },
+  "237f6c8ce96eac916e38a2c3e925e4a19540118da6f2e9d818733e885cc35a56": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "H4",
+    "hop_dest": "F"
+  },
+  "fb4774df63667539488c7bee88e9631e20370cfc010ffa41858d3ee629bbc2e7": {
+    "type": "asset_state",
+    "asset_id": "B-400",
+    "timestamp": "2026-04-04T14:52:19.838814+00:00",
+    "sensor_hash": "0b8f59e959e48b8172f5bbf150204fdda7fa205e824ab04c8a190692d0ca8069"
+  },
+  "52e8ddd9a832072ff019d7385772891e195036366ba01c968ec489b9d92a021c": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "432f03fc3c991774e020e5fffbd477e8c205f3f89e05f53cc59353077df0bba3": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "315a8bc63fac8bc78650587081c63674e1d9f761dcfbf0a9a342fa5038cc8586": {
+    "type": "asset_state",
+    "asset_id": "B-401",
+    "timestamp": "2026-04-04T14:52:19.839068+00:00",
+    "sensor_hash": "4e06ce80d2427c3e11d38c5aeeb1f7fdaf9be279512a0e8ea330234d7f97c0b1"
+  },
+  "8389c4126256c61acd7fd7bf7b57ca673e6f69080ffb30d4f47cb349958d4cf2": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "f4b34939ccaecbbcb4fda056fb653fec9cb4c17c31a6a7cc445a19ee88014315": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "aea3f73d56b4b30d4c5ab078cf10b9083db86b84e86ede69f78b07481b52e103": {
+    "type": "asset_state",
+    "asset_id": "B-402",
+    "timestamp": "2026-04-04T14:52:19.839309+00:00",
+    "sensor_hash": "e04dc797c7077812195517eec21a8b74cd66511b54dcfab62cfca32467bbfac7"
+  },
+  "d364cbc9bbf5fa405ef38493c7550885c54d905ecfb8715ed0bfe8b33f9b4017": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "c0b665274656e1560c45d26da9501029561d52c1ea0ebb78d9c96a6c9d0a6079": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "415145fb8430db9b345d176818182a9a00dff7f94a701e761d0066b910d43216": {
+    "type": "asset_state",
+    "asset_id": "B-403",
+    "timestamp": "2026-04-04T14:52:19.839608+00:00",
+    "sensor_hash": "e4b3c72d3ac4f320593112456c6a48c09e3622585954e457ce4ba29e2f23be8a"
+  },
+  "43b5c430dd246b0656b6006cefa3fbe8b48fcbca2a8c771ec4c1637233a98f02": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "d8f9a942e037ef90d81e995845eb1b2dc4a4e85c249f1a677711a3ec767c4063": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "134f1844161149201a96dc7af1379359cce368ac7ff24d7ed43b28519c71b9be": {
+    "type": "asset_state",
+    "asset_id": "B-404",
+    "timestamp": "2026-04-04T14:52:19.840093+00:00",
+    "sensor_hash": "5f2bc542d8edd815b4c2e3332e415df59099b8745e2c28ba13c36ac90956e4db"
+  },
+  "359d48ede4681cf6e58f1cb3a5c1366d28ac54b59d5d884284fc4f3b77e05f1c": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "1f3a8201b644a77c21315c856a93577e21ad78f0c3a2ca00ce3a51d6ad2c9bd0": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "1f03daf95cd8b34e9a2c845ea0a9cf205137b1022571f88f09183c2429d46ce2": {
+    "type": "asset_state",
+    "asset_id": "B-405",
+    "timestamp": "2026-04-04T14:52:19.840371+00:00",
+    "sensor_hash": "32abac3a44dcf6b8cfa87ab47d99ac803c2957988890d09cf3d75f2701e47578"
+  },
+  "3835ae9428e3c423dfb984e89de28b559cb5691cb5f3ed37f99ebf1c92110a54": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "f5c10dfb900da8a550123b2201e002d4b26b315122b3cdc407fd7a735dd51e50": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "ea42100282489568deeb6cc784336ebaecf2fffd7d7ce8be714a8eb8cedbcd26": {
+    "type": "asset_state",
+    "asset_id": "B-406",
+    "timestamp": "2026-04-04T14:52:19.840736+00:00",
+    "sensor_hash": "bf7b6469d7fb5b6234ae892056f1faacef49453eac55668f3d95546b318881f9"
+  },
+  "72884f1e27744c92ac6e82d0dc28b698651c874deadebfb34f0c3dff4f735c24": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "0b43982ab9ecb623e6f8baa1badd86ec38476999064d4da5549fa95fd820f4f1": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "907e97449c74e80adead1a0a1d19190cb45e8c67c7910b624639202115a5d2c9": {
+    "type": "asset_state",
+    "asset_id": "B-407",
+    "timestamp": "2026-04-04T14:52:19.841050+00:00",
+    "sensor_hash": "9131eac8cde85e209d20f83243557a9f14adf930ec0a4206e9595b42c0933ea8"
+  },
+  "233127922020f9a653ff3506529da999f7b2eb698a77d1f3aed8923882cdfe02": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "304ef98eb6f8b8e1fdaf3a8d1e5a7ba0958cfb8b30ed42ab7bceb9f14da40652": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "18c1fc15bd4ae02ce20c8d454dd41e5e01163ce221db0c947f6886bf0039993c": {
+    "type": "asset_state",
+    "asset_id": "B-408",
+    "timestamp": "2026-04-04T14:52:19.841334+00:00",
+    "sensor_hash": "b10883f9b848b1c8ac18701f3720499469f059a0e932ec7fab2ad9c249dde2df"
+  },
+  "a17a2abd5395986cc8c29d6b905e5a850f925a382aeef3399d16f2aa75bc2f15": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "a5438cbb269bc1e165bc8ca9411bd56a31e37a27dbcd0bac4e0f76654b02b881": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "d034298cc2e584d19a0218b9134888738c52ea78232fb4245ddfdb23c85b74c3": {
+    "type": "asset_state",
+    "asset_id": "B-409",
+    "timestamp": "2026-04-04T14:52:19.841623+00:00",
+    "sensor_hash": "38ec65300e3164ab3b7549dc13cb8af1881c9c796fb1f38ac52f3935aed327f1"
+  },
+  "c0fd2f32fde4df7e1d425bd10219bff9d47ec5e947e41631ffe4af535a57d644": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "02560ef1a83209528bb31d28eb06d99e92ae0f09921f9c5f7ab6e07161831cc6": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "f164f07ed9b346c6d497c634dee1240e589a953799282b0c465fe57607c7955b": {
+    "type": "asset_state",
+    "asset_id": "B-410",
+    "timestamp": "2026-04-04T14:52:19.841948+00:00",
+    "sensor_hash": "aa4183ec44c0688256835ff259ded2aa0237555bd6d0a0964d445b8c886af0b1"
+  },
+  "1ee5a5c160dbe098ba85ea4d9b5e4f3496fa774dbbde9be2db1fe25a26f2fbf5": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "33d2b22a3a7502a88421577618cdc137cf6e80a920dd634aa218d1c9468bcfe6": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "b678c06f4cac836654956be20c0951000985fea67c07971ad9d9db8a4217302d": {
+    "type": "asset_state",
+    "asset_id": "B-411",
+    "timestamp": "2026-04-04T14:52:19.842212+00:00",
+    "sensor_hash": "70cdd5809b875d9d2b6f90d19fb9f2806da094659ce287fdaba7b4634d949e41"
+  },
+  "37970ea71449b7cb279860dd90f39ba89c7cc7a45565a239df0d2cc9ea831070": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "9e4098a54b42b34496e0acfe87397ed2ff312e2b15d7920aa6df62cb71df2ec6": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "53265f2ee984ed8e4628b2066fccf74c7ebe8eef822113e23ba73a485b9cb9fc": {
+    "type": "asset_state",
+    "asset_id": "B-412",
+    "timestamp": "2026-04-04T14:52:19.842473+00:00",
+    "sensor_hash": "845f3a7f2fcbe6695bdda548525a1e2a76226f8e77208c12cc6fc8ab07398867"
+  },
+  "3536239252e7f54a06d6c5e43a0cd6ec02863fdf0c526026cd59cb110fc5e218": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "97d2353771fba4907d7810914cb25873749dca686c07d8b8cbadc5fc3c8eb4be": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "aca3ca8c156e204154fc325690b25097169ed097df466a366394054740452e90": {
+    "type": "asset_state",
+    "asset_id": "B-413",
+    "timestamp": "2026-04-04T14:52:19.842697+00:00",
+    "sensor_hash": "478f73a6c44cac5fe1f2c3fe3dd2d271226b9444b5ccefdc2c9606d17f9e91b0"
+  },
+  "496e8fd4c9bb53c165aab07d5f1a2e6935c4a15d5b06819dfd5c2cf60c071326": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "0d0eebc36773de4733ab05f2809b13e8ac7e7ca02e312f07af89e2288730c80c": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "cf816c9d3d0f8c3b0aeb530a135462eb9e8d04129384a02b7c2afb2cb21a56dd": {
+    "type": "asset_state",
+    "asset_id": "B-414",
+    "timestamp": "2026-04-04T14:52:19.842923+00:00",
+    "sensor_hash": "6f7fbb27434e2f3afb05b970d58125561d27d55b5618c8e0a704a84ac530c9fe"
+  },
+  "8e78ec118b084a5ac517647cc827d3855957a41325e90d2dd5fca55a808cc4aa": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "5af066cb6e053e517a48356b9b75aceb9c50d5bedc768500724ebbd08602f27c": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "bdf9527f6f8b9cd2a4a6b7b92b8003c8277ed8f6143d2ebd4fed981923cfe84b": {
+    "type": "asset_state",
+    "asset_id": "B-415",
+    "timestamp": "2026-04-04T14:52:19.843152+00:00",
+    "sensor_hash": "8edfb1a2741b3e501e00a51e36cc0aa00eb468a8a61c79c6eb2239207333fffc"
+  },
+  "a833ae864563325b5d0ea2cbc3ae91db617e6beafab40f8bae15d1b1b41ef851": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "ab22045d375e2e6303d389dfbfed30709db6ad308722cfc35108e3fb49f00a7c": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "7c2583f08a441cc4992a84c30c6dd367ab20c58f687666cfff0f5a47e5f86eaf": {
+    "type": "asset_state",
+    "asset_id": "B-416",
+    "timestamp": "2026-04-04T14:52:19.843400+00:00",
+    "sensor_hash": "b27e10e0b904cd61fe364354c61ee64a6974619bb72f560ebf44c9a184066f23"
+  },
+  "1cc6391486a29aacb559bd266e6828d0ba6b81e2c31c2e90fbb5eded2f2fe299": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "5c1d1d6b7ad4ff1f3b356d38c4c1e4c9ab5a1f54ca9ded0fdc518bd6e003f029": {
+    "type": "routing_condition",
+    "path_id": "R3",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "c6b8ff010cb339f4b86181d9ec1f7bb44f738ba8cc5705f01f0ef3df49140926": {
+    "type": "asset_state",
+    "asset_id": "B-417",
+    "timestamp": "2026-04-04T14:52:19.843637+00:00",
+    "sensor_hash": "2e7659e9a9fb866aafb4d37c816f3650d9a33a0f27936cb411aa6186c4095bac"
+  },
+  "cad940d31fc1a56c7bdfbcfc5ff5e93fe468908208abd78810c63304d38061ad": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "18e7e538dc6d50bda33d1dedca85d24ef8cd31a5c59e021f3552a83c30650c24": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "370920aa0cf42daa50af254eee71021f114a95152dcce2f302aeace109ff4f72": {
+    "type": "asset_state",
+    "asset_id": "B-418",
+    "timestamp": "2026-04-04T14:52:19.843878+00:00",
+    "sensor_hash": "5cd5f440c44cf2ded08ab174c865770e6259d9608bb49d3e45e48d541706727f"
+  },
+  "18fcae2499935fed12182c16cbc3037cdf7e7ac94b1500cdddd4fe51bbd7ea0f": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "052efbf7b525b47a35032b6746c863d3d6662f27b2171ecd473e99c5e4c68e46": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "ed1cbadc0bdc14235b8f12707a297173a5bea03cb88fffc1acff648e5e120eed": {
+    "type": "asset_state",
+    "asset_id": "B-419",
+    "timestamp": "2026-04-04T14:52:19.844099+00:00",
+    "sensor_hash": "3839cef61c791e01c5611a4e53c78ead1ebff98dfdc125aecc259cafd4853e35"
+  },
+  "7df42cf5fc056ead5958ca276eaf9f2942b1de6abc08af086c0769c1a377036f": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "19c493fcf697523d9852e21e00ae464a113aeeb08c0c5a122feced0c226ad622": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "71639c087e4612e39513bc4fa119c3af837d0b47c7d31a6fb787e87e9cb2e44f": {
+    "type": "asset_state",
+    "asset_id": "B-420",
+    "timestamp": "2026-04-04T14:52:19.844336+00:00",
+    "sensor_hash": "1fde75cac7aac418b0e04d8019cd904179439c81257f66041b240d7ec710bc26"
+  },
+  "cdcffbc1fceb9421b657bc50a203fac8ed984098e3e2ef73d27f4c00eede521d": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "24492d94251008460b808a4c82fdc8dd5501322c7715855b69d23493cd1aaaf8": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "4a19b0cf4d7f52cd8b1fc273936428d032ce1e9d02e8911e3303c71d46f33ac5": {
+    "type": "asset_state",
+    "asset_id": "B-421",
+    "timestamp": "2026-04-04T14:52:19.844634+00:00",
+    "sensor_hash": "3057b8d86f45d9c8313a3a655c13c976286126f4229632fe10435b972ab5496a"
+  },
+  "8dfbc5f9ba40b8b78bfa16d0f7d6ac56deb5c73071599c900752ef4e47149f01": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "6f8377874be2b5546e2d14b899fa598510bd9d807bc5935f37bb6109fe870303": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "d095c74efb0a7d87c6af291c01ee2b6f4372c4d04ad613462ff4032c175eb15c": {
+    "type": "asset_state",
+    "asset_id": "B-422",
+    "timestamp": "2026-04-04T14:52:19.845035+00:00",
+    "sensor_hash": "206ef0037b90dcb709afdce88a3b4efbd31a61241ff99669710307690980c4dc"
+  },
+  "f6f6c20c3b7773723372d11df4b84a0089ff3a2f90a55579a1dac0988d6a09e5": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "e1d7718a99111524289087141442fd56f0be6afb7c4159d7acacfe1a7ddb2f81": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "2031d19e676e332f492831296d24fed1e36bbd6d886dccd0802fca19efa7ae21": {
+    "type": "asset_state",
+    "asset_id": "B-423",
+    "timestamp": "2026-04-04T14:52:19.845248+00:00",
+    "sensor_hash": "277af4be2106c18787559517d287b730612b8f181a731a90c0a75d0a17c368f6"
+  },
+  "f24d156187a866210dc52aa303d7052e264e3695574aec819e023279067ea1a6": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "9898aae52a86b08d91f34a9a0dee4c6032c0b62d4bbf1b6bc8f260cd7d987a74": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "615488c1a89340cfea87d9be96b7dd23ed505630d0fff923426334a384abbfeb": {
+    "type": "asset_state",
+    "asset_id": "B-424",
+    "timestamp": "2026-04-04T14:52:19.845428+00:00",
+    "sensor_hash": "f81a8a1b6b687d0d23586995de1dd1f429d977ead9dc5b6ce6b1b92e00fb8305"
+  },
+  "9c3033b13aa3738c78d6474ad8a5f3d93e045678ed6b75fc593b36a36811b278": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "d5d80e9299ebcb4cd96cf9ccbaec6a52387c6d99bfe60644b1b249d9795b8f03": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "af9f4539ef5ba38da17b020c89974d4d9dc3b3fff9788da954a6b26ac3cb9128": {
+    "type": "asset_state",
+    "asset_id": "B-425",
+    "timestamp": "2026-04-04T14:52:19.845597+00:00",
+    "sensor_hash": "6e03df3317c4180d57ec0738246670bf81f380c40ef0ecb0a3e6cbec29b1f81b"
+  },
+  "b6f9934f6a07a4180dfec7e6095cd18e17545f07a30b95b3791dcc1bde22dd69": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "a1a37b3bb1aed1e9b824e98bf67c8524d56c59debbd25981c6b8c9bd18473576": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "036a281a2cda4ee180df06e51de2262f4c4b5aa005a7d61e3cbbf91b406c94a1": {
+    "type": "asset_state",
+    "asset_id": "B-426",
+    "timestamp": "2026-04-04T14:52:19.846035+00:00",
+    "sensor_hash": "b4b437f85cc1e8347172ed47f140ba300da1e64e8977086005c47b6436e1efee"
+  },
+  "f66f049425bd7148483eec1b9b6acb5684220e0738f5c90ea4aa5e13e0e1c0de": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "b64d8c75b32eb5302d11ff0152d8204bf36b9415880ab349704a2ea734fafa98": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "43348a219f2c90e00e2e4021996fd1c8711466b344c907be418345ca403758ad": {
+    "type": "asset_state",
+    "asset_id": "B-427",
+    "timestamp": "2026-04-04T14:52:19.846356+00:00",
+    "sensor_hash": "d0e46bc42170bc33cbd29adea26fbd2f3a342b80dec0bb834016de26d8608991"
+  },
+  "4e92a36b0b88ade8a237eb48831d3e02c9aa12ca4e31834476c3376f93396280": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "0580e9576abf596256386d4af315f265b05571213ce38dc641708f25d365d19d": {
+    "type": "routing_condition",
+    "path_id": "R4",
+    "hop_origin": "S2",
+    "hop_dest": "H2"
+  },
+  "b81bc8e8687d58c4a1ba0abbe152f420c2f394b4033c8972ff4a194f6c0366cc": {
+    "type": "asset_state",
+    "asset_id": "B-428",
+    "timestamp": "2026-04-04T14:52:19.846570+00:00",
+    "sensor_hash": "96705dc8dcd3a4700b33d10c08a98ac93977ba674100dfeaaef40362037f2b9b"
+  },
+  "e127067b54f1ae79c1cae5de205d5d245d7ad4ed5e3b55085b65a3a693918d8b": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "2f615c0cc7c2dac7f0850368a64312ddb693cd809ca54ee642b86aba4db7e8d9": {
+    "type": "routing_condition",
+    "path_id": "R1",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "3fbc58b0e60b044242b8749d35bc4f9462e205be9a93c6d4c4159cc7b07bb8f5": {
+    "type": "asset_state",
+    "asset_id": "B-429",
+    "timestamp": "2026-04-04T14:52:19.846881+00:00",
+    "sensor_hash": "1ed579e4363fe2b0b04c883a0bdfa8a63618357b7d150c5bc3ee69d5f0ca46c5"
+  },
+  "dbee27fe0dc868f2aaf8a72dc054a5ad6fbe2d7bd5388bd2b728039a7223deaf": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  },
+  "0661f2e6b0402808c453a1c9eae3298fcc53b2f55eec00ae2707049fc00908c5": {
+    "type": "routing_condition",
+    "path_id": "R2",
+    "hop_origin": "S1",
+    "hop_dest": "H1"
+  }
+}

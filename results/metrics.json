@@ -1,0 +1,401 @@
+{
+  "C0": {
+    "n": 120,
+    "accuracy": {
+      "mean": 0.5,
+      "ci_95": [
+        0.4119,
+        0.5881
+      ],
+      "n": 120
+    },
+    "hallucination_rate": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 0
+    },
+    "uncertain_rate": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 120
+    },
+    "trace_rate": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 0
+    },
+    "factual_conflict": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 120
+    },
+    "untraceable_rate": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 120
+    },
+    "latency": {
+      "C0": {
+        "retrieval_ms": 0.0,
+        "inference_ms": 0.0,
+        "total_ms": 0.0
+      }
+    },
+    "strict_accuracy": {
+      "mean": 0.5,
+      "ci_95": [
+        0.4119,
+        0.5881
+      ]
+    }
+  },
+  "C1": {
+    "n": 120,
+    "accuracy": {
+      "mean": 0.9917,
+      "ci_95": [
+        0.9543,
+        0.9985
+      ],
+      "n": 120
+    },
+    "hallucination_rate": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 0
+    },
+    "uncertain_rate": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 120
+    },
+    "trace_rate": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 0
+    },
+    "factual_conflict": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 120
+    },
+    "untraceable_rate": {
+      "mean": 0.1667,
+      "ci_95": [
+        0.1,
+        0.2333
+      ],
+      "n": 120
+    },
+    "latency": {
+      "C1": {
+        "retrieval_ms": 0.3,
+        "inference_ms": 14809.6,
+        "total_ms": 14824.4
+      }
+    },
+    "strict_accuracy": {
+      "mean": 0.9917,
+      "ci_95": [
+        0.9543,
+        0.9985
+      ]
+    }
+  },
+  "C2": {
+    "n": 120,
+    "accuracy": {
+      "mean": 0.775,
+      "ci_95": [
+        0.6924,
+        0.8405
+      ],
+      "n": 120
+    },
+    "hallucination_rate": {
+      "mean": 0.0667,
+      "ci_95": [
+        0.025,
+        0.1167
+      ],
+      "n": 120
+    },
+    "uncertain_rate": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 120
+    },
+    "trace_rate": {
+      "mean": 0.9,
+      "ci_95": [
+        0.8444,
+        0.95
+      ],
+      "n": 120
+    },
+    "factual_conflict": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 120
+    },
+    "untraceable_rate": {
+      "mean": 0.0583,
+      "ci_95": [
+        0.025,
+        0.1
+      ],
+      "n": 120
+    },
+    "latency": {
+      "C2": {
+        "retrieval_ms": 381.5,
+        "inference_ms": 16933.2,
+        "total_ms": 23195.0
+      }
+    },
+    "strict_accuracy": {
+      "mean": 0.6333,
+      "ci_95": [
+        0.5442,
+        0.7142
+      ]
+    }
+  },
+  "C3": {
+    "n": 120,
+    "accuracy": {
+      "mean": 0.8917,
+      "ci_95": [
+        0.8234,
+        0.9356
+      ],
+      "n": 120
+    },
+    "hallucination_rate": {
+      "mean": 0.0167,
+      "ci_95": [
+        0.0,
+        0.0417
+      ],
+      "n": 120
+    },
+    "uncertain_rate": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 120
+    },
+    "trace_rate": {
+      "mean": 0.9528,
+      "ci_95": [
+        0.9167,
+        0.9833
+      ],
+      "n": 120
+    },
+    "factual_conflict": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "n": 120
+    },
+    "untraceable_rate": {
+      "mean": 0.05,
+      "ci_95": [
+        0.0167,
+        0.0917
+      ],
+      "n": 120
+    },
+    "latency": {
+      "C3": {
+        "retrieval_ms": 540.4,
+        "inference_ms": 17482.8,
+        "total_ms": 21967.9
+      }
+    },
+    "strict_accuracy": {
+      "mean": 0.8833,
+      "ci_95": [
+        0.8137,
+        0.9292
+      ]
+    }
+  },
+  "robustness": {
+    "acc_c2": 0.7167,
+    "acc_c3": 0.85,
+    "delta_c3_minus_c2": 0.1333
+  },
+  "cohens_kappa": {
+    "C0_vs_C3": {
+      "kappa": 0.214,
+      "acc_C0": 0.4,
+      "n": 120,
+      "labels": [
+        "carrier",
+        "hold",
+        "no_safe_route",
+        "reorder",
+        "reroute",
+        "uncertain"
+      ],
+      "pair": "C0_vs_C3"
+    },
+    "C1_vs_C3": {
+      "kappa": 0.8051,
+      "acc_C1": 0.85,
+      "n": 120,
+      "labels": [
+        "carrier",
+        "hold",
+        "no_safe_route",
+        "reorder",
+        "reroute",
+        "uncertain"
+      ],
+      "pair": "C1_vs_C3"
+    },
+    "C2_vs_C3": {
+      "kappa": 0.6886,
+      "acc_C2": 0.7583,
+      "n": 120,
+      "labels": [
+        "carrier",
+        "hold",
+        "no_safe_route",
+        "reorder",
+        "reroute",
+        "uncertain"
+      ],
+      "pair": "C2_vs_C3"
+    }
+  },
+  "by_type": {
+    "reorder": {
+      "C0": {
+        "accuracy": 0.6667,
+        "n": 30,
+        "strict_accuracy": 0.6667
+      },
+      "C1": {
+        "accuracy": 1.0,
+        "n": 30,
+        "strict_accuracy": 1.0
+      },
+      "C2": {
+        "accuracy": 0.8667,
+        "n": 30,
+        "strict_accuracy": 0.9
+      },
+      "C3": {
+        "accuracy": 0.9,
+        "n": 30,
+        "strict_accuracy": 0.9333
+      }
+    },
+    "reroute": {
+      "C0": {
+        "accuracy": 0.5333,
+        "n": 30,
+        "strict_accuracy": 0.5333
+      },
+      "C1": {
+        "accuracy": 0.9667,
+        "n": 30,
+        "strict_accuracy": 0.9667
+      },
+      "C2": {
+        "accuracy": 0.4667,
+        "n": 30,
+        "strict_accuracy": 0.4333
+      },
+      "C3": {
+        "accuracy": 0.8333,
+        "n": 30,
+        "strict_accuracy": 0.8333
+      }
+    },
+    "path": {
+      "C0": {
+        "accuracy": 0.4667,
+        "n": 30,
+        "strict_accuracy": 0.4667
+      },
+      "C1": {
+        "accuracy": 1.0,
+        "n": 30,
+        "strict_accuracy": 1.0
+      },
+      "C2": {
+        "accuracy": 0.7667,
+        "n": 30,
+        "strict_accuracy": 0.5667
+      },
+      "C3": {
+        "accuracy": 0.8333,
+        "n": 30,
+        "strict_accuracy": 0.8
+      }
+    },
+    "carrier": {
+      "C0": {
+        "accuracy": 0.3333,
+        "n": 30,
+        "strict_accuracy": 0.3333
+      },
+      "C1": {
+        "accuracy": 1.0,
+        "n": 30,
+        "strict_accuracy": 1.0
+      },
+      "C2": {
+        "accuracy": 1.0,
+        "n": 30,
+        "strict_accuracy": 0.6333
+      },
+      "C3": {
+        "accuracy": 1.0,
+        "n": 30,
+        "strict_accuracy": 0.9667
+      }
+    }
+  }
+}

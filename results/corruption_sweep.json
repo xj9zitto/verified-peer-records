@@ -1,0 +1,91 @@
+{
+  "rates": [
+    0.05,
+    0.1,
+    0.25,
+    0.4
+  ],
+  "types": [
+    "carrier",
+    "path"
+  ],
+  "by_rate": {
+    "0.05": {
+      "c2_overall": 0.4167,
+      "c3_overall": 0.6,
+      "gap_overall": 0.1833,
+      "c2_by_type": {
+        "carrier": 0.8,
+        "path": 0.0333
+      },
+      "c3_by_type": {
+        "carrier": 0.8667,
+        "path": 0.3333
+      },
+      "n_records": 60
+    },
+    "0.1": {
+      "c2_overall": 0.2833,
+      "c3_overall": 0.6,
+      "gap_overall": 0.3167,
+      "c2_by_type": {
+        "carrier": 0.5667,
+        "path": 0.0
+      },
+      "c3_by_type": {
+        "carrier": 0.8667,
+        "path": 0.3333
+      },
+      "n_records": 60
+    },
+    "0.25": {
+      "c2_overall": 0.35,
+      "c3_overall": 0.6,
+      "gap_overall": 0.25,
+      "c2_by_type": {
+        "carrier": 0.6667,
+        "path": 0.0333
+      },
+      "c3_by_type": {
+        "carrier": 0.8667,
+        "path": 0.3333
+      },
+      "n_records": 60
+    },
+    "0.4": {
+      "c2_overall": 0.5167,
+      "c3_overall": 0.6,
+      "gap_overall": 0.0833,
+      "c2_by_type": {
+        "carrier": 0.4333,
+        "path": 0.6
+      },
+      "c3_by_type": {
+        "carrier": 0.8667,
+        "path": 0.3333
+      },
+      "n_records": 60
+    },
+    "0.15": {
+      "c2_overall": 0.2833,
+      "c2_by_type": {
+        "carrier": 0.5667,
+        "path": 0.0
+      },
+      "n_records": 60,
+      "gap_overall": 0.3167,
+      "c3_overall": 0.6,
+      "c3_by_type": {
+        "carrier": 0.8667,
+        "path": 0.3333
+      }
+    }
+  },
+  "c3_baseline": {
+    "overall": 0.6,
+    "by_type": {
+      "carrier": 0.8667,
+      "path": 0.3333
+    }
+  }
+}

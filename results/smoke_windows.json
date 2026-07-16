@@ -1,0 +1,42 @@
+[
+  {
+    "scenario_id": "5e329829-766e-4ab8-bf99-51085ee137ff",
+    "scenario_type": "reorder",
+    "ground_truth": "reorder",
+    "is_multi_constraint": false,
+    "decision": "reorder",
+    "classification": "valid",
+    "trace_rate": 1.0,
+    "latency_ms": 84685.4,
+    "latency_retrieval_ms": 563.2,
+    "latency_inference_ms": 84119.1,
+    "model_used": "gemma3:4b",
+    "tamper_alerts": 0,
+    "condition": "C3",
+    "llm_output": "SOC: 11.4% | Temperature: 31.65\u00b0C | Degradation: 98.29%\nreorder; chain_tx_hash: 740a63b5f56ecd0236a9d32e343b3f3a0f6ca3fa512284a1da61ea236f1cccbe",
+    "violations": [],
+    "k_asset": 5,
+    "k_routing": 3,
+    "prompt_variant": "v1"
+  },
+  {
+    "scenario_id": "5e329829-766e-4ab8-bf99-51085ee137ff",
+    "scenario_type": "reorder",
+    "ground_truth": "reorder",
+    "is_multi_constraint": false,
+    "decision": "reorder",
+    "classification": "valid",
+    "trace_rate": 1.0,
+    "latency_ms": 5503.4,
+    "latency_retrieval_ms": 620.5,
+    "latency_inference_ms": 4880.0,
+    "model_used": "gemma3:4b",
+    "tamper_alerts": 0,
+    "condition": "C3",
+    "llm_output": "SOC: 11.4% | Temperature: 31.65\u00b0C | Degradation: 98.29%\n\nAction: reorder; chain_tx_hash: 740a63b5f56ecd0236a9d32e343b3f3a0f6ca3fa512284a1da61ea236f1cccbe",
+    "violations": [],
+    "k_asset": 5,
+    "k_routing": 3,
+    "prompt_variant": "v1"
+  }
+]

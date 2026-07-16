@@ -1,0 +1,22 @@
+# secrets
+.env
+*.key
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# node / hardhat
+node_modules/
+cache/
+artifacts/
+
+# rebuildable stores
+data/chroma_db/
+data/raw/
+
+# OS
+.DS_Store
+Thumbs.db
