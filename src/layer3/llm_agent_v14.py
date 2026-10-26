@@ -25,9 +25,14 @@ from typing import Any, Dict, List, Optional, Tuple
 from loguru import logger
 
 from src.layer2.v14_content import peer_content_digest, peer_key
+from src.layer2.purechain_client import VerificationUnavailable
 
 from src.layer1.v14_rule_engine import (
     gt_action_from, c0_decide_v14,
+)
+
+from src.layer3.v14_physics_checker import (
+    check_v14, apply_fallback, POLICY_OFF, POLICY_CLAMP_THEN_DEFER,
 )
 
 
@@ -171,6 +176,7 @@ def build_prompt_v14(
     show_peers:      bool = True,
     tamper_notice:   bool = False,
     include_outcome: bool = True,
+    recovery_mode:   str = "canonical",
 ) -> str:
     """
     Build the v14 hybrid (predict + decide) prompt.
@@ -212,11 +218,23 @@ def build_prompt_v14(
     )
 
     # Verified peers (RAG)
-    if show_peers and peers:
+    if show_peers and (peers or tamper_notice):
         peer_lines = [
             "\n=== Verified Historical Peer Trajectories (PureChain-anchored) ===",
         ]
-        if tamper_notice:
+        if tamper_notice and recovery_mode == "drop":
+            peer_lines.append(
+                "NOTE: One or more retrieved records failed on-chain verification "
+                "and were withheld.  Fewer verified peers than usual are shown; "
+                "base the decision on the remaining evidence and the observables."
+            )
+        elif tamper_notice and recovery_mode == "partial":
+            peer_lines.append(
+                "NOTE: One or more retrieved records failed on-chain verification. "
+                "Some were re-fetched from PureChain and the rest were withheld; "
+                "base the decision on the remaining evidence and the observables."
+            )
+        elif tamper_notice:
             peer_lines.append(
                 "NOTE: One or more retrieved records failed on-chain verification "
                 "and were excluded; canonical records were re-fetched from PureChain."
@@ -336,11 +354,12 @@ def _v14_tx_registry() -> Dict[str, Any]:
     campaign (scripts/anchor_v14_peer_digests.py)."""
     global _v14_tx_registry_cache
     if _v14_tx_registry_cache is None:
-        try:
-            _v14_tx_registry_cache = json.loads(
-                _V14_TX_REGISTRY_PATH.read_text(encoding="utf-8"))
-        except Exception:
-            _v14_tx_registry_cache = {}
+        # Fail loudly: an empty index silently disables recovery of
+        # records whose own handle was fabricated.
+        _v14_tx_registry_cache = json.loads(
+            _V14_TX_REGISTRY_PATH.read_text(encoding="utf-8"))
+        logger.info(f"identity index: {len(_v14_tx_registry_cache)} entries "
+                    f"from {_V14_TX_REGISTRY_PATH}")
     return _v14_tx_registry_cache
 
 
@@ -382,7 +401,9 @@ def _recover_peer_from_chain(
     for h in candidates:
         if not h:
             continue
-        got = pc_client.get_peer_payload(h)
+        reader = getattr(pc_client, "recover_payload", None) \
+            or pc_client.get_peer_payload
+        got = reader(h)
         if got is None:
             continue
         payload_json, digest = got
@@ -402,12 +423,64 @@ def _recover_peer_from_chain(
     return None
 
 
+def _failclosed_v14(scenario: Dict[str, Any], condition: str,
+                    reason: str, physics_check: str) -> Dict[str, Any]:
+    """Verification unavailable: no LLM call, no unverified evidence.
+
+    The decision falls back to the deterministic rule engine on the
+    observable window, which is admissible under the physics gate by
+    construction.  An integrity outage therefore costs availability of
+    the evidence channel, never its integrity.
+    """
+    r = dict(c0_decide_v14(scenario))
+    r.update({
+        "condition":           condition,
+        "decision_raw":        r.get("decision"),
+        "decision_source":     "rule_engine_failclosed",
+        "verification_status": "unavailable",
+        "verification_error":  reason[:200],
+        "model_used":          "rule_engine_v14",
+        "llm_output":          "",
+        "tamper_alerts":       0,
+        "peers_recovered":     0,
+        "violations":          [],
+        "fallback_applied":    "none",
+        "physics_check":       physics_check,
+    })
+    return r
+
+
+# Label control.  The C2/C3/C4 template presents peers as verified and
+# PureChain-anchored even when nothing was checked (C2), so that the three
+# prompts differ only in record bytes.  C2n is C2 with every such claim
+# replaced by neutral wording, to measure what the label itself does.
+NEUTRAL_LABEL_SUBS = [
+    ("=== Verified Historical Peer Trajectories (PureChain-anchored) ===",
+     "=== Retrieved Historical Peer Trajectories (local store, unverified) ==="),
+    ("=== Verified Historical Peer Trajectories ===",
+     "=== Retrieved Historical Peer Trajectories ==="),
+    ("(no verified peers retrieved)", "(no peers retrieved)"),
+    ("Each peer is a verified historical run", "Each peer is a historical run"),
+    ("(use VERIFIED PEER OUTCOMES)", "(use PEER OUTCOMES)"),
+    ("(majority verified evidence)", "(majority of peers)"),
+    ("similar verified batteries", "similar batteries"),
+]
+
+
+def neutralise_labels(prompt: str) -> str:
+    for a, b in NEUTRAL_LABEL_SUBS:
+        prompt = prompt.replace(a, b)
+    return prompt
+
+
 def decide_v14(
     agent,                    # LLMAgent (avoid circular import in type hint)
     scenario:        Dict[str, Any],
     condition:       str = "C3",
     canonical_peers: Optional[List[Dict[str, Any]]] = None,
     include_outcome: bool = True,
+    c3_recovery:     str = "canonical",
+    physics_check:   str = POLICY_OFF,
 ) -> Dict[str, Any]:
     """
     v14 decision pipeline.
@@ -415,16 +488,41 @@ def decide_v14(
       C0: pure rule engine on observable summary
       C1: LLM with observables only (no peers)
       C2: LLM with peers as-is (no hash check)
-      C3: LLM with on-chain-verified peers; on tamper detection, fall
-          back to canonical_peers (PureChain-recovered set).
+      C3: LLM with on-chain-verified peers (handle-existence check).
+          ``c3_recovery`` selects the policy applied to peers whose
+          handle fails verification:
+            "drop"      deployable -- rejected peers are withheld.  A
+                        handle check proves that some handle was
+                        committed but carries no binding to content, so
+                        it cannot reconstruct the record a fabricated
+                        handle pointed at.
+            "canonical" oracle upper bound -- rejected peers are
+                        replaced from the untampered scenario, which a
+                        deployed handle-only client cannot obtain.
 
     ``include_outcome=False`` runs the state-only ablation in which the
     LLM sees verified peers but without their realised escalation
     outcomes; the Stage-2 forecast rule then falls back to thresholds.
+
+    ``physics_check`` selects the physics-consistency gate policy
+    ("off", "clamp", "defer", "clamp_then_defer"); "clamp" is the
+    recommended deployed setting, and "off" is the default only so
+    that earlier runs reproduce exactly.  When enabled, the
+    parsed output is checked for internal consistency and physical
+    admissibility against the observable window, and repaired
+    according to the policy.  The unrepaired action is retained in
+    ``decision_raw`` so the gate can be ablated post hoc.
     """
     if condition == "C0":
-        result = c0_decide_v14(scenario)
+        result = dict(c0_decide_v14(scenario))
+        result.setdefault("decision_source", "rule_engine")
         return result
+
+    if condition in ("C3", "C4"):
+        avail = getattr(agent.pc_client, "verification_available", None)
+        if avail is None or not avail():
+            return _failclosed_v14(scenario, condition, "not_connected",
+                                   physics_check)
 
     t_start = time.perf_counter()
     peers   = scenario.get("asset_records", []) or []
@@ -436,38 +534,54 @@ def decide_v14(
 
     if condition == "C1":
         show_peers = False
-    elif condition == "C2":
+    elif condition in ("C2", "C2n"):
         peers_for_llm = peers
-    elif condition == "C3":
-        v_peers, n_rej = _verify_peer_records(peers, agent.pc_client)
-        tamper_alerts = n_rej
-        if n_rej > 0 and canonical_peers is not None:
-            peers_for_llm = canonical_peers
-            tamper_notice = True
-        else:
-            peers_for_llm = v_peers
-    elif condition == "C4":
-        # Content-bound verification + genuine chain-based recovery.
-        # No oracle: rejected peers are reconstructed from committed
-        # PureChain payloads; the observable header stays as reported.
-        v_peers, rejected = _verify_peer_records_content(peers, agent.pc_client)
-        tamper_alerts = len(rejected)
-        recovered: List[Dict[str, Any]] = []
-        for p in rejected:
-            r = _recover_peer_from_chain(p, agent.pc_client)
-            if r is not None:
-                recovered.append(r)
-        peers_recovered = len(recovered)
-        peers_for_llm = v_peers + recovered
-        tamper_notice = tamper_alerts > 0
+    notice_mode = "canonical"
+    try:
+        if condition == "C3":
+            v_peers, n_rej = _verify_peer_records(peers, agent.pc_client)
+            tamper_alerts = n_rej
+            notice_mode = c3_recovery
+            if c3_recovery == "drop":
+                peers_for_llm = v_peers
+                tamper_notice = n_rej > 0
+            elif n_rej > 0 and canonical_peers is not None:
+                peers_for_llm = canonical_peers
+                tamper_notice = True
+            else:
+                peers_for_llm = v_peers
+        elif condition == "C4":
+            # Content-bound verification + genuine chain-based recovery.
+            # No oracle: rejected peers are reconstructed from committed
+            # PureChain payloads; the observable header stays as reported.
+            v_peers, rejected = _verify_peer_records_content(
+                peers, agent.pc_client)
+            tamper_alerts = len(rejected)
+            recovered: List[Dict[str, Any]] = []
+            for p in rejected:
+                r = _recover_peer_from_chain(p, agent.pc_client)
+                if r is not None:
+                    recovered.append(r)
+            peers_recovered = len(recovered)
+            peers_for_llm = v_peers + recovered
+            tamper_notice = tamper_alerts > 0
+            if tamper_alerts and peers_recovered == 0:
+                notice_mode = "drop"
+            elif tamper_alerts and peers_recovered < tamper_alerts:
+                notice_mode = "partial"
+    except VerificationUnavailable as exc:
+        return _failclosed_v14(scenario, condition, str(exc), physics_check)
 
     prompt = build_prompt_v14(
         scenario,
         peer_records=peers_for_llm if condition != "C1" else None,
         show_peers=show_peers,
         tamper_notice=tamper_notice,
+        recovery_mode=notice_mode,
         include_outcome=include_outcome,
     )
+    if condition == "C2n":
+        prompt = neutralise_labels(prompt)
 
     t_inf = time.perf_counter()
     try:
@@ -486,12 +600,34 @@ def decide_v14(
     action = parsed["action"] or "uncertain"
     classification = "valid" if action in V14_ACTION_TOKENS else "uncertain"
 
+    # Physics-consistency gate (Algorithm 1, ``check``).
+    stage_out        = parsed["predicted_stage"]
+    p300_out         = parsed["predicted_p300"]
+    action_raw       = action
+    violations: List[str] = []
+    fallback_applied = "none"
+
+    if physics_check != POLICY_OFF:
+        obs_summary = scenario.get("obs_window", {}).get("summary", {})
+        chk = check_v14(stage_out, p300_out, action, obs_summary)
+        violations = chk.as_list()
+        if not chk.ok:
+            rep = apply_fallback(chk, stage_out, p300_out, action,
+                                 obs_summary, policy=physics_check)
+            action           = rep["decision"]
+            stage_out        = rep["predicted_stage"]
+            p300_out         = rep["predicted_p300"]
+            fallback_applied = rep["fallback_applied"]
+            if action in V14_ACTION_TOKENS:
+                classification = "valid"
+
     latency_total = (time.perf_counter() - t_start) * 1000
 
     return {
         "decision":             action,
-        "predicted_stage":      parsed["predicted_stage"],
-        "predicted_p300":       parsed["predicted_p300"],
+        "decision_raw":         action_raw,
+        "predicted_stage":      stage_out,
+        "predicted_p300":       p300_out,
         "classification":       classification,
         "trace_rate":           1.0 if condition in ("C2", "C3", "C4") and peers_for_llm else 0.0,
         "latency_ms":           round(latency_total, 1),
@@ -502,5 +638,10 @@ def decide_v14(
         "peers_recovered":      peers_recovered,
         "condition":            condition,
         "llm_output":           llm_output,
-        "violations":           [],
+        "violations":           violations,
+        "fallback_applied":     fallback_applied,
+        "physics_check":        physics_check,
+        "decision_source":      "llm",
+        "verification_status":  ("ok" if condition in ("C3", "C4")
+                                 else "not_applicable"),
     }

@@ -1,0 +1,86 @@
+{
+  "n_train": 4199,
+  "n_test": 2100,
+  "note": "gradient boosting, cost-weighted; 5 s is the native rate",
+  "sampling": {
+    "5s": {
+      "n": 2100,
+      "accuracy": 0.9709523809523809,
+      "actionable_accuracy": 0.9665551839464883,
+      "urgent_recall": 0.9807073954983923,
+      "under_triage_rate": 0.012857142857142857,
+      "expected_cost": 0.5880952380952381
+    },
+    "10s": {
+      "n": 2100,
+      "accuracy": 0.9595238095238096,
+      "actionable_accuracy": 0.9420289855072463,
+      "urgent_recall": 0.9742765273311897,
+      "under_triage_rate": 0.022857142857142857,
+      "expected_cost": 0.8785714285714286
+    },
+    "20s": {
+      "n": 2100,
+      "accuracy": 0.9352380952380952,
+      "actionable_accuracy": 0.8773690078037905,
+      "urgent_recall": 0.9678456591639871,
+      "under_triage_rate": 0.05095238095238095,
+      "expected_cost": 1.4904761904761905
+    },
+    "30s": {
+      "n": 2100,
+      "accuracy": 0.9104761904761904,
+      "actionable_accuracy": 0.8249721293199554,
+      "urgent_recall": 0.9646302250803859,
+      "under_triage_rate": 0.07476190476190477,
+      "expected_cost": 1.9880952380952381
+    }
+  },
+  "delay": {
+    "0s": {
+      "n": 2100,
+      "accuracy": 0.9709523809523809,
+      "actionable_accuracy": 0.9665551839464883,
+      "urgent_recall": 0.9807073954983923,
+      "under_triage_rate": 0.012857142857142857,
+      "expected_cost": 0.5880952380952381,
+      "label_escalated_frac": 0.0
+    },
+    "2s": {
+      "n": 2100,
+      "accuracy": 0.97,
+      "actionable_accuracy": 0.96440489432703,
+      "urgent_recall": 0.9807073954983923,
+      "under_triage_rate": 0.01380952380952381,
+      "expected_cost": 0.6071428571428571,
+      "label_escalated_frac": 0.0009523809523809524
+    },
+    "5s": {
+      "n": 2100,
+      "accuracy": 0.9533333333333334,
+      "actionable_accuracy": 0.9254727474972191,
+      "urgent_recall": 0.8793103448275862,
+      "under_triage_rate": 0.030952380952380953,
+      "expected_cost": 2.3119047619047617,
+      "label_escalated_frac": 0.018571428571428572
+    },
+    "10s": {
+      "n": 2100,
+      "accuracy": 0.940952380952381,
+      "actionable_accuracy": 0.8947951273532669,
+      "urgent_recall": 0.8164893617021277,
+      "under_triage_rate": 0.04476190476190476,
+      "expected_cost": 3.6023809523809525,
+      "label_escalated_frac": 0.03380952380952381
+    },
+    "30s": {
+      "n": 2100,
+      "accuracy": 0.8938095238095238,
+      "actionable_accuracy": 0.7854785478547854,
+      "urgent_recall": 0.6497890295358649,
+      "under_triage_rate": 0.09285714285714286,
+      "expected_cost": 8.247619047619047,
+      "label_escalated_frac": 0.08428571428571428
+    }
+  }
+}

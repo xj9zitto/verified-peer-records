@@ -1,0 +1,102 @@
+{
+  "by_rate": {
+    "0.15": {
+      "accuracy": {
+        "C2": null,
+        "C4": 0.6426
+      },
+      "n": {
+        "C2": 0,
+        "C4": 235
+      }
+    },
+    "0.30": {
+      "accuracy": {
+        "C2": null,
+        "C4": 0.6426
+      },
+      "n": {
+        "C2": 0,
+        "C4": 235
+      }
+    },
+    "0.50": {
+      "accuracy": {
+        "C2": null,
+        "C4": 0.6298
+      },
+      "n": {
+        "C2": 0,
+        "C4": 235
+      }
+    }
+  },
+  "by_rate_poisoned_only": {
+    "0.15": {
+      "accuracy": {
+        "C2": null,
+        "C4": 0.6571
+      },
+      "n": {
+        "C2": 0,
+        "C4": 35
+      }
+    },
+    "0.30": {
+      "accuracy": {
+        "C2": null,
+        "C4": 0.6102
+      },
+      "n": {
+        "C2": 0,
+        "C4": 59
+      }
+    },
+    "0.50": {
+      "accuracy": {
+        "C2": null,
+        "C4": 0.6296
+      },
+      "n": {
+        "C2": 0,
+        "C4": 108
+      }
+    }
+  },
+  "by_attack_type": {
+    "C4": {
+      "0.15": {
+        "fake_hash": {
+          "accuracy": 0.6,
+          "n": 15
+        },
+        "forged_hash": {
+          "accuracy": 0.7,
+          "n": 20
+        }
+      },
+      "0.30": {
+        "fake_hash": {
+          "accuracy": 0.6129,
+          "n": 31
+        },
+        "forged_hash": {
+          "accuracy": 0.6071,
+          "n": 28
+        }
+      },
+      "0.50": {
+        "fake_hash": {
+          "accuracy": 0.6842,
+          "n": 57
+        },
+        "forged_hash": {
+          "accuracy": 0.5686,
+          "n": 51
+        }
+      }
+    }
+  },
+  "fail_closed": 0,
+  "errors": 0
+}

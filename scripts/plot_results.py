@@ -33,7 +33,7 @@ plt.rcParams.update({
     "axes.labelsize":    7,
     "xtick.labelsize":   6.5,
     "ytick.labelsize":   6.5,
-    "legend.fontsize":   6,
+    "legend.fontsize":   8,
     "lines.linewidth":   1.2,
     "lines.markersize":  4,
     "axes.linewidth":    0.7,

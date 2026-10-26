@@ -1,0 +1,54 @@
+{
+  "n_unique_peers": 337,
+  "payload_bytes": {
+    "mean": 334.1,
+    "min": 313,
+    "max": 346,
+    "total": 112595
+  },
+  "digest_ms": {
+    "mean": 0.0066,
+    "p95": 0.0068
+  },
+  "signature_verify_ms": {
+    "mean": 4.691,
+    "p95": 5.2
+  },
+  "signature_bytes_per_record": 65,
+  "signed_repo_verify_ms": {
+    "mean": 4.9991,
+    "p95": 5.4463
+  },
+  "signed_repo_recover_ms": {
+    "mean": 4.875,
+    "p95": 5.1971
+  },
+  "signed_repo_bytes_per_record": 399,
+  "signed_repo_n_records": 707,
+  "merkle": {
+    "verify_ms": {
+      "mean": 0.0047,
+      "p95": 0.0048
+    },
+    "proof_depth": 9,
+    "proof_bytes_per_record": 288,
+    "root_bytes": 32
+  },
+  "ledger": {
+    "verify_ms": {
+      "mean": 24.3813,
+      "p95": 25.7336
+    },
+    "n_anchored": 707,
+    "handle_bytes_per_record": 32,
+    "gas_price_wei": 0,
+    "onchain_payload": "canonical payload + 32 B digest per record",
+    "block_interval_s_by_window": {
+      "1000": 1.1,
+      "10000": 34.3,
+      "50000": 109.1,
+      "93562": 65.4
+    },
+    "block_interval_note": "blocks are produced on demand; the interval is workload-dependent, from ~41 s/block averaged over the 44.5 days spanning our anchoring campaign to ~1200 s/block while the chain is idle"
+  }
+}

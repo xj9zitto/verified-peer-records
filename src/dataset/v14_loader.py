@@ -300,6 +300,28 @@ def _pick_decision_point(
 
 # ── Main loader ────────────────────────────────────────────────
 
+def _load_run_metadata(data_root: Path) -> pd.DataFrame:
+    """
+    Read run metadata, tolerating both dataset layouts.
+
+    The generation this project was originally built against shipped a
+    single ``run_metadata.parquet``.  Later releases ship one metadata
+    file per scenario instead, each already carrying a ``scenario``
+    column, so concatenating them reproduces the combined frame.
+    """
+    combined = data_root / "run_metadata.parquet"
+    if combined.exists():
+        return pd.read_parquet(combined)
+
+    parts = sorted(data_root.glob("*_metadata.parquet"))
+    if not parts:
+        raise FileNotFoundError(
+            "no run metadata under %s (looked for run_metadata.parquet "
+            "and *_metadata.parquet)" % data_root)
+    return pd.concat([pd.read_parquet(p) for p in parts],
+                     ignore_index=True)
+
+
 def load_v14_scenarios(
     n_total:      int           = 240,
     seed:         int           = 42,
@@ -319,7 +341,7 @@ def load_v14_scenarios(
         # only 'hold' GT actions and dilutes the action-class distribution.
         families = [1, 2, 3, 4, 5, 6, 7]
 
-    md = pd.read_parquet(data_root / "run_metadata.parquet")
+    md = _load_run_metadata(data_root)
     split = json.load(open(data_root / "canonical_split.json"))
     train_runs = defaultdict(set)
     for sc, rid in split["train"]:

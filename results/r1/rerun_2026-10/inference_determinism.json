@@ -1,0 +1,13 @@
+{
+  "n": 20,
+  "reset_0": {
+    "forward_vs_reversed": 9,
+    "forward_vs_interleaved": 19,
+    "reversed_vs_interleaved": 19
+  },
+  "reset_1": {
+    "forward_vs_reversed": 9,
+    "forward_vs_interleaved": 7,
+    "reversed_vs_interleaved": 10
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "n_handles": 707,
+  "contract": "0xB96F110c14be274B2F2e52EC658cc97A3Fd3aEA3",
+  "expected_writer": "0x32a394ef2565657C27f76Ed0EdE9EEE084955476",
+  "writer_source": "pinned",
+  "policy": {
+    "min_confirmations": 6,
+    "check_function": true,
+    "quorum_rule": "unanimous"
+  },
+  "confirmation_depth": {
+    "min": 223,
+    "median": 926,
+    "max": 1624
+  },
+  "clique_getSigners": {
+    "code": -32601,
+    "message": "the method clique_getSigners does not exist/is not available"
+  },
+  "genuine": {
+    "receipt_status_recipient_writer": {
+      "rejected": 0,
+      "rejected_detail": {},
+      "latency_ms_mean": 11.78,
+      "latency_ms_p95": 13.45
+    },
+    "plus_finality": {
+      "rejected": 0,
+      "rejected_detail": {},
+      "latency_ms_mean": 12.17,
+      "latency_ms_p95": 14.19
+    },
+    "default_full": {
+      "rejected": 0,
+      "rejected_detail": {},
+      "latency_ms_mean": 23.42,
+      "latency_ms_p95": 26.19
+    }
+  },
+  "content_verify": {
+    "accepted": 707,
+    "of": 707,
+    "latency_ms_mean": 24.32,
+    "latency_ms_p95": 28.46
+  },
+  "negative_controls": {
+    "fabricated_handle": {
+      "accepted": false,
+      "failed": [
+        "receipt_missing"
+      ]
+    },
+    "malformed_handle": {
+      "accepted": false,
+      "failed": [
+        "malformed_handle"
+      ]
+    },
+    "non_peer_call_same_contract": {
+      "accepted": false,
+      "failed": [
+        "not_peer_event"
+      ]
+    },
+    "round1_anchors_old_contract": {
+      "rejected": 707,
+      "of": 707,
+      "reasons": [
+        "unauthorised_writer",
+        "wrong_recipient"
+      ]
+    }
+  },
+  "writer_control": {
+    "rejected_under_wrong_writer": 707,
+    "of": 707,
+    "reasons": [
+      "unauthorised_writer"
+    ]
+  },
+  "quorum_unanimous": {
+    "alias_agrees": {
+      "endpoints": [
+        "https://purechainnode.com",
+        "https://purechainnode.com/"
+      ],
+      "accepted": 707,
+      "of": 707,
+      "unavailable": 0
+    },
+    "alias_plus_unreachable": {
+      "endpoints": [
+        "https://purechainnode.com",
+        "https://purechainnode.com/",
+        "http://127.0.0.1:9"
+      ],
+      "accepted": 0,
+      "of": 707,
+      "unavailable": 0
+    }
+  },
+  "check_stats": {
+    "checked": 1415,
+    "passed": 707,
+    "receipt_missing": 1,
+    "malformed_handle": 1,
+    "not_peer_event": 1,
+    "wrong_recipient": 707,
+    "unauthorised_writer": 707
+  }
+}

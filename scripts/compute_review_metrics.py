@@ -4,7 +4,7 @@ compute_review_metrics.py
 Class-balanced diagnostics, trivial baselines, deterministic peer-vote
 baseline, Holm-adjusted McNemar p-values, v14-task latency, and
 auxiliary quantities requested in the IoT-J pre-submission review
-(IOTJ_REVIEW_RESPONSE_PLAN.md, Phase B).
+(docs/reviews/IOTJ_REVIEW_RESPONSE_PLAN.md, Phase B).
 
 All quantities are computed from existing result artifacts; no LLM
 calls are made.

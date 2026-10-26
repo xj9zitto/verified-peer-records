@@ -1,0 +1,158 @@
+{
+  "n": 940,
+  "policies": {
+    "off": {
+      "n": 940,
+      "accuracy": 0.24574468085106382,
+      "actionable_accuracy": 0.5443037974683544,
+      "under_triage_rate": 0.11808510638297873,
+      "over_triage_rate": 0.6361702127659574,
+      "recall": {
+        "safe": 0.09455128205128205,
+        "replace": 0.8,
+        "urgent": 0.20588235294117646
+      },
+      "confusion": {
+        "safe": {
+          "urgent": 30,
+          "replace": 535,
+          "safe": 59
+        },
+        "replace": {
+          "urgent": 33,
+          "replace": 144,
+          "safe": 3
+        },
+        "urgent": {
+          "urgent": 28,
+          "replace": 96,
+          "safe": 12
+        }
+      },
+      "gate_fired": 744
+    },
+    "clamp": {
+      "n": 940,
+      "accuracy": 0.20957446808510638,
+      "actionable_accuracy": 0.5063291139240507,
+      "under_triage_rate": 0.030851063829787233,
+      "over_triage_rate": 0.7595744680851064,
+      "recall": {
+        "safe": 0.05929487179487179,
+        "replace": 0.29444444444444445,
+        "urgent": 0.7867647058823529
+      },
+      "confusion": {
+        "safe": {
+          "urgent": 200,
+          "replace": 387,
+          "safe": 37
+        },
+        "replace": {
+          "urgent": 127,
+          "replace": 53
+        },
+        "urgent": {
+          "urgent": 107,
+          "replace": 27,
+          "safe": 2
+        }
+      },
+      "gate_fired": 744
+    },
+    "defer": {
+      "n": 940,
+      "accuracy": 0.5425531914893617,
+      "actionable_accuracy": 0.34810126582278483,
+      "under_triage_rate": 0.08829787234042553,
+      "over_triage_rate": 0.36914893617021277,
+      "recall": {
+        "safe": 0.6410256410256411,
+        "replace": 0.027777777777777776,
+        "urgent": 0.7720588235294118
+      },
+      "confusion": {
+        "safe": {
+          "urgent": 54,
+          "replace": 170,
+          "safe": 400
+        },
+        "replace": {
+          "urgent": 123,
+          "replace": 5,
+          "safe": 52
+        },
+        "urgent": {
+          "urgent": 105,
+          "replace": 2,
+          "safe": 29
+        }
+      },
+      "gate_fired": 744
+    },
+    "clamp_then_defer": {
+      "n": 940,
+      "accuracy": 0.44893617021276594,
+      "actionable_accuracy": 0.35443037974683544,
+      "under_triage_rate": 0.08191489361702127,
+      "over_triage_rate": 0.46914893617021275,
+      "recall": {
+        "safe": 0.4967948717948718,
+        "replace": 0.027777777777777776,
+        "urgent": 0.7867647058823529
+      },
+      "confusion": {
+        "safe": {
+          "urgent": 200,
+          "replace": 114,
+          "safe": 310
+        },
+        "replace": {
+          "urgent": 127,
+          "replace": 5,
+          "safe": 48
+        },
+        "urgent": {
+          "urgent": 107,
+          "safe": 29
+        }
+      },
+      "gate_fired": 744
+    },
+    "clamp_strict": {
+      "n": 940,
+      "accuracy": 0.20957446808510638,
+      "actionable_accuracy": 0.5063291139240507,
+      "under_triage_rate": 0.030851063829787233,
+      "over_triage_rate": 0.7595744680851064,
+      "recall": {
+        "safe": 0.05929487179487179,
+        "replace": 0.29444444444444445,
+        "urgent": 0.7867647058823529
+      },
+      "confusion": {
+        "safe": {
+          "urgent": 200,
+          "replace": 387,
+          "safe": 37
+        },
+        "replace": {
+          "urgent": 127,
+          "replace": 53
+        },
+        "urgent": {
+          "urgent": 107,
+          "replace": 27,
+          "safe": 2
+        }
+      },
+      "gate_fired": 585
+    }
+  },
+  "inputs": [
+    "results/rerun_2026-10/nominal.json",
+    "results/rerun_2026-10/main_c0124.json"
+  ],
+  "condition": "C4",
+  "nominal_from": "C2"
+}

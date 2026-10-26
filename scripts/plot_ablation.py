@@ -64,10 +64,10 @@ rates = [0.0, 0.15, 0.30, 0.50]
 fig, axes = plt.subplots(2, 1, figsize=(4.4, 6.6))
 
 ax = axes[0]
-_series = [("with outcomes", with_out, "#2ca02c", "D")]
+_series = [("With outcomes", with_out, "#2ca02c", "D")]
 if shuffled is not None:
-    _series.append(("shuffled outcomes", shuffled, "#1f77b4", "o"))
-_series.append(("state-only", no_out, "#d62728", "X"))
+    _series.append(("Shuffled outcomes", shuffled, "#1f77b4", "o"))
+_series.append(("State-only", no_out, "#d62728", "X"))
 for label, records, colour, marker in _series:
     means, los, his = [], [], []
     for r in rates:
@@ -86,7 +86,7 @@ ax.set_ylim(-0.02, 1.0)
 ax.set_title("(a) Actionable subset accuracy",
              fontsize=11)
 ax.grid(alpha=0.3)
-ax.legend(loc="upper right", fontsize=10, framealpha=0.9)
+ax.legend(loc="upper right", fontsize=11, framealpha=0.9)
 
 # Panel B — attack-type decomposition at p=0.50 on actionable+poisoned
 ax = axes[1]
@@ -113,9 +113,9 @@ for atype in attack_types:
     means_s.append(a or 0); los_s.append(lo or 0); his_s.append(hi or 0); ns_s.append(n)
 
 bars_w = ax.bar(x - w/2, means_w, w, color="#2ca02c", edgecolor="black",
-                lw=0.6, alpha=0.85, label="with outcomes")
+                lw=0.6, alpha=0.85, label="With outcomes")
 bars_s = ax.bar(x + w/2, means_s, w, color="#d62728", edgecolor="black",
-                lw=0.6, alpha=0.85, label="state-only", hatch="//")
+                lw=0.6, alpha=0.85, label="State-only", hatch="//")
 
 # Asymmetric errorbars (clamp to non-negative to satisfy matplotlib)
 yerr_w = np.maximum(0, np.stack([
@@ -149,7 +149,7 @@ ax.set_ylim(0, 1.1)
 ax.set_title("(b) Attack-type decomposition at p=0.50",
              fontsize=11)
 ax.grid(axis="y", alpha=0.3)
-ax.legend(loc="upper right", fontsize=10, framealpha=0.9)
+ax.legend(loc="upper right", fontsize=11, framealpha=0.9)
 
 plt.tight_layout()
 

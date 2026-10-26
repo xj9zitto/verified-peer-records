@@ -1,0 +1,134 @@
+{
+  "by_rate": {
+    "0.15": {
+      "accuracy": {
+        "C3d": 0.2638,
+        "C3o": 0.2511
+      },
+      "n": {
+        "C3d": 235,
+        "C3o": 235
+      }
+    },
+    "0.30": {
+      "accuracy": {
+        "C3d": 0.2979,
+        "C3o": 0.2596
+      },
+      "n": {
+        "C3d": 235,
+        "C3o": 235
+      }
+    },
+    "0.50": {
+      "accuracy": {
+        "C3d": 0.3574,
+        "C3o": 0.2553
+      },
+      "n": {
+        "C3d": 235,
+        "C3o": 235
+      }
+    }
+  },
+  "by_rate_poisoned_only": {
+    "0.15": {
+      "accuracy": {
+        "C3d": 0.4,
+        "C3o": 0.3143
+      },
+      "n": {
+        "C3d": 35,
+        "C3o": 35
+      }
+    },
+    "0.30": {
+      "accuracy": {
+        "C3d": 0.4407,
+        "C3o": 0.2881
+      },
+      "n": {
+        "C3d": 59,
+        "C3o": 59
+      }
+    },
+    "0.50": {
+      "accuracy": {
+        "C3d": 0.4815,
+        "C3o": 0.2593
+      },
+      "n": {
+        "C3d": 108,
+        "C3o": 108
+      }
+    }
+  },
+  "by_attack_type": {
+    "C3d": {
+      "0.15": {
+        "fake_hash": {
+          "accuracy": 0.6,
+          "n": 15
+        },
+        "forged_hash": {
+          "accuracy": 0.25,
+          "n": 20
+        }
+      },
+      "0.30": {
+        "fake_hash": {
+          "accuracy": 0.6129,
+          "n": 31
+        },
+        "forged_hash": {
+          "accuracy": 0.25,
+          "n": 28
+        }
+      },
+      "0.50": {
+        "fake_hash": {
+          "accuracy": 0.6491,
+          "n": 57
+        },
+        "forged_hash": {
+          "accuracy": 0.2941,
+          "n": 51
+        }
+      }
+    },
+    "C3o": {
+      "0.15": {
+        "fake_hash": {
+          "accuracy": 0.4,
+          "n": 15
+        },
+        "forged_hash": {
+          "accuracy": 0.25,
+          "n": 20
+        }
+      },
+      "0.30": {
+        "fake_hash": {
+          "accuracy": 0.3226,
+          "n": 31
+        },
+        "forged_hash": {
+          "accuracy": 0.25,
+          "n": 28
+        }
+      },
+      "0.50": {
+        "fake_hash": {
+          "accuracy": 0.2281,
+          "n": 57
+        },
+        "forged_hash": {
+          "accuracy": 0.2941,
+          "n": 51
+        }
+      }
+    }
+  },
+  "fail_closed": 0,
+  "errors": 0
+}

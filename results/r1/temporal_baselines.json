@@ -1,0 +1,84 @@
+{
+  "n_train": 4199,
+  "n_test": 2100,
+  "t_steps": 12,
+  "channels": [
+    "voltage_V_measured",
+    "current_A_measured",
+    "temperature_C_measured",
+    "SOC_with_drift",
+    "dT_dt_meas_C_per_s",
+    "dV_dt_meas_V_per_s"
+  ],
+  "test_class_counts": {
+    "replace": 568,
+    "safe": 1191,
+    "urgent": 341
+  },
+  "models": {
+    "logreg": {
+      "clean": {
+        "n": 2100,
+        "accuracy": 0.9671428571428572,
+        "actionable_accuracy": 0.9614961496149615,
+        "urgent_recall": 0.967741935483871,
+        "under_triage_rate": 0.015238095238095238
+      },
+      "poisoned": {
+        "n": 2100,
+        "accuracy": 0.5671428571428572,
+        "actionable_accuracy": 0.0,
+        "urgent_recall": 0.0,
+        "under_triage_rate": 0.4328571428571429
+      }
+    },
+    "gbm": {
+      "clean": {
+        "n": 2100,
+        "accuracy": 0.9685714285714285,
+        "actionable_accuracy": 0.9658965896589659,
+        "urgent_recall": 0.9765395894428153,
+        "under_triage_rate": 0.01
+      },
+      "poisoned": {
+        "n": 2100,
+        "accuracy": 0.5671428571428572,
+        "actionable_accuracy": 0.0,
+        "urgent_recall": 0.0,
+        "under_triage_rate": 0.4328571428571429
+      }
+    },
+    "gru": {
+      "clean": {
+        "n": 2100,
+        "accuracy": 0.9633333333333334,
+        "actionable_accuracy": 0.966996699669967,
+        "urgent_recall": 0.9824046920821115,
+        "under_triage_rate": 0.008095238095238095
+      },
+      "poisoned": {
+        "n": 2100,
+        "accuracy": 0.5671428571428572,
+        "actionable_accuracy": 0.0,
+        "urgent_recall": 0.0,
+        "under_triage_rate": 0.4328571428571429
+      }
+    },
+    "cnn": {
+      "clean": {
+        "n": 2100,
+        "accuracy": 0.950952380952381,
+        "actionable_accuracy": 0.9625962596259626,
+        "urgent_recall": 0.9882697947214076,
+        "under_triage_rate": 0.005714285714285714
+      },
+      "poisoned": {
+        "n": 2100,
+        "accuracy": 0.5671428571428572,
+        "actionable_accuracy": 0.0,
+        "urgent_recall": 0.0,
+        "under_triage_rate": 0.4328571428571429
+      }
+    }
+  }
+}

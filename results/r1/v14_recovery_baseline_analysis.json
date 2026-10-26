@@ -1,0 +1,199 @@
+{
+  "source": "v14_recovery_baseline_results.json",
+  "n_records": 112800,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "note": "T5 is a signature-authenticated payload repository with an honest operator; T5x is the same repository with the operator inside the same breach as the local store.",
+  "by_rate": {
+    "0.00": {
+      "T0": {
+        "accuracy": 0.6851063829787234,
+        "actionable": 0.4936708860759494,
+        "urgent_recall": 0.9705882352941176,
+        "n_actionable": 1580
+      },
+      "T2": {
+        "accuracy": 0.5574468085106383,
+        "actionable": 0.4430379746835443,
+        "urgent_recall": 0.9705882352941176,
+        "n_actionable": 1580
+      },
+      "T3": {
+        "accuracy": 0.5574468085106383,
+        "actionable": 0.4430379746835443,
+        "urgent_recall": 0.9705882352941176,
+        "n_actionable": 1580
+      },
+      "T4": {
+        "accuracy": 0.5574468085106383,
+        "actionable": 0.4430379746835443,
+        "urgent_recall": 0.9705882352941176,
+        "n_actionable": 1580
+      },
+      "T5": {
+        "accuracy": 0.5574468085106383,
+        "actionable": 0.4430379746835443,
+        "urgent_recall": 0.9705882352941176,
+        "n_actionable": 1580
+      },
+      "T5x": {
+        "accuracy": 0.5574468085106383,
+        "actionable": 0.4430379746835443,
+        "urgent_recall": 0.9705882352941176,
+        "n_actionable": 1580
+      }
+    },
+    "0.15": {
+      "T0": {
+        "accuracy": 0.6812765957446808,
+        "actionable": 0.4208860759493671,
+        "urgent_recall": 0.8220588235294117,
+        "n_actionable": 1580
+      },
+      "T2": {
+        "accuracy": 0.5704255319148936,
+        "actionable": 0.3759493670886076,
+        "urgent_recall": 0.8220588235294117,
+        "n_actionable": 1580
+      },
+      "T3": {
+        "accuracy": 0.5704255319148936,
+        "actionable": 0.3759493670886076,
+        "urgent_recall": 0.8220588235294117,
+        "n_actionable": 1580
+      },
+      "T4": {
+        "accuracy": 0.5687234042553192,
+        "actionable": 0.42848101265822786,
+        "urgent_recall": 0.9441176470588235,
+        "n_actionable": 1580
+      },
+      "T5": {
+        "accuracy": 0.5687234042553192,
+        "actionable": 0.42848101265822786,
+        "urgent_recall": 0.9441176470588235,
+        "n_actionable": 1580
+      },
+      "T5x": {
+        "accuracy": 0.5704255319148936,
+        "actionable": 0.3759493670886076,
+        "urgent_recall": 0.8220588235294117,
+        "n_actionable": 1580
+      }
+    },
+    "0.30": {
+      "T0": {
+        "accuracy": 0.6808510638297872,
+        "actionable": 0.3518987341772152,
+        "urgent_recall": 0.6882352941176471,
+        "n_actionable": 1580
+      },
+      "T2": {
+        "accuracy": 0.5882978723404255,
+        "actionable": 0.3139240506329114,
+        "urgent_recall": 0.6882352941176471,
+        "n_actionable": 1580
+      },
+      "T3": {
+        "accuracy": 0.5882978723404255,
+        "actionable": 0.3139240506329114,
+        "urgent_recall": 0.6882352941176471,
+        "n_actionable": 1580
+      },
+      "T4": {
+        "accuracy": 0.5829787234042553,
+        "actionable": 0.4151898734177215,
+        "urgent_recall": 0.9235294117647059,
+        "n_actionable": 1580
+      },
+      "T5": {
+        "accuracy": 0.5829787234042553,
+        "actionable": 0.4151898734177215,
+        "urgent_recall": 0.9235294117647059,
+        "n_actionable": 1580
+      },
+      "T5x": {
+        "accuracy": 0.5882978723404255,
+        "actionable": 0.3139240506329114,
+        "urgent_recall": 0.6882352941176471,
+        "n_actionable": 1580
+      }
+    },
+    "0.50": {
+      "T0": {
+        "accuracy": 0.6742553191489362,
+        "actionable": 0.24556962025316456,
+        "urgent_recall": 0.4838235294117647,
+        "n_actionable": 1580
+      },
+      "T2": {
+        "accuracy": 0.6080851063829787,
+        "actionable": 0.2208860759493671,
+        "urgent_recall": 0.4838235294117647,
+        "n_actionable": 1580
+      },
+      "T3": {
+        "accuracy": 0.6080851063829787,
+        "actionable": 0.2208860759493671,
+        "urgent_recall": 0.4838235294117647,
+        "n_actionable": 1580
+      },
+      "T4": {
+        "accuracy": 0.5997872340425532,
+        "actionable": 0.3943037974683544,
+        "urgent_recall": 0.8867647058823529,
+        "n_actionable": 1580
+      },
+      "T5": {
+        "accuracy": 0.5997872340425532,
+        "actionable": 0.3943037974683544,
+        "urgent_recall": 0.8867647058823529,
+        "n_actionable": 1580
+      },
+      "T5x": {
+        "accuracy": 0.6080851063829787,
+        "actionable": 0.2208860759493671,
+        "urgent_recall": 0.4838235294117647,
+        "n_actionable": 1580
+      }
+    }
+  },
+  "agreement": {
+    "T5-vs-T4": {
+      "n_paired": 18800,
+      "n_differing_decisions": 0
+    },
+    "T5x-vs-T2": {
+      "n_paired": 18800,
+      "n_differing_decisions": 0
+    },
+    "T5x-vs-T3": {
+      "n_paired": 18800,
+      "n_differing_decisions": 0
+    },
+    "T4-vs-T2": {
+      "n_paired": 18800,
+      "n_differing_decisions": 1618
+    }
+  }
+}

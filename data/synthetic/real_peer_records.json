@@ -1,0 +1,1260 @@
+[
+  {
+    "peer_run_id": "CS2_8_1_19_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 809.808483,
+    "snapshot": {
+      "voltage_V": 3.553,
+      "current_A": -0.55,
+      "temperature_C": 21.0,
+      "capacity_Ah": 52.0
+    },
+    "outcome": {
+      "temperature_max_C": 23.0,
+      "capacity_final_Ah": 100.0,
+      "duration_s": 2424.14,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "869df16328450fd4747e220fe48d091a2d3725771b057089b6cd3b41605f2784"
+  },
+  {
+    "peer_run_id": "CS2_8_1_20_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 388.787033,
+    "snapshot": {
+      "voltage_V": 4.204,
+      "current_A": 0.264,
+      "temperature_C": 21.0,
+      "capacity_Ah": 101.0
+    },
+    "outcome": {
+      "temperature_max_C": 22.0,
+      "capacity_final_Ah": 100.0,
+      "duration_s": 1163.09,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "895f4f26104968bbc33e64aaaca3916c451c163aa631ecdbb2b1ba9a0cc8035a"
+  },
+  {
+    "peer_run_id": "CS2_8_1_27_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 361.026717,
+    "snapshot": {
+      "voltage_V": 4.191,
+      "current_A": 0.534,
+      "temperature_C": 22.0,
+      "capacity_Ah": 101.0
+    },
+    "outcome": {
+      "temperature_max_C": 23.0,
+      "capacity_final_Ah": 98.0,
+      "duration_s": 1082.09,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "fb412b2975c1e8d39e6aaabc27ca3b86f9ebf197ece6dd487f2c6b70d3ab32f9"
+  },
+  {
+    "peer_run_id": "CS2_8_1_28_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 735.058083,
+    "snapshot": {
+      "voltage_V": 4.204,
+      "current_A": 0.326,
+      "temperature_C": 22.0,
+      "capacity_Ah": 100.0
+    },
+    "outcome": {
+      "temperature_max_C": 23.0,
+      "capacity_final_Ah": 97.0,
+      "duration_s": 2203.17,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "70540e05b88230fb6e6fe1330171913c15a566cd7c731cb6460300a18a217eea"
+  },
+  {
+    "peer_run_id": "CS2_8_1_29_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 864.067683,
+    "snapshot": {
+      "voltage_V": 3.534,
+      "current_A": -0.548,
+      "temperature_C": 22.0,
+      "capacity_Ah": 33.0
+    },
+    "outcome": {
+      "temperature_max_C": 23.0,
+      "capacity_final_Ah": 93.0,
+      "duration_s": 2590.36,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "fb4e5e0ad9b187b88625b8e7fc023d505671c91c4ff412fd935f4852b5546bec"
+  },
+  {
+    "peer_run_id": "CS2_8_2_02_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 385.551367,
+    "snapshot": {
+      "voltage_V": 4.193,
+      "current_A": 0.532,
+      "temperature_C": 23.0,
+      "capacity_Ah": 101.0
+    },
+    "outcome": {
+      "temperature_max_C": 24.0,
+      "capacity_final_Ah": 100.0,
+      "duration_s": 1158.08,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "853f901672b6c0cff9656ad30dbb2eadd29a0fc8b5885dc0e0f1126a1a2fe973"
+  },
+  {
+    "peer_run_id": "CS2_8_2_04_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 805.583517,
+    "snapshot": {
+      "voltage_V": 3.651,
+      "current_A": -0.549,
+      "temperature_C": 24.0,
+      "capacity_Ah": 34.0
+    },
+    "outcome": {
+      "temperature_max_C": 24.0,
+      "capacity_final_Ah": 99.0,
+      "duration_s": 2417.28,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "6c964d3c7e6475ab69950845b4782436e71a1ef40f1d0745c78422ba3db31690"
+  },
+  {
+    "peer_run_id": "CS2_8_2_22_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 868.798083,
+    "snapshot": {
+      "voltage_V": 3.844,
+      "current_A": -0.549,
+      "temperature_C": 24.0,
+      "capacity_Ah": 1.0
+    },
+    "outcome": {
+      "temperature_max_C": 24.0,
+      "capacity_final_Ah": 98.0,
+      "duration_s": 2605.64,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "c6ecb83bfbc932bbee64459e11c4becbcc487363af7e5407e63fd34d6a594a41"
+  },
+  {
+    "peer_run_id": "CS2_8_2_24_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 764.141767,
+    "snapshot": {
+      "voltage_V": 4.204,
+      "current_A": 0.159,
+      "temperature_C": 24.0,
+      "capacity_Ah": 99.0
+    },
+    "outcome": {
+      "temperature_max_C": 24.0,
+      "capacity_final_Ah": 58.0,
+      "duration_s": 2292.17,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "387c658b75e577482ccbbfbcd9352cbcad5081d970af06ac35a350f0dcf9b85d"
+  },
+  {
+    "peer_run_id": "CS2_8_3_5_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 3865.3776,
+    "snapshot": {
+      "voltage_V": 4.204,
+      "current_A": 0.109,
+      "temperature_C": 24.0,
+      "capacity_Ah": 98.0
+    },
+    "outcome": {
+      "temperature_max_C": 26.0,
+      "capacity_final_Ah": 96.0,
+      "duration_s": 11594.36,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "8216d2ec9aa59dd7711ca56d7317723429b6db1a5212dc0076619191222826fc"
+  },
+  {
+    "peer_run_id": "CS2_8_4_26_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 3958.342567,
+    "snapshot": {
+      "voltage_V": 3.514,
+      "current_A": -0.55,
+      "temperature_C": 19.0,
+      "capacity_Ah": 57.0
+    },
+    "outcome": {
+      "temperature_max_C": 23.0,
+      "capacity_final_Ah": 93.0,
+      "duration_s": 11907.22,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "01b7cd7799895ee2c25e51e90d7ec14219afa61e7b80297f445b5d74e7ae6ef6"
+  },
+  {
+    "peer_run_id": "CS2_8_4_5_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 5728.523033,
+    "snapshot": {
+      "voltage_V": 3.618,
+      "current_A": -0.549,
+      "temperature_C": 21.0,
+      "capacity_Ah": 34.0
+    },
+    "outcome": {
+      "temperature_max_C": 24.0,
+      "capacity_final_Ah": 94.0,
+      "duration_s": 20163.57,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "e5fd3a1ecaf2eeffa149154a26cb2a565767e40403b85d300d64a66a8f2ce47f"
+  },
+  {
+    "peer_run_id": "CS2_8_4_8_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 6484.580633,
+    "snapshot": {
+      "voltage_V": 4.204,
+      "current_A": 0.336,
+      "temperature_C": 22.0,
+      "capacity_Ah": 96.0
+    },
+    "outcome": {
+      "temperature_max_C": 25.0,
+      "capacity_final_Ah": 94.0,
+      "duration_s": 22433.56,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "86b0364513b6c2d00c95220bbfadf1dc8c7471d885563a1a09408e49604d4849"
+  },
+  {
+    "peer_run_id": "CS2_8_5_11_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 4313.705767,
+    "snapshot": {
+      "voltage_V": 3.627,
+      "current_A": 0.55,
+      "temperature_C": 23.0,
+      "capacity_Ah": 96.0
+    },
+    "outcome": {
+      "temperature_max_C": 24.0,
+      "capacity_final_Ah": 94.0,
+      "duration_s": 12910.01,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "546772695f0d7e847e2096448beff04bfe6eaa3b09ee6cdf41d06cfaea306048"
+  },
+  {
+    "peer_run_id": "CS2_8_5_14_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 5379.791033,
+    "snapshot": {
+      "voltage_V": 3.612,
+      "current_A": -0.55,
+      "temperature_C": 22.0,
+      "capacity_Ah": 39.0
+    },
+    "outcome": {
+      "temperature_max_C": 24.0,
+      "capacity_final_Ah": 93.0,
+      "duration_s": 16106.87,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "9c88f50d6e5445604ba1982d87ba2c308a83a1bf2366625378088e3398e53088"
+  },
+  {
+    "peer_run_id": "CS2_8_6_1_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 4600.2312,
+    "snapshot": {
+      "voltage_V": 3.38,
+      "current_A": -0.548,
+      "temperature_C": 22.0,
+      "capacity_Ah": 86.0
+    },
+    "outcome": {
+      "temperature_max_C": 29.0,
+      "capacity_final_Ah": 92.0,
+      "duration_s": 13790.06,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "fb454f054b8f410fabde73fc500034a78e8a14285ffdf1188ca71c5dda3b1bdf"
+  },
+  {
+    "peer_run_id": "CS2_8_6_7_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 6465.3624,
+    "snapshot": {
+      "voltage_V": 3.646,
+      "current_A": -0.546,
+      "temperature_C": 24.0,
+      "capacity_Ah": 32.0
+    },
+    "outcome": {
+      "temperature_max_C": 29.0,
+      "capacity_final_Ah": 42.0,
+      "duration_s": 20566.61,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "5c720a1b895bc5b99f168af7a84674f853a3dcda99319036da849927ef395a4f"
+  },
+  {
+    "peer_run_id": "CS2_8_6_8_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 6615.3744,
+    "snapshot": {
+      "voltage_V": 4.189,
+      "current_A": 0.532,
+      "temperature_C": 22.0,
+      "capacity_Ah": 92.0
+    },
+    "outcome": {
+      "temperature_max_C": 29.0,
+      "capacity_final_Ah": 91.0,
+      "duration_s": 21018.77,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "62a310129514156dc4626b9923142cef4235fb1f463530259f205343e164f9bd"
+  },
+  {
+    "peer_run_id": "CS2_8_7_12_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 1073.089433,
+    "snapshot": {
+      "voltage_V": 3.942,
+      "current_A": -0.549,
+      "temperature_C": 26.0,
+      "capacity_Ah": 16.0
+    },
+    "outcome": {
+      "temperature_max_C": 28.0,
+      "capacity_final_Ah": 93.0,
+      "duration_s": 3217.25,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "510a76f8622e87696a847d6e60f95676527cb8c8fe79b9dfc103db10729bae5d"
+  },
+  {
+    "peer_run_id": "CS2_8_7_19_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 3604.284,
+    "snapshot": {
+      "voltage_V": 3.732,
+      "current_A": -0.55,
+      "temperature_C": 26.0,
+      "capacity_Ah": 48.0
+    },
+    "outcome": {
+      "temperature_max_C": 27.0,
+      "capacity_final_Ah": 22.0,
+      "duration_s": 10803.84,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "412a493e86c67f17d03d87511a4a20c6c6f3c6548c40d37b49cd5ac15fd35443"
+  },
+  {
+    "peer_run_id": "CS2_8_7_22_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 4763.376,
+    "snapshot": {
+      "voltage_V": 4.204,
+      "current_A": 0.296,
+      "temperature_C": 25.0,
+      "capacity_Ah": 93.0
+    },
+    "outcome": {
+      "temperature_max_C": 27.0,
+      "capacity_final_Ah": 36.0,
+      "duration_s": 14284.11,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "7e485fb0c2c7343a4f87cd7736dd21de853a4c8deb3cdd5e6f35de41a7124ad8"
+  },
+  {
+    "peer_run_id": "CS2_8_7_27_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 6168.473283,
+    "snapshot": {
+      "voltage_V": 3.871,
+      "current_A": 0.549,
+      "temperature_C": 25.0,
+      "capacity_Ah": 92.0
+    },
+    "outcome": {
+      "temperature_max_C": 27.0,
+      "capacity_final_Ah": 90.0,
+      "duration_s": 18500.61,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "a49815a2cf2942b24c0cbab8f748d17c3d885a1f87059104a8847aefa9928f27"
+  },
+  {
+    "peer_run_id": "CS2_8_7_8_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 652.459683,
+    "snapshot": {
+      "voltage_V": 4.204,
+      "current_A": 0.397,
+      "temperature_C": 26.0,
+      "capacity_Ah": 93.0
+    },
+    "outcome": {
+      "temperature_max_C": 27.0,
+      "capacity_final_Ah": 92.0,
+      "duration_s": 1961.15,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "03d215d48f12c1288096e8508da63cf947fa92ff561e7f36f9e8b512c41c2deb"
+  },
+  {
+    "peer_run_id": "CS2_8_7_9_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 289.830233,
+    "snapshot": {
+      "voltage_V": 4.08,
+      "current_A": 0.55,
+      "temperature_C": 25.0,
+      "capacity_Ah": 92.0
+    },
+    "outcome": {
+      "temperature_max_C": 26.0,
+      "capacity_final_Ah": 92.0,
+      "duration_s": 866.08,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "5deadf9b54c9c6ffb7dd4c818c57b142187b1461bc84a90df336828e770bf2fd"
+  },
+  {
+    "peer_run_id": "CS2_8_8_10_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 1027.9152,
+    "snapshot": {
+      "voltage_V": 4.018,
+      "current_A": 0.549,
+      "temperature_C": 25.0,
+      "capacity_Ah": 90.0
+    },
+    "outcome": {
+      "temperature_max_C": 26.0,
+      "capacity_final_Ah": 89.0,
+      "duration_s": 3080.23,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "fd318d3ad28b45ad4a520a730a58ea5440850ef0645b50c6feb34a974c2ca49d"
+  },
+  {
+    "peer_run_id": "CS2_8_8_12_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 688.468317,
+    "snapshot": {
+      "voltage_V": 3.63,
+      "current_A": -0.548,
+      "temperature_C": 25.0,
+      "capacity_Ah": 70.0
+    },
+    "outcome": {
+      "temperature_max_C": 26.0,
+      "capacity_final_Ah": 0.0,
+      "duration_s": 2056.47,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "287f7a3237742609196f540e68796ab55667814bd66f16d8a6ef979c7e02d68d"
+  },
+  {
+    "peer_run_id": "CS2_8_8_13_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 240.356167,
+    "snapshot": {
+      "voltage_V": 4.204,
+      "current_A": 0.238,
+      "temperature_C": 25.0,
+      "capacity_Ah": 89.0
+    },
+    "outcome": {
+      "temperature_max_C": 26.0,
+      "capacity_final_Ah": 89.0,
+      "duration_s": 721.17,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "53ccf7779d375b8c5447b735b3e3f60fe0c6427a88ddf3a1a014d7089aa4fec9"
+  },
+  {
+    "peer_run_id": "CS2_8_8_19_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 573.932167,
+    "snapshot": {
+      "voltage_V": 3.295,
+      "current_A": -0.219,
+      "temperature_C": 29.0,
+      "capacity_Ah": 89.0
+    },
+    "outcome": {
+      "temperature_max_C": 29.0,
+      "capacity_final_Ah": 91.0,
+      "duration_s": 1716.15,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "af2f26d40fd157ce5fe1839e1181c85c28ceef4fe9aa7227bfab4575636e9f94"
+  },
+  {
+    "peer_run_id": "CS2_8_8_23_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 999.325433,
+    "snapshot": {
+      "voltage_V": 3.885,
+      "current_A": 0.549,
+      "temperature_C": 29.0,
+      "capacity_Ah": 90.0
+    },
+    "outcome": {
+      "temperature_max_C": 30.0,
+      "capacity_final_Ah": 22.0,
+      "duration_s": 3001.23,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "a272d15addd6e8e4ffeaa972852faaee9ddf65541f13992c581accc161e2537e"
+  },
+  {
+    "peer_run_id": "CS2_8_8_30_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 3497.518083,
+    "snapshot": {
+      "voltage_V": 4.125,
+      "current_A": -0.551,
+      "temperature_C": 30.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "temperature_max_C": 30.0,
+      "capacity_final_Ah": 2.0,
+      "duration_s": 10516.81,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "a75f8c516df6ee4efa537c159eb48b810859c2f1913f4d129601df708f8862c2"
+  },
+  {
+    "peer_run_id": "CS2_8_8_4_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 705.782883,
+    "snapshot": {
+      "voltage_V": 3.671,
+      "current_A": -0.549,
+      "temperature_C": 25.0,
+      "capacity_Ah": 61.0
+    },
+    "outcome": {
+      "temperature_max_C": 26.0,
+      "capacity_final_Ah": 91.0,
+      "duration_s": 2114.16,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "821fa6ce8e8ddc96e494d6262e29abbb01885327badf40b032d3260e71ed312d"
+  },
+  {
+    "peer_run_id": "CS2_8_8_6_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 1411.8408,
+    "snapshot": {
+      "voltage_V": 3.814,
+      "current_A": -0.55,
+      "temperature_C": 25.0,
+      "capacity_Ah": 30.0
+    },
+    "outcome": {
+      "temperature_max_C": 26.0,
+      "capacity_final_Ah": 81.0,
+      "duration_s": 4228.33,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "bb80e9987188757a9b0d3410fff9e8df6c52ba452e9ae5a83ec7f800d056ed9c"
+  },
+  {
+    "peer_run_id": "CS2_8_9_21_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 4378.880167,
+    "snapshot": {
+      "voltage_V": 3.664,
+      "current_A": -0.551,
+      "temperature_C": 29.0,
+      "capacity_Ah": 41.0
+    },
+    "outcome": {
+      "temperature_max_C": 30.0,
+      "capacity_final_Ah": 48.0,
+      "duration_s": 13165.02,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "15a3f06f49d413a5a2966381f8b60a4aa5a613a7cd8305ea8d68a82f78ab83ff"
+  },
+  {
+    "peer_run_id": "CS2_8_9_7_10",
+    "scenario": "calce_cs2_8",
+    "cause_family": -1,
+    "snapshot_at_s": 5273.651517,
+    "snapshot": {
+      "voltage_V": 3.906,
+      "current_A": 0.01,
+      "temperature_C": 26.0,
+      "capacity_Ah": 87.0
+    },
+    "outcome": {
+      "temperature_max_C": 30.0,
+      "capacity_final_Ah": 82.0,
+      "duration_s": 15787.01,
+      "observed_source": "CALCE CS2_8"
+    },
+    "chain_tx_hash": "4ef3a3d17f99bd9087471aeee8ee00272cca6aedcbf1bb52fea4215974b2abec"
+  },
+  {
+    "peer_run_id": "cell_01_cyc1",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 10.7,
+    "snapshot": {
+      "voltage_V": 3.5742,
+      "current_A": 4.4996,
+      "capacity_Ah": 0.01337
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 5048.6,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "82873506cc52a3733aa50336e5934202592f4ef0a41588bfd199f63d78c0b77a"
+  },
+  {
+    "peer_run_id": "cell_01_cyc2",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 9149.9,
+    "snapshot": {
+      "voltage_V": 3.3913,
+      "current_A": -3.3746,
+      "capacity_Ah": 1.23926
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -111.5,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "acc941962adb72680b926e528a10f02853771d5752db0165475c4125dbda4131"
+  },
+  {
+    "peer_run_id": "cell_01_cyc3",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 13315.600000000002,
+    "snapshot": {
+      "voltage_V": 3.3934,
+      "current_A": -3.3746,
+      "capacity_Ah": 1.22615
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -329.9,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "d995890c426e415e97852c1f934ec93a1b22f936145508a9b44d9a64c46f27e0"
+  },
+  {
+    "peer_run_id": "cell_01_cyc4",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 17480.800000000003,
+    "snapshot": {
+      "voltage_V": 3.395,
+      "current_A": -3.3746,
+      "capacity_Ah": 1.22055
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -553.3,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "7555b3d4680e510a1ce62c7ba17177b2053d076190b2ddaf22b675f974994715"
+  },
+  {
+    "peer_run_id": "cell_01_cyc5",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 21646.0,
+    "snapshot": {
+      "voltage_V": 3.3956,
+      "current_A": -3.3746,
+      "capacity_Ah": 1.214
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -784.0,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "5a2497713fe5ee29570c48e940192ba168ac5609cd0847a1edeb03ab0bd1d7c4"
+  },
+  {
+    "peer_run_id": "cell_01_cyc6",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 25811.9,
+    "snapshot": {
+      "voltage_V": 3.3937,
+      "current_A": -3.3746,
+      "capacity_Ah": 1.21775
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -1022.9,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "bb86177b654f253147a5681c014777facb5337d07a8c769a13ab273d5c3a60f9"
+  },
+  {
+    "peer_run_id": "cell_01_cyc1",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 5133.9,
+    "snapshot": {
+      "voltage_V": 3.6545,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -21.1,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "ddab06ac2a95d03f21eed0777b80d549f6e7aed1865497e0d9e43b3043cdbefb"
+  },
+  {
+    "peer_run_id": "cell_01_cyc2",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 8986.4,
+    "snapshot": {
+      "voltage_V": 3.6297,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -98.5,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "05ed553369f5744db97a316f1c855d62cf886c4fc90c782274bb61ce77aa0406"
+  },
+  {
+    "peer_run_id": "cell_01_cyc3",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 12853.3,
+    "snapshot": {
+      "voltage_V": 3.6263,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -226.0,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "98ba4a46cecef53b70181335d867cb6cb5b9dff6fc00e62b811caf3de13c85e2"
+  },
+  {
+    "peer_run_id": "cell_01_cyc4",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 16716.799999999996,
+    "snapshot": {
+      "voltage_V": 3.6284,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -355.8,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "2991be755185c9fcea562380eadaf510e12ad78444e142cfda27767fa4805679"
+  },
+  {
+    "peer_run_id": "cell_01_cyc5",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 20571.4,
+    "snapshot": {
+      "voltage_V": 3.6315,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -486.6,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "b4e9a0123bc2300e76d737364807a672a0ece034b9582efa8547542ecf27680c"
+  },
+  {
+    "peer_run_id": "cell_01_cyc6",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 24417.4,
+    "snapshot": {
+      "voltage_V": 3.629,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -602.1,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "a5ff69b0e3cd56774c999c59587679afc695a4973c7c369212593a099e864497"
+  },
+  {
+    "peer_run_id": "cell_01_cyc1",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 2.0,
+    "snapshot": {
+      "voltage_V": 3.63,
+      "current_A": 4.4996,
+      "capacity_Ah": 0.0025
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 5040.4,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "a9ced652851407434d58031f3a9216d389a31e5e52b934f91e696f235fdbb30e"
+  },
+  {
+    "peer_run_id": "cell_01_cyc2",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 8759.099999999999,
+    "snapshot": {
+      "voltage_V": 3.6511,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -36.1,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "2be037768001ccd8ed8f20435512742a7352b0692d2c3ca59d4e0bca5032cdbe"
+  },
+  {
+    "peer_run_id": "cell_01_cyc3",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 12494.9,
+    "snapshot": {
+      "voltage_V": 3.6489,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -145.1,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "5f8dc6ba24e69dbf025735bb6a8115e8b283f6519237881b4ea413bc5bc45943"
+  },
+  {
+    "peer_run_id": "cell_01_cyc4",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 16222.0,
+    "snapshot": {
+      "voltage_V": 3.6433,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -260.1,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "86333d15b929154e9e1bc0410fed7292160c2c478061e6157d0f65cd0f25d04f"
+  },
+  {
+    "peer_run_id": "cell_01_cyc5",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 19949.1,
+    "snapshot": {
+      "voltage_V": 3.6464,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -380.7,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "f10618ed2266dcfe142db85e91135f75e414ca47333cca2281f384c43ece76b6"
+  },
+  {
+    "peer_run_id": "cell_01_cyc6",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 23666.8,
+    "snapshot": {
+      "voltage_V": 3.6433,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -494.7,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "341695e543a71751230bc03138ae4edb9d6549db6f5ddf88dd9784c1bd68f7e2"
+  },
+  {
+    "peer_run_id": "cell_01_cyc1",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 3750.0,
+    "snapshot": {
+      "voltage_V": 4.1998,
+      "current_A": 0.1261,
+      "capacity_Ah": 1.94812
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 1232.3,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "21f8eef993600705153e0c9d044fee946c7706f559745047f6b82a4637637e8c"
+  },
+  {
+    "peer_run_id": "cell_01_cyc2",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 7747.2,
+    "snapshot": {
+      "voltage_V": 3.8402,
+      "current_A": -3.3746,
+      "capacity_Ah": 0.05624
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 817.4,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "528fe081cfddbb7b9a7cd4950bc127c3c820e71879ef553d4f4b4d4f585a33d0"
+  },
+  {
+    "peer_run_id": "cell_01_cyc3",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 11357.600000000004,
+    "snapshot": {
+      "voltage_V": 3.8364,
+      "current_A": -3.3746,
+      "capacity_Ah": 0.05999
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 725.0,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "325d1c98eab70db5fb06c8485723f33bab8df42914889566d3a2099c88df1872"
+  },
+  {
+    "peer_run_id": "cell_01_cyc4",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 14951.000000000004,
+    "snapshot": {
+      "voltage_V": 3.8244,
+      "current_A": -3.3746,
+      "capacity_Ah": 0.06937
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 628.4,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "17934d6ad4cdfb10d984347e27d18818085484993c29cc974cd6bd3b48faf0be"
+  },
+  {
+    "peer_run_id": "cell_01_cyc5",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 18525.500000000007,
+    "snapshot": {
+      "voltage_V": 3.8265,
+      "current_A": -3.3746,
+      "capacity_Ah": 0.06749
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 544.2,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "ef411b923155d06f5eedb4a3c40b9de06a5d3c4a4536dca39af0208874606510"
+  },
+  {
+    "peer_run_id": "cell_01_cyc6",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 22097.80000000001,
+    "snapshot": {
+      "voltage_V": 3.8089,
+      "current_A": -3.3746,
+      "capacity_Ah": 0.08249
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 456.0,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "611bbcd21618e43e69fa558fb7c7f978caa3991a88cfc23c0cb0b0cbec31c521"
+  },
+  {
+    "peer_run_id": "cell_01_cyc1",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 1.3,
+    "snapshot": {
+      "voltage_V": 3.7162,
+      "current_A": 4.5,
+      "capacity_Ah": 0.00162
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 5019.4,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "d5494a1b1f48eff3cb9694fc2bb8a9a9b1f2bc23e7321bf54173d9a32cafd0ff"
+  },
+  {
+    "peer_run_id": "cell_01_cyc2",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 8563.699999999997,
+    "snapshot": {
+      "voltage_V": 3.6907,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 47.0,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "25867fd00ce899bc9a576f5e247f74ef874f2c8653e5368cb6f1f5d3e45a3654"
+  },
+  {
+    "peer_run_id": "cell_01_cyc3",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 12079.4,
+    "snapshot": {
+      "voltage_V": 3.6873,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 46.4,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "0e6b454419998ca5b1867a04f4b4ced44a5ab4683211a1eb3ee0271e0d6f0e50"
+  },
+  {
+    "peer_run_id": "cell_01_cyc4",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 15578.5,
+    "snapshot": {
+      "voltage_V": 3.6879,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 35.3,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "223835dba5e33e6eff85d67d6959b1352537066f8135e1213862d45f8234f3a6"
+  },
+  {
+    "peer_run_id": "cell_01_cyc5",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 19061.2,
+    "snapshot": {
+      "voltage_V": 3.6845,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": 16.8,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "18ebb75c65f7eb7485db97dd561ae0361c8c2a8b53d6902a671951ebbe06340c"
+  },
+  {
+    "peer_run_id": "cell_01_cyc6",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 22537.9,
+    "snapshot": {
+      "voltage_V": 3.6824,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -13.3,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "9c327c64c39a2ba088bd8d079d900c12b575554a0bed78dc28c159bb4e4546e6"
+  },
+  {
+    "peer_run_id": "cell_01_cyc1",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 4895.5,
+    "snapshot": {
+      "voltage_V": 3.6861,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -29.0,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "df44559839484aa78b9ca348d79cc7b3f3030928b03b38e09aca4f67315b5ba1"
+  },
+  {
+    "peer_run_id": "cell_01_cyc2",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 8404.099999999999,
+    "snapshot": {
+      "voltage_V": 3.6873,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -95.9,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "9e141f7670e99598f768391a3597297d4888878d8897bbec4c56a8975e75648a"
+  },
+  {
+    "peer_run_id": "cell_01_cyc3",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 11832.000000000002,
+    "snapshot": {
+      "voltage_V": 3.678,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -170.3,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "feb0b1a03f0d86bb36585c35bb7252818a2863deee57d73d1384a824760b1a6c"
+  },
+  {
+    "peer_run_id": "cell_01_cyc4",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 15249.600000000004,
+    "snapshot": {
+      "voltage_V": 3.6759,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -268.1,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "805ff61fe904981535d5d82cd411f873c5a19a6443ae75e325ac97a41a7e7279"
+  },
+  {
+    "peer_run_id": "cell_01_cyc5",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 18650.3,
+    "snapshot": {
+      "voltage_V": 3.6817,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -364.1,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "9445109b5f218944e8924f8119b1ac3f9de56dd6a5a3b0a8dc0ad38aee63e0d0"
+  },
+  {
+    "peer_run_id": "cell_01_cyc6",
+    "scenario": "uconn_ilcc",
+    "cause_family": -1,
+    "snapshot_at_s": 22027.4,
+    "snapshot": {
+      "voltage_V": 3.6762,
+      "current_A": 0.0,
+      "capacity_Ah": 0.0
+    },
+    "outcome": {
+      "capacity_final_Ah": 0.0,
+      "duration_s": -455.6,
+      "observed_source": "UConn-ILCC"
+    },
+    "chain_tx_hash": "1f2687580489108b983ef42c3220ca5aeb13a375b1eda669538669de2dcf4085"
+  }
+]

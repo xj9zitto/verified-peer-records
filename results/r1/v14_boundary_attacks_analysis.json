@@ -1,0 +1,820 @@
+{
+  "source": "v14_boundary_attacks_results.json",
+  "n_records": 225600,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "n_bootstrap": 10000,
+  "note": "content_tamper is the in-scope attack (digest mismatch); genuine_substitution and withhold lie outside the content-integrity guarantee, which claims neither selection integrity nor completeness.",
+  "by_family": {
+    "content_tamper": {
+      "by_rate": {
+        "0.00": {
+          "T0": {
+            "accuracy": 0.6851063829787234,
+            "actionable": 0.4936708860759494,
+            "urgent_recall": 0.9705882352941176,
+            "mean_tamper_alerts_poisoned": 0.0,
+            "mean_peers_recovered_poisoned": 0.0,
+            "mean_n_peers_poisoned": 0.0,
+            "n_actionable": 1580
+          },
+          "T2": {
+            "accuracy": 0.5574468085106383,
+            "actionable": 0.4430379746835443,
+            "urgent_recall": 0.9705882352941176,
+            "mean_tamper_alerts_poisoned": 0.0,
+            "mean_peers_recovered_poisoned": 0.0,
+            "mean_n_peers_poisoned": 0.0,
+            "n_actionable": 1580
+          },
+          "T3": {
+            "accuracy": 0.5574468085106383,
+            "actionable": 0.4430379746835443,
+            "urgent_recall": 0.9705882352941176,
+            "mean_tamper_alerts_poisoned": 0.0,
+            "mean_peers_recovered_poisoned": 0.0,
+            "mean_n_peers_poisoned": 0.0,
+            "n_actionable": 1580
+          },
+          "T4": {
+            "accuracy": 0.5574468085106383,
+            "actionable": 0.4430379746835443,
+            "urgent_recall": 0.9705882352941176,
+            "mean_tamper_alerts_poisoned": 0.0,
+            "mean_peers_recovered_poisoned": 0.0,
+            "mean_n_peers_poisoned": 0.0,
+            "n_actionable": 1580
+          }
+        },
+        "0.15": {
+          "T0": {
+            "accuracy": 0.6812765957446808,
+            "actionable": 0.4208860759493671,
+            "urgent_recall": 0.8220588235294117,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 0,
+            "n_actionable": 1580
+          },
+          "T2": {
+            "accuracy": 0.5704255319148936,
+            "actionable": 0.3759493670886076,
+            "urgent_recall": 0.8220588235294117,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          },
+          "T3": {
+            "accuracy": 0.5704255319148936,
+            "actionable": 0.3759493670886076,
+            "urgent_recall": 0.8220588235294117,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          },
+          "T4": {
+            "accuracy": 0.5687234042553192,
+            "actionable": 0.42848101265822786,
+            "urgent_recall": 0.9441176470588235,
+            "mean_tamper_alerts_poisoned": 4.6048850574712645,
+            "mean_peers_recovered_poisoned": 4.6048850574712645,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          }
+        },
+        "0.30": {
+          "T0": {
+            "accuracy": 0.6808510638297872,
+            "actionable": 0.3518987341772152,
+            "urgent_recall": 0.6882352941176471,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 0,
+            "n_actionable": 1580
+          },
+          "T2": {
+            "accuracy": 0.5882978723404255,
+            "actionable": 0.3139240506329114,
+            "urgent_recall": 0.6882352941176471,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          },
+          "T3": {
+            "accuracy": 0.5882978723404255,
+            "actionable": 0.3139240506329114,
+            "urgent_recall": 0.6882352941176471,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          },
+          "T4": {
+            "accuracy": 0.5829787234042553,
+            "actionable": 0.4151898734177215,
+            "urgent_recall": 0.9235294117647059,
+            "mean_tamper_alerts_poisoned": 4.592862345229425,
+            "mean_peers_recovered_poisoned": 4.592862345229425,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          }
+        },
+        "0.50": {
+          "T0": {
+            "accuracy": 0.6742553191489362,
+            "actionable": 0.24556962025316456,
+            "urgent_recall": 0.4838235294117647,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 0,
+            "n_actionable": 1580
+          },
+          "T2": {
+            "accuracy": 0.6080851063829787,
+            "actionable": 0.2208860759493671,
+            "urgent_recall": 0.4838235294117647,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          },
+          "T3": {
+            "accuracy": 0.6080851063829787,
+            "actionable": 0.2208860759493671,
+            "urgent_recall": 0.4838235294117647,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          },
+          "T4": {
+            "accuracy": 0.5997872340425532,
+            "actionable": 0.3943037974683544,
+            "urgent_recall": 0.8867647058823529,
+            "mean_tamper_alerts_poisoned": 4.617048896581567,
+            "mean_peers_recovered_poisoned": 4.617048896581567,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          }
+        }
+      },
+      "deltas": {
+        "T4-T2": {
+          "0.00": {
+            "delta": 0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.15": {
+            "delta": 0.05253164556962025,
+            "ci_low": 0.03544303797468354,
+            "ci_high": 0.07088607594936712,
+            "n_clusters": 79
+          },
+          "0.30": {
+            "delta": 0.10126582278481013,
+            "ci_low": 0.06772151898734177,
+            "ci_high": 0.13734177215189872,
+            "n_clusters": 79
+          },
+          "0.50": {
+            "delta": 0.17341772151898735,
+            "ci_low": 0.12088607594936708,
+            "ci_high": 0.22784810126582278,
+            "n_clusters": 79
+          }
+        },
+        "T4-T3": {
+          "0.00": {
+            "delta": 0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.15": {
+            "delta": 0.05253164556962025,
+            "ci_low": 0.03544303797468354,
+            "ci_high": 0.07088607594936712,
+            "n_clusters": 79
+          },
+          "0.30": {
+            "delta": 0.10126582278481013,
+            "ci_low": 0.06772151898734177,
+            "ci_high": 0.13734177215189872,
+            "n_clusters": 79
+          },
+          "0.50": {
+            "delta": 0.17341772151898735,
+            "ci_low": 0.12088607594936708,
+            "ci_high": 0.22784810126582278,
+            "n_clusters": 79
+          }
+        },
+        "T3-T2": {
+          "0.00": {
+            "delta": 0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.15": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.30": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.50": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          }
+        },
+        "T2-T0": {
+          "0.00": {
+            "delta": -0.05063291139240506,
+            "ci_low": -0.10126582278481013,
+            "ci_high": -0.012658227848101266,
+            "n_clusters": 79
+          },
+          "0.15": {
+            "delta": -0.0449367088607595,
+            "ci_low": -0.09050632911392406,
+            "ci_high": -0.010759493670886076,
+            "n_clusters": 79
+          },
+          "0.30": {
+            "delta": -0.0379746835443038,
+            "ci_low": -0.07721518987341772,
+            "ci_high": -0.008860759493670885,
+            "n_clusters": 79
+          },
+          "0.50": {
+            "delta": -0.024683544303797468,
+            "ci_low": -0.05126582278481012,
+            "ci_high": -0.005063291139240506,
+            "n_clusters": 79
+          }
+        }
+      }
+    },
+    "genuine_substitution": {
+      "by_rate": {
+        "0.00": {
+          "T0": {
+            "accuracy": 0.6851063829787234,
+            "actionable": 0.4936708860759494,
+            "urgent_recall": 0.9705882352941176,
+            "mean_tamper_alerts_poisoned": 0.0,
+            "mean_peers_recovered_poisoned": 0.0,
+            "mean_n_peers_poisoned": 0.0,
+            "n_actionable": 1580
+          },
+          "T2": {
+            "accuracy": 0.5574468085106383,
+            "actionable": 0.4430379746835443,
+            "urgent_recall": 0.9705882352941176,
+            "mean_tamper_alerts_poisoned": 0.0,
+            "mean_peers_recovered_poisoned": 0.0,
+            "mean_n_peers_poisoned": 0.0,
+            "n_actionable": 1580
+          },
+          "T3": {
+            "accuracy": 0.5574468085106383,
+            "actionable": 0.4430379746835443,
+            "urgent_recall": 0.9705882352941176,
+            "mean_tamper_alerts_poisoned": 0.0,
+            "mean_peers_recovered_poisoned": 0.0,
+            "mean_n_peers_poisoned": 0.0,
+            "n_actionable": 1580
+          },
+          "T4": {
+            "accuracy": 0.5574468085106383,
+            "actionable": 0.4430379746835443,
+            "urgent_recall": 0.9705882352941176,
+            "mean_tamper_alerts_poisoned": 0.0,
+            "mean_peers_recovered_poisoned": 0.0,
+            "mean_n_peers_poisoned": 0.0,
+            "n_actionable": 1580
+          }
+        },
+        "0.15": {
+          "T0": {
+            "accuracy": 0.6812765957446808,
+            "actionable": 0.4208860759493671,
+            "urgent_recall": 0.8220588235294117,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 0,
+            "n_actionable": 1580
+          },
+          "T2": {
+            "accuracy": 0.5704255319148936,
+            "actionable": 0.3759493670886076,
+            "urgent_recall": 0.8220588235294117,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          },
+          "T3": {
+            "accuracy": 0.5704255319148936,
+            "actionable": 0.3759493670886076,
+            "urgent_recall": 0.8220588235294117,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          },
+          "T4": {
+            "accuracy": 0.5704255319148936,
+            "actionable": 0.3759493670886076,
+            "urgent_recall": 0.8220588235294117,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          }
+        },
+        "0.30": {
+          "T0": {
+            "accuracy": 0.6808510638297872,
+            "actionable": 0.3518987341772152,
+            "urgent_recall": 0.6882352941176471,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 0,
+            "n_actionable": 1580
+          },
+          "T2": {
+            "accuracy": 0.5882978723404255,
+            "actionable": 0.3139240506329114,
+            "urgent_recall": 0.6882352941176471,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          },
+          "T3": {
+            "accuracy": 0.5882978723404255,
+            "actionable": 0.3139240506329114,
+            "urgent_recall": 0.6882352941176471,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          },
+          "T4": {
+            "accuracy": 0.5882978723404255,
+            "actionable": 0.3139240506329114,
+            "urgent_recall": 0.6882352941176471,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          }
+        },
+        "0.50": {
+          "T0": {
+            "accuracy": 0.6742553191489362,
+            "actionable": 0.24556962025316456,
+            "urgent_recall": 0.4838235294117647,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 0,
+            "n_actionable": 1580
+          },
+          "T2": {
+            "accuracy": 0.6080851063829787,
+            "actionable": 0.2208860759493671,
+            "urgent_recall": 0.4838235294117647,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          },
+          "T3": {
+            "accuracy": 0.6080851063829787,
+            "actionable": 0.2208860759493671,
+            "urgent_recall": 0.4838235294117647,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          },
+          "T4": {
+            "accuracy": 0.6080851063829787,
+            "actionable": 0.2208860759493671,
+            "urgent_recall": 0.4838235294117647,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 5,
+            "n_actionable": 1580
+          }
+        }
+      },
+      "deltas": {
+        "T4-T2": {
+          "0.00": {
+            "delta": 0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.15": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.30": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.50": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          }
+        },
+        "T4-T3": {
+          "0.00": {
+            "delta": 0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.15": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.30": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.50": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          }
+        },
+        "T3-T2": {
+          "0.00": {
+            "delta": 0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.15": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.30": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.50": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          }
+        },
+        "T2-T0": {
+          "0.00": {
+            "delta": -0.05063291139240506,
+            "ci_low": -0.10126582278481013,
+            "ci_high": -0.012658227848101266,
+            "n_clusters": 79
+          },
+          "0.15": {
+            "delta": -0.0449367088607595,
+            "ci_low": -0.09050632911392406,
+            "ci_high": -0.010759493670886076,
+            "n_clusters": 79
+          },
+          "0.30": {
+            "delta": -0.0379746835443038,
+            "ci_low": -0.07721518987341772,
+            "ci_high": -0.008860759493670885,
+            "n_clusters": 79
+          },
+          "0.50": {
+            "delta": -0.024683544303797468,
+            "ci_low": -0.05126582278481012,
+            "ci_high": -0.005063291139240506,
+            "n_clusters": 79
+          }
+        }
+      }
+    },
+    "withhold": {
+      "by_rate": {
+        "0.00": {
+          "T0": {
+            "accuracy": 0.6851063829787234,
+            "actionable": 0.4936708860759494,
+            "urgent_recall": 0.9705882352941176,
+            "mean_tamper_alerts_poisoned": 0.0,
+            "mean_peers_recovered_poisoned": 0.0,
+            "mean_n_peers_poisoned": 0.0,
+            "n_actionable": 1580
+          },
+          "T2": {
+            "accuracy": 0.5574468085106383,
+            "actionable": 0.4430379746835443,
+            "urgent_recall": 0.9705882352941176,
+            "mean_tamper_alerts_poisoned": 0.0,
+            "mean_peers_recovered_poisoned": 0.0,
+            "mean_n_peers_poisoned": 0.0,
+            "n_actionable": 1580
+          },
+          "T3": {
+            "accuracy": 0.5574468085106383,
+            "actionable": 0.4430379746835443,
+            "urgent_recall": 0.9705882352941176,
+            "mean_tamper_alerts_poisoned": 0.0,
+            "mean_peers_recovered_poisoned": 0.0,
+            "mean_n_peers_poisoned": 0.0,
+            "n_actionable": 1580
+          },
+          "T4": {
+            "accuracy": 0.5574468085106383,
+            "actionable": 0.4430379746835443,
+            "urgent_recall": 0.9705882352941176,
+            "mean_tamper_alerts_poisoned": 0.0,
+            "mean_peers_recovered_poisoned": 0.0,
+            "mean_n_peers_poisoned": 0.0,
+            "n_actionable": 1580
+          },
+          "mean_n_withheld": 0.0
+        },
+        "0.15": {
+          "T0": {
+            "accuracy": 0.6812765957446808,
+            "actionable": 0.4208860759493671,
+            "urgent_recall": 0.8220588235294117,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 0,
+            "n_actionable": 1580
+          },
+          "T2": {
+            "accuracy": 0.5704255319148936,
+            "actionable": 0.3759493670886076,
+            "urgent_recall": 0.8220588235294117,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 3.1939655172413794,
+            "n_actionable": 1580
+          },
+          "T3": {
+            "accuracy": 0.5704255319148936,
+            "actionable": 0.3759493670886076,
+            "urgent_recall": 0.8220588235294117,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 3.1939655172413794,
+            "n_actionable": 1580
+          },
+          "T4": {
+            "accuracy": 0.5704255319148936,
+            "actionable": 0.3759493670886076,
+            "urgent_recall": 0.8220588235294117,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 3.1939655172413794,
+            "n_actionable": 1580
+          },
+          "mean_n_withheld": 1.8060344827586208
+        },
+        "0.30": {
+          "T0": {
+            "accuracy": 0.6808510638297872,
+            "actionable": 0.3518987341772152,
+            "urgent_recall": 0.6882352941176471,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 0,
+            "n_actionable": 1580
+          },
+          "T2": {
+            "accuracy": 0.5882978723404255,
+            "actionable": 0.3139240506329114,
+            "urgent_recall": 0.6882352941176471,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 3.186453022578296,
+            "n_actionable": 1580
+          },
+          "T3": {
+            "accuracy": 0.5882978723404255,
+            "actionable": 0.3139240506329114,
+            "urgent_recall": 0.6882352941176471,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 3.186453022578296,
+            "n_actionable": 1580
+          },
+          "T4": {
+            "accuracy": 0.5882978723404255,
+            "actionable": 0.3139240506329114,
+            "urgent_recall": 0.6882352941176471,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 3.186453022578296,
+            "n_actionable": 1580
+          },
+          "mean_n_withheld": 1.8135469774217043
+        },
+        "0.50": {
+          "T0": {
+            "accuracy": 0.6742553191489362,
+            "actionable": 0.24556962025316456,
+            "urgent_recall": 0.4838235294117647,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 0,
+            "n_actionable": 1580
+          },
+          "T2": {
+            "accuracy": 0.6080851063829787,
+            "actionable": 0.2208860759493671,
+            "urgent_recall": 0.4838235294117647,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 3.151016875811337,
+            "n_actionable": 1580
+          },
+          "T3": {
+            "accuracy": 0.6080851063829787,
+            "actionable": 0.2208860759493671,
+            "urgent_recall": 0.4838235294117647,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 3.151016875811337,
+            "n_actionable": 1580
+          },
+          "T4": {
+            "accuracy": 0.6080851063829787,
+            "actionable": 0.2208860759493671,
+            "urgent_recall": 0.4838235294117647,
+            "mean_tamper_alerts_poisoned": 0,
+            "mean_peers_recovered_poisoned": 0,
+            "mean_n_peers_poisoned": 3.151016875811337,
+            "n_actionable": 1580
+          },
+          "mean_n_withheld": 1.848983124188663
+        }
+      },
+      "deltas": {
+        "T4-T2": {
+          "0.00": {
+            "delta": 0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.15": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.30": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.50": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          }
+        },
+        "T4-T3": {
+          "0.00": {
+            "delta": 0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.15": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.30": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.50": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          }
+        },
+        "T3-T2": {
+          "0.00": {
+            "delta": 0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.15": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.30": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          },
+          "0.50": {
+            "delta": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n_clusters": 79
+          }
+        },
+        "T2-T0": {
+          "0.00": {
+            "delta": -0.05063291139240506,
+            "ci_low": -0.10126582278481013,
+            "ci_high": -0.012658227848101266,
+            "n_clusters": 79
+          },
+          "0.15": {
+            "delta": -0.0449367088607595,
+            "ci_low": -0.09050632911392406,
+            "ci_high": -0.010759493670886076,
+            "n_clusters": 79
+          },
+          "0.30": {
+            "delta": -0.0379746835443038,
+            "ci_low": -0.07721518987341772,
+            "ci_high": -0.008860759493670885,
+            "n_clusters": 79
+          },
+          "0.50": {
+            "delta": -0.024683544303797468,
+            "ci_low": -0.05126582278481012,
+            "ci_high": -0.005063291139240506,
+            "n_clusters": 79
+          }
+        }
+      }
+    }
+  }
+}

@@ -69,7 +69,8 @@ def compute_curve(records, rate, cond, poisoned_only=False):
     return acc, (lo, hi), n
 
 
-def make_panel(ax, records, rates, poisoned_only, title):
+def make_panel(ax, records, rates, poisoned_only, title,
+               legend_loc="lower left"):
     for cond in CONDS:
         means, lows, highs = [], [], []
         for r in rates:
@@ -90,7 +91,8 @@ def make_panel(ax, records, rates, poisoned_only, title):
     ax.set_ylim(-0.02, 1.05)
     ax.set_title(title, fontsize=10)
     ax.grid(alpha=0.3)
-    ax.legend(loc="lower left", fontsize=9, framealpha=0.9)
+    if legend_loc:
+        ax.legend(loc=legend_loc, fontsize=10, framealpha=0.9)
 
 
 def main():
@@ -107,12 +109,17 @@ def main():
     # layout.  Panel (b) is restricted to rates with poisoned
     # scenarios: the poisoned-only metric is undefined at p=0.
     rates_poisoned = [r for r in rates if r > 0]
-    fig, axes = plt.subplots(2, 1, figsize=(4.4, 6.4))
+    fig, axes = plt.subplots(2, 1, figsize=(4.4, 6.6))
     make_panel(axes[0], records, rates, poisoned_only=False,
-               title="(a) All scenarios")
+               title="(a) All scenarios", legend_loc=None)
     make_panel(axes[1], records, rates_poisoned, poisoned_only=True,
-               title="(b) Poisoned scenarios only")
-    plt.tight_layout()
+               title="(b) Poisoned scenarios only", legend_loc=None)
+    # one shared legend above the panels: cannot occlude data
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="upper center", ncol=4, fontsize=10.5,
+               frameon=False, bbox_to_anchor=(0.5, 1.01),
+               handletextpad=0.4, columnspacing=1.2)
+    plt.tight_layout(rect=[0, 0, 1, 0.955])
 
     out_pdf = FIG_DIR / "fig8_poisoning_curve.pdf"
     out_png = FIG_DIR / "fig8_poisoning_curve.png"

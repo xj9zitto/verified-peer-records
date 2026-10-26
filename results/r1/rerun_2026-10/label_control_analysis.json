@@ -1,0 +1,120 @@
+{
+  "source": "results\\rerun_2026-10\\label_control.json",
+  "n_records": 940,
+  "errors": 0,
+  "by_rate": {
+    "0.00": {
+      "n": 235,
+      "n_actionable": 79,
+      "overall_acc": {
+        "C2": 0.2468,
+        "C2n": 0.217
+      },
+      "actionable_acc": {
+        "C2": 0.6456,
+        "C2n": 0.6076
+      },
+      "delta_actionable_C2_minus_C2n": {
+        "delta": 0.038,
+        "ci_low": -0.0886,
+        "ci_high": 0.1646,
+        "n_scenarios": 79,
+        "n_obs": 79
+      },
+      "delta_overall_C2_minus_C2n": {
+        "delta": 0.0298,
+        "ci_low": -0.0213,
+        "ci_high": 0.0809,
+        "n_scenarios": 235,
+        "n_obs": 235
+      },
+      "mcnemar_actionable": {
+        "b": 15,
+        "c": 12,
+        "p": 0.7011
+      },
+      "decision_flips_all": {
+        "flipped": 66,
+        "of": 235,
+        "rate": 0.2809
+      },
+      "decision_flips_actionable": {
+        "flipped": 28,
+        "of": 79,
+        "rate": 0.3544
+      },
+      "history_noise_C2_vs_main_campaign_C2": {
+        "flips_all": {
+          "flipped": 34,
+          "of": 235,
+          "rate": 0.1447
+        },
+        "flips_actionable": {
+          "flipped": 16,
+          "of": 79,
+          "rate": 0.2025
+        },
+        "main_actionable_acc": 0.5443
+      }
+    },
+    "0.50": {
+      "n": 235,
+      "n_actionable": 79,
+      "overall_acc": {
+        "C2": 0.3106,
+        "C2n": 0.2596
+      },
+      "actionable_acc": {
+        "C2": 0.4937,
+        "C2n": 0.5063
+      },
+      "delta_actionable_C2_minus_C2n": {
+        "delta": -0.0127,
+        "ci_low": -0.1266,
+        "ci_high": 0.1013,
+        "n_scenarios": 79,
+        "n_obs": 79
+      },
+      "delta_overall_C2_minus_C2n": {
+        "delta": 0.0511,
+        "ci_low": -0.0128,
+        "ci_high": 0.1149,
+        "n_scenarios": 235,
+        "n_obs": 235
+      },
+      "mcnemar_actionable": {
+        "b": 10,
+        "c": 11,
+        "p": 1.0
+      },
+      "decision_flips_all": {
+        "flipped": 80,
+        "of": 235,
+        "rate": 0.3404
+      },
+      "decision_flips_actionable": {
+        "flipped": 27,
+        "of": 79,
+        "rate": 0.3418
+      },
+      "poisoned_actionable_acc": {
+        "C2": 0.3077,
+        "C2n": 0.359,
+        "n": 39
+      },
+      "history_noise_C2_vs_main_campaign_C2": {
+        "flips_all": {
+          "flipped": 52,
+          "of": 235,
+          "rate": 0.2213
+        },
+        "flips_actionable": {
+          "flipped": 18,
+          "of": 79,
+          "rate": 0.2278
+        },
+        "main_actionable_acc": 0.481
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "by_rate": {
+    "0.00": {
+      "accuracy": {
+        "C2": 0.2426
+      },
+      "n": {
+        "C2": 235
+      }
+    }
+  },
+  "by_rate_poisoned_only": {
+    "0.00": {
+      "accuracy": {
+        "C2": null
+      },
+      "n": {
+        "C2": 0
+      }
+    }
+  },
+  "by_attack_type": {},
+  "fail_closed": 0,
+  "errors": 0
+}

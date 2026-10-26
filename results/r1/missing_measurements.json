@@ -1,0 +1,309 @@
+{
+  "n_test": 2100,
+  "drop_rates": [
+    0.0,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "timestep_dropout": {
+    "logreg": {
+      "0.00": {
+        "n": 2100,
+        "accuracy": 0.9671428571428572,
+        "actionable_accuracy": 0.9614961496149615,
+        "urgent_recall": 0.967741935483871,
+        "under_triage_rate": 0.015238095238095238
+      },
+      "0.10": {
+        "n": 2100,
+        "accuracy": 0.9623809523809523,
+        "actionable_accuracy": 0.9537953795379538,
+        "urgent_recall": 0.967741935483871,
+        "under_triage_rate": 0.018571428571428572
+      },
+      "0.25": {
+        "n": 2100,
+        "accuracy": 0.9619047619047619,
+        "actionable_accuracy": 0.9460946094609461,
+        "urgent_recall": 0.9648093841642229,
+        "under_triage_rate": 0.02238095238095238
+      },
+      "0.50": {
+        "n": 2100,
+        "accuracy": 0.9504761904761905,
+        "actionable_accuracy": 0.9240924092409241,
+        "urgent_recall": 0.967741935483871,
+        "under_triage_rate": 0.03238095238095238
+      }
+    },
+    "gbm": {
+      "0.00": {
+        "n": 2100,
+        "accuracy": 0.9685714285714285,
+        "actionable_accuracy": 0.9658965896589659,
+        "urgent_recall": 0.9765395894428153,
+        "under_triage_rate": 0.01
+      },
+      "0.10": {
+        "n": 2100,
+        "accuracy": 0.9666666666666667,
+        "actionable_accuracy": 0.9658965896589659,
+        "urgent_recall": 0.9765395894428153,
+        "under_triage_rate": 0.01
+      },
+      "0.25": {
+        "n": 2100,
+        "accuracy": 0.9661904761904762,
+        "actionable_accuracy": 0.9603960396039604,
+        "urgent_recall": 0.9706744868035191,
+        "under_triage_rate": 0.013333333333333334
+      },
+      "0.50": {
+        "n": 2100,
+        "accuracy": 0.96,
+        "actionable_accuracy": 0.9460946094609461,
+        "urgent_recall": 0.9765395894428153,
+        "under_triage_rate": 0.02095238095238095
+      }
+    },
+    "gru": {
+      "0.00": {
+        "n": 2100,
+        "accuracy": 0.9633333333333334,
+        "actionable_accuracy": 0.966996699669967,
+        "urgent_recall": 0.9824046920821115,
+        "under_triage_rate": 0.008095238095238095
+      },
+      "0.10": {
+        "n": 2100,
+        "accuracy": 0.9633333333333334,
+        "actionable_accuracy": 0.9636963696369637,
+        "urgent_recall": 0.9824046920821115,
+        "under_triage_rate": 0.009523809523809525
+      },
+      "0.25": {
+        "n": 2100,
+        "accuracy": 0.9604761904761905,
+        "actionable_accuracy": 0.9592959295929593,
+        "urgent_recall": 0.9794721407624634,
+        "under_triage_rate": 0.011904761904761904
+      },
+      "0.50": {
+        "n": 2100,
+        "accuracy": 0.9514285714285714,
+        "actionable_accuracy": 0.9416941694169417,
+        "urgent_recall": 0.9765395894428153,
+        "under_triage_rate": 0.02
+      }
+    },
+    "cnn": {
+      "0.00": {
+        "n": 2100,
+        "accuracy": 0.950952380952381,
+        "actionable_accuracy": 0.9625962596259626,
+        "urgent_recall": 0.9882697947214076,
+        "under_triage_rate": 0.005714285714285714
+      },
+      "0.10": {
+        "n": 2100,
+        "accuracy": 0.9514285714285714,
+        "actionable_accuracy": 0.9636963696369637,
+        "urgent_recall": 0.9882697947214076,
+        "under_triage_rate": 0.006190476190476191
+      },
+      "0.25": {
+        "n": 2100,
+        "accuracy": 0.9457142857142857,
+        "actionable_accuracy": 0.9592959295929593,
+        "urgent_recall": 0.9912023460410557,
+        "under_triage_rate": 0.007142857142857143
+      },
+      "0.50": {
+        "n": 2100,
+        "accuracy": 0.9380952380952381,
+        "actionable_accuracy": 0.9405940594059405,
+        "urgent_recall": 0.9824046920821115,
+        "under_triage_rate": 0.014285714285714285
+      }
+    }
+  },
+  "channel_loss": {
+    "logreg": {
+      "voltage_V_measured": {
+        "n": 2100,
+        "accuracy": 0.9604761904761905,
+        "actionable_accuracy": 0.9471947194719472,
+        "urgent_recall": 0.9736070381231672,
+        "under_triage_rate": 0.02238095238095238
+      },
+      "current_A_measured": {
+        "n": 2100,
+        "accuracy": 0.9528571428571428,
+        "actionable_accuracy": 0.933993399339934,
+        "urgent_recall": 0.9648093841642229,
+        "under_triage_rate": 0.02666666666666667
+      },
+      "temperature_C_measured": {
+        "n": 2100,
+        "accuracy": 0.7566666666666667,
+        "actionable_accuracy": 0.46204620462046203,
+        "urgent_recall": 0.002932551319648094,
+        "under_triage_rate": 0.23285714285714285
+      },
+      "SOC_with_drift": {
+        "n": 2100,
+        "accuracy": 0.950952380952381,
+        "actionable_accuracy": 0.935093509350935,
+        "urgent_recall": 0.967741935483871,
+        "under_triage_rate": 0.02619047619047619
+      },
+      "dT_dt_meas_C_per_s": {
+        "n": 2100,
+        "accuracy": 0.9038095238095238,
+        "actionable_accuracy": 0.8701870187018702,
+        "urgent_recall": 0.9648093841642229,
+        "under_triage_rate": 0.05476190476190476
+      },
+      "dV_dt_meas_V_per_s": {
+        "n": 2100,
+        "accuracy": 0.9623809523809523,
+        "actionable_accuracy": 0.9482948294829483,
+        "urgent_recall": 0.967741935483871,
+        "under_triage_rate": 0.02095238095238095
+      }
+    },
+    "gbm": {
+      "voltage_V_measured": {
+        "n": 2100,
+        "accuracy": 0.97,
+        "actionable_accuracy": 0.9702970297029703,
+        "urgent_recall": 0.967741935483871,
+        "under_triage_rate": 0.012380952380952381
+      },
+      "current_A_measured": {
+        "n": 2100,
+        "accuracy": 0.9619047619047619,
+        "actionable_accuracy": 0.9515951595159516,
+        "urgent_recall": 0.9765395894428153,
+        "under_triage_rate": 0.015238095238095238
+      },
+      "temperature_C_measured": {
+        "n": 2100,
+        "accuracy": 0.7771428571428571,
+        "actionable_accuracy": 0.5478547854785478,
+        "urgent_recall": 0.0,
+        "under_triage_rate": 0.1957142857142857
+      },
+      "SOC_with_drift": {
+        "n": 2100,
+        "accuracy": 0.9695238095238096,
+        "actionable_accuracy": 0.9691969196919692,
+        "urgent_recall": 0.9706744868035191,
+        "under_triage_rate": 0.011904761904761904
+      },
+      "dT_dt_meas_C_per_s": {
+        "n": 2100,
+        "accuracy": 0.8709523809523809,
+        "actionable_accuracy": 0.8767876787678768,
+        "urgent_recall": 0.9736070381231672,
+        "under_triage_rate": 0.05285714285714286
+      },
+      "dV_dt_meas_V_per_s": {
+        "n": 2100,
+        "accuracy": 0.9542857142857143,
+        "actionable_accuracy": 0.9295929592959296,
+        "urgent_recall": 0.9765395894428153,
+        "under_triage_rate": 0.025238095238095237
+      }
+    },
+    "gru": {
+      "voltage_V_measured": {
+        "n": 2100,
+        "accuracy": 0.9604761904761905,
+        "actionable_accuracy": 0.9647964796479648,
+        "urgent_recall": 0.9736070381231672,
+        "under_triage_rate": 0.012857142857142857
+      },
+      "current_A_measured": {
+        "n": 2100,
+        "accuracy": 0.9557142857142857,
+        "actionable_accuracy": 0.9438943894389439,
+        "urgent_recall": 0.9824046920821115,
+        "under_triage_rate": 0.017142857142857144
+      },
+      "temperature_C_measured": {
+        "n": 2100,
+        "accuracy": 0.7628571428571429,
+        "actionable_accuracy": 0.5357535753575358,
+        "urgent_recall": 0.0,
+        "under_triage_rate": 0.20095238095238097
+      },
+      "SOC_with_drift": {
+        "n": 2100,
+        "accuracy": 0.9538095238095238,
+        "actionable_accuracy": 0.9647964796479648,
+        "urgent_recall": 0.9765395894428153,
+        "under_triage_rate": 0.011904761904761904
+      },
+      "dT_dt_meas_C_per_s": {
+        "n": 2100,
+        "accuracy": 0.8285714285714286,
+        "actionable_accuracy": 0.8393839383938394,
+        "urgent_recall": 0.967741935483871,
+        "under_triage_rate": 0.06619047619047619
+      },
+      "dV_dt_meas_V_per_s": {
+        "n": 2100,
+        "accuracy": 0.9485714285714286,
+        "actionable_accuracy": 0.9394939493949395,
+        "urgent_recall": 0.9853372434017595,
+        "under_triage_rate": 0.014761904761904763
+      }
+    },
+    "cnn": {
+      "voltage_V_measured": {
+        "n": 2100,
+        "accuracy": 0.9457142857142857,
+        "actionable_accuracy": 0.9570957095709571,
+        "urgent_recall": 0.9853372434017595,
+        "under_triage_rate": 0.011428571428571429
+      },
+      "current_A_measured": {
+        "n": 2100,
+        "accuracy": 0.9161904761904762,
+        "actionable_accuracy": 0.9559955995599559,
+        "urgent_recall": 0.9765395894428153,
+        "under_triage_rate": 0.014761904761904763
+      },
+      "temperature_C_measured": {
+        "n": 2100,
+        "accuracy": 0.7604761904761905,
+        "actionable_accuracy": 0.5258525852585259,
+        "urgent_recall": 0.01466275659824047,
+        "under_triage_rate": 0.20476190476190476
+      },
+      "SOC_with_drift": {
+        "n": 2100,
+        "accuracy": 0.9076190476190477,
+        "actionable_accuracy": 0.966996699669967,
+        "urgent_recall": 0.9853372434017595,
+        "under_triage_rate": 0.005238095238095238
+      },
+      "dT_dt_meas_C_per_s": {
+        "n": 2100,
+        "accuracy": 0.7733333333333333,
+        "actionable_accuracy": 0.8921892189218922,
+        "urgent_recall": 0.9794721407624634,
+        "under_triage_rate": 0.04047619047619048
+      },
+      "dV_dt_meas_V_per_s": {
+        "n": 2100,
+        "accuracy": 0.9452380952380952,
+        "actionable_accuracy": 0.933993399339934,
+        "urgent_recall": 0.9882697947214076,
+        "under_triage_rate": 0.014761904761904763
+      }
+    }
+  }
+}

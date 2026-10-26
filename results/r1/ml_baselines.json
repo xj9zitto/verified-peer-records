@@ -1,0 +1,284 @@
+{
+  "n_train": 4199,
+  "n_features": 36,
+  "train_class_counts": {
+    "safe": 2360,
+    "replace": 1244,
+    "urgent": 595
+  },
+  "runs_per_scenario": 300,
+  "by_rate": {
+    "logreg@0.00": {
+      "model": "logreg",
+      "n": 235,
+      "accuracy": 0.9361702127659575,
+      "actionable_accuracy": 0.8734177215189873,
+      "urgent_recall": 0.9411764705882353,
+      "under_triage_rate": 0.029787234042553193,
+      "confusion": {
+        "safe": {
+          "safe": 151,
+          "replace": 3,
+          "urgent": 2
+        },
+        "replace": {
+          "replace": 37,
+          "safe": 5,
+          "urgent": 3
+        },
+        "urgent": {
+          "urgent": 32,
+          "replace": 1,
+          "safe": 1
+        }
+      }
+    },
+    "hgb@0.00": {
+      "model": "hgb",
+      "n": 235,
+      "accuracy": 0.9702127659574468,
+      "actionable_accuracy": 0.9746835443037974,
+      "urgent_recall": 1.0,
+      "under_triage_rate": 0.00851063829787234,
+      "confusion": {
+        "safe": {
+          "safe": 151,
+          "replace": 5
+        },
+        "replace": {
+          "replace": 43,
+          "safe": 2
+        },
+        "urgent": {
+          "urgent": 34
+        }
+      }
+    },
+    "hgb_cost@0.00": {
+      "model": "hgb_cost",
+      "n": 235,
+      "accuracy": 0.9744680851063829,
+      "actionable_accuracy": 0.9873417721518988,
+      "urgent_recall": 1.0,
+      "under_triage_rate": 0.00425531914893617,
+      "confusion": {
+        "safe": {
+          "safe": 151,
+          "replace": 5
+        },
+        "replace": {
+          "replace": 44,
+          "safe": 1
+        },
+        "urgent": {
+          "urgent": 34
+        }
+      }
+    },
+    "logreg@0.15": {
+      "model": "logreg",
+      "n": 235,
+      "accuracy": 0.8936170212765957,
+      "actionable_accuracy": 0.7468354430379747,
+      "urgent_recall": 0.8823529411764706,
+      "under_triage_rate": 0.08085106382978724,
+      "confusion": {
+        "safe": {
+          "safe": 151,
+          "replace": 3,
+          "urgent": 2
+        },
+        "replace": {
+          "replace": 29,
+          "safe": 15,
+          "urgent": 1
+        },
+        "urgent": {
+          "urgent": 30,
+          "safe": 3,
+          "replace": 1
+        }
+      }
+    },
+    "hgb@0.15": {
+      "model": "hgb",
+      "n": 235,
+      "accuracy": 0.9191489361702128,
+      "actionable_accuracy": 0.8227848101265823,
+      "urgent_recall": 0.9411764705882353,
+      "under_triage_rate": 0.059574468085106386,
+      "confusion": {
+        "safe": {
+          "safe": 151,
+          "replace": 5
+        },
+        "replace": {
+          "replace": 33,
+          "safe": 12
+        },
+        "urgent": {
+          "urgent": 32,
+          "safe": 2
+        }
+      }
+    },
+    "hgb_cost@0.15": {
+      "model": "hgb_cost",
+      "n": 235,
+      "accuracy": 0.9234042553191489,
+      "actionable_accuracy": 0.8354430379746836,
+      "urgent_recall": 0.9411764705882353,
+      "under_triage_rate": 0.05531914893617021,
+      "confusion": {
+        "safe": {
+          "safe": 151,
+          "replace": 5
+        },
+        "replace": {
+          "replace": 34,
+          "safe": 11
+        },
+        "urgent": {
+          "urgent": 32,
+          "safe": 2
+        }
+      }
+    },
+    "logreg@0.30": {
+      "model": "logreg",
+      "n": 235,
+      "accuracy": 0.8595744680851064,
+      "actionable_accuracy": 0.6455696202531646,
+      "urgent_recall": 0.7058823529411765,
+      "under_triage_rate": 0.1148936170212766,
+      "confusion": {
+        "safe": {
+          "safe": 151,
+          "replace": 3,
+          "urgent": 2
+        },
+        "replace": {
+          "replace": 27,
+          "safe": 17,
+          "urgent": 1
+        },
+        "urgent": {
+          "urgent": 24,
+          "safe": 9,
+          "replace": 1
+        }
+      }
+    },
+    "hgb@0.30": {
+      "model": "hgb",
+      "n": 235,
+      "accuracy": 0.8765957446808511,
+      "actionable_accuracy": 0.6962025316455697,
+      "urgent_recall": 0.7352941176470589,
+      "under_triage_rate": 0.10212765957446808,
+      "confusion": {
+        "safe": {
+          "safe": 151,
+          "replace": 5
+        },
+        "replace": {
+          "replace": 30,
+          "safe": 15
+        },
+        "urgent": {
+          "urgent": 25,
+          "safe": 9
+        }
+      }
+    },
+    "hgb_cost@0.30": {
+      "model": "hgb_cost",
+      "n": 235,
+      "accuracy": 0.8808510638297873,
+      "actionable_accuracy": 0.7088607594936709,
+      "urgent_recall": 0.7352941176470589,
+      "under_triage_rate": 0.09787234042553192,
+      "confusion": {
+        "safe": {
+          "safe": 151,
+          "replace": 5
+        },
+        "replace": {
+          "replace": 31,
+          "safe": 14
+        },
+        "urgent": {
+          "urgent": 25,
+          "safe": 9
+        }
+      }
+    },
+    "logreg@0.50": {
+      "model": "logreg",
+      "n": 235,
+      "accuracy": 0.8,
+      "actionable_accuracy": 0.45569620253164556,
+      "urgent_recall": 0.47058823529411764,
+      "under_triage_rate": 0.1829787234042553,
+      "confusion": {
+        "safe": {
+          "safe": 152,
+          "replace": 3,
+          "urgent": 1
+        },
+        "replace": {
+          "safe": 25,
+          "replace": 20
+        },
+        "urgent": {
+          "safe": 18,
+          "urgent": 16
+        }
+      }
+    },
+    "hgb@0.50": {
+      "model": "hgb",
+      "n": 235,
+      "accuracy": 0.8085106382978723,
+      "actionable_accuracy": 0.4810126582278481,
+      "urgent_recall": 0.47058823529411764,
+      "under_triage_rate": 0.17446808510638298,
+      "confusion": {
+        "safe": {
+          "safe": 152,
+          "replace": 4
+        },
+        "replace": {
+          "safe": 23,
+          "replace": 22
+        },
+        "urgent": {
+          "safe": 18,
+          "urgent": 16
+        }
+      }
+    },
+    "hgb_cost@0.50": {
+      "model": "hgb_cost",
+      "n": 235,
+      "accuracy": 0.8127659574468085,
+      "actionable_accuracy": 0.4936708860759494,
+      "urgent_recall": 0.47058823529411764,
+      "under_triage_rate": 0.1702127659574468,
+      "confusion": {
+        "safe": {
+          "safe": 152,
+          "replace": 4
+        },
+        "replace": {
+          "safe": 22,
+          "replace": 23
+        },
+        "urgent": {
+          "safe": 18,
+          "urgent": 16
+        }
+      }
+    }
+  }
+}

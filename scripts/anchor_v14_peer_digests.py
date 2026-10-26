@@ -47,9 +47,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--verify", action="store_true",
                     help="Sample-check verify_content on 5 anchored peers")
+    ap.add_argument("--scenarios", type=Path, default=V14_SCENARIOS,
+                    help="Scenario file whose peers are anchored.  The "
+                         "registry is shared across files and keyed by "
+                         "peer identity, so peers already anchored under "
+                         "identical content are reused rather than "
+                         "re-anchored.")
     args = ap.parse_args()
 
-    scenarios = json.loads(V14_SCENARIOS.read_text(encoding="utf-8"))
+    scen_path = args.scenarios
+    backup_path = scen_path.with_suffix(".backup_pre_anchor.json")
+    scenarios = json.loads(scen_path.read_text(encoding="utf-8"))
 
     # collect unique peers; assert content is consistent across references
     unique: dict[str, dict] = {}
@@ -96,10 +104,10 @@ def main():
           f"-> {REGISTRY}")
 
     # update scenario peer references
-    if not BACKUP.exists():
-        BACKUP.write_text(V14_SCENARIOS.read_text(encoding="utf-8"),
-                          encoding="utf-8")
-        print(f"Backup written -> {BACKUP}")
+    if not backup_path.exists():
+        backup_path.write_text(scen_path.read_text(encoding="utf-8"),
+                               encoding="utf-8")
+        print(f"Backup written -> {backup_path}")
     n_upd = 0
     for sc in scenarios:
         for p in sc.get("asset_records", []):
@@ -107,9 +115,9 @@ def main():
             p["chain_tx_hash"]  = entry["tx_hash"]
             p["content_digest"] = entry["digest"]
             n_upd += 1
-    V14_SCENARIOS.write_text(json.dumps(scenarios, indent=2),
-                             encoding="utf-8")
-    print(f"Updated {n_upd} peer references in {V14_SCENARIOS}")
+    scen_path.write_text(json.dumps(scenarios, indent=2),
+                         encoding="utf-8")
+    print(f"Updated {n_upd} peer references in {scen_path}")
 
     if args.verify:
         sample = scenarios[0]["asset_records"][:3] + \

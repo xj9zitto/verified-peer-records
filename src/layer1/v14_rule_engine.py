@@ -14,11 +14,16 @@ SCENARIO_TRACEABILITY.md) and to standard battery-safety reference values:
     >  4.25V  → overcharge onset (Liu 2018)
     <  2.30V  → Cu-dissolution onset (Guo 2016)
 
-  Temperature:
+  Temperature (operational thresholds of this rule engine, NOT
+  standardized values; the benchmark labels Stage 2 at SEI onset,
+  85 C at 50% SOC, and Stage 3 at separator-melt onset, 130 C at
+  50% SOC, both SOC-adjusted; see synth-batt-data LABEL_SCHEMA.md):
     >  45°C   → thermal stress
-    >  60°C   → SEI onset proximate
-    >  90°C   → separator integrity at risk
-    > 110°C   → IEC 62133-2 oven-test failure threshold
+    >  60°C   → approaching SEI onset
+    >  90°C   → Stage-2 evidence, just above SEI onset
+    > 110°C   → Stage-3 evidence, below separator-melt onset
+  (IEC 62133-2's thermal-abuse oven test runs at about 130 C and defines
+  no failure stage; an earlier comment here wrongly cited it for 110 C.)
 
   Rate of temperature rise:
     >  0.05°C/s  → mild self-heating

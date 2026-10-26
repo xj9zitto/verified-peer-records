@@ -1,0 +1,46 @@
+{
+  "by_rate": {
+    "0.50": {
+      "accuracy": {
+        "C0": 0.6511,
+        "C2": 0.2553,
+        "C4": 0.2553
+      },
+      "n": {
+        "C0": 235,
+        "C2": 235,
+        "C4": 235
+      }
+    }
+  },
+  "by_rate_poisoned_only": {
+    "0.50": {
+      "accuracy": {
+        "C0": 0.6389,
+        "C2": 0.2593,
+        "C4": 0.2593
+      },
+      "n": {
+        "C0": 108,
+        "C2": 108,
+        "C4": 108
+      }
+    }
+  },
+  "by_attack_type": {
+    "C4": {
+      "0.50": {
+        "fake_hash": {
+          "accuracy": null,
+          "n": 0
+        },
+        "forged_hash": {
+          "accuracy": null,
+          "n": 0
+        }
+      }
+    }
+  },
+  "fail_closed": 0,
+  "errors": 0
+}

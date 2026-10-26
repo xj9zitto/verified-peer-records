@@ -1,103 +1,143 @@
-# Verified Peer Records — Code, Data, and Supplementary Artifacts
+# Verified Peer Records — Code, Data, and Results (Revision R1)
 
-Artifact repository for the manuscript:
+Artifact for the manuscript
 
-> **Content-Bound Verified Peer Records for Adversarially Robust
-> Battery-Safety Agents in Industrial IoT**
-> M. A. Dini Rage, M. S. Khaliq, M. M. H. Somrat, S. K. Ghosh,
-> D.-S. Kim, J. M. Lee — submitted to the IEEE Internet of Things Journal.
+> **Content-Bound Provenance for Retrieved Evidence in Industrial LLM
+> Safety Agents**, M. A. Dini Rage, M. S. Khaliq, M. M. H. Somrat,
+> S. K. Ghosh, D.-S. Kim, J. M. Lee. IEEE Internet of Things Journal,
+> manuscript IoT-74062-2026, revision R1.
 
-It contains the complete agent source tree, experiment runners, the
-deployed smart-contract source, the scenario corpora, all raw result
-artifacts behind every table and figure in the paper, and the
-supplementary document (platform comparison and legacy thermal-checker
-definitions).
+**Version `v2.0.0` (R1).** Tag `v1.0.0` is the artifact of the first
+submission (contract `0x9fE4…a6e0`, 2,082 events, round-1 client). It is
+kept for reference; every number in the R1 manuscript comes from the
+files described below.
 
-## Repository layout
+## What changed in R1
 
-```
-src/                    agent, retrieval, verification, and physics layers
-  layer1/               Physical-Internet event generation + v14 rule engine
-  layer2/               PureChain client, canonical serialization (v14_content.py),
-                        ChromaDB index, RAG retrieval
-  layer3/               LLM agent, v14 hybrid pipeline (llm_agent_v14.py),
-                        physics checker, two-stage retry
-scripts/                experiment runners, anchoring, analysis, plotting
-contracts/              SupplyEventLogger.sol (Solidity 0.8.24)
-data/synthetic/         scenario corpora + on-chain transaction registries
-results/                raw results (JSON) + generated figures
-supplementary/          supplementary document source (LaTeX)
-LIMITATIONS.md          full limitation inventory referenced by the paper
-```
+- **Contract redeployed under a new anchoring key.** The first
+  deployment had been anchored under Hardhat's default development
+  account, whose key is public. The same `SupplyEventLogger.sol` was
+  redeployed and all 777 records re-anchored (337 + 370 peer records,
+  70 real-cell records).
+- **Hardened verification client** (`src/layer2/purechain_client.py`):
+  chain identifier at connection; per handle receipt, success status,
+  recipient contract, sender equal to a *pinned* writer, an operational
+  six-block confirmation depth, and decoding of the `logAssetState`
+  call with the `V14PEER` marker. Unanimity across configured endpoints.
+  Transport errors are distinguished from verification failures, and
+  the agent fails closed to the rule engine when verification is
+  unavailable (`src/layer3/llm_agent_v14.py`).
+- **Same-session agent campaign** (`scripts/r2_campaign.sh`): every
+  agent condition in one inference session; conditions with
+  byte-identical prompts share one output (`scripts/analyze_rerun.py`).
+- **New experiments:** signed-repository recovery baseline (T5, T5x),
+  attacks outside the guarantee (genuine substitution, withholding), a
+  gradient-boosted classifier consuming verified evidence, and a
+  verified-label control for the C2 prompt.
+
+## Setup
+
+- Python 3.11, `pip install -r requirements.txt`
+- Copy `.env.example` to `.env`; it already holds the public values
+  below. No private key is needed for anything except re-anchoring.
+- For agent runs: [Ollama](https://ollama.com) with `gemma3:4b`
+  (Q4_K_M; we used Ollama 0.32.9), temperature 0.
 
 ## Independent on-chain verification (no key required)
 
-All 2,082 events referenced in the paper are committed on the live
-PureChain mainnet and can be verified read-only by anyone:
-
-- RPC endpoint: `https://purechainnode.com` (chain ID `900520900520`)
-- Contract: `SupplyEventLogger` at
-  `0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0`
-- `data/synthetic/tx_registry.json` maps the 570 supply-chain events;
-  `data/synthetic/v14_tx_registry.json` maps the 337 peer-anchoring
-  transactions of the content-bound condition (C4), each entry holding
-  the transaction hash and the SHA-256 canonical content digest.
-
-Example (verifies one anchored peer record end to end):
+- RPC endpoint: `https://purechainnode.com`, chain ID `900520900520`
+- Contract `SupplyEventLogger`: `0xB96F110c14be274B2F2e52EC658cc97A3Fd3aEA3`
+- Authorised writer (contract `owner()`): `0x32a394ef2565657C27f76Ed0EdE9EEE084955476`
+- `data/synthetic/v14_tx_registry.json`: 707 peer records, identity key →
+  transaction hash and SHA-256 canonical-content digest.
+  `data/synthetic/real_peer_tx_registry.json`: 70 real-cell records.
+- `*.contract_0x9fE4.json`: the superseded round-1 anchors, kept as a
+  negative control (they must be rejected: wrong recipient, wrong writer).
 
 ```python
-from src.layer2.purechain_client import PureChainClient
 import json
+from src.layer2.purechain_client import PureChainClient, VerificationPolicy
 
-client = PureChainClient(); client.connect()
+pc = PureChainClient(
+    rpc_url="https://purechainnode.com",
+    contract_address="0xB96F110c14be274B2F2e52EC658cc97A3Fd3aEA3",
+    policy=VerificationPolicy(
+        expected_chain_id=900520900520,
+        expected_writer="0x32a394ef2565657C27f76Ed0EdE9EEE084955476"))
+assert pc.connect()
 reg = json.load(open("data/synthetic/v14_tx_registry.json"))
-key, entry = next(iter(reg.items()))
-payload, digest = client.get_peer_payload(entry["tx_hash"])
-print(digest == entry["digest"])   # True — committed digest matches
+ok = sum(pc.verify_content(e["tx_hash"], e["digest"]) for e in reg.values())
+print(ok, "of", len(reg))      # expected: 707 of 707
 ```
 
-## Environment
+`python scripts/validate_endpoint_checks.py` repeats the full check with
+its negative controls. It reads only the public values in `.env`, but it
+also writes one control transaction if `data/synthetic/endpoint_controls.json`
+does not match the contract; the released file already does.
 
-- Python 3.11, `pip install -r requirements.txt`
-- [Ollama](https://ollama.com) with `gemma3:4b` pulled
-  (`ollama pull gemma3:4b`); decoding is temperature 0
-- Copy `.env.example` to `.env`. For read-only verification set:
-  `PURECHAIN_RPC_URL=https://purechainnode.com`,
-  `PURECHAIN_CHAIN_ID=900520900520`,
-  `SUPPLY_EVENT_LOGGER_ADDRESS=0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0`.
-  Writing new events additionally requires an authorized key
-  (`PURECHAIN_PRIVATE_KEY`); none of the reproduction commands below
-  need one except the optional re-anchoring step.
+## Where each manuscript number comes from
 
-## Reproducing the paper's experiments
+Unpack the released results first: `python scripts/use_r1_results.py`
+(copies `results/r1/` into `results/`, decompressing `.gz` files).
 
-| Paper artifact | Command |
-|---|---|
-| v14 baseline (Table: nominal conditions) | `python scripts/run_experiment_v14.py` |
-| Poisoning sweep C0–C3 (central figure) | `python scripts/run_v14_poisoning_experiment.py` |
-| Content-bound condition C4 | `python scripts/run_v14_poisoning_experiment.py --conditions C4 --out results/v14_poisoning_c4_results.json --summary-out results/v14_poisoning_c4_summary.json` |
-| State-only ablation | `python scripts/run_v14_poisoning_experiment.py --conditions C3 --no-outcomes --out results/v14_poisoning_ablation_results.json` |
-| Shuffled-outcome control | `python scripts/run_v14_poisoning_experiment.py --conditions C3 --shuffle-outcomes --out results/v14_poisoning_shuffled_results.json` |
-| Peer anchoring (needs authorized key) | `python scripts/anchor_v14_peer_digests.py --verify` |
-| C4 analysis (McNemar, decomposition) | `python scripts/analyze_c4.py` |
-| Balanced metrics, trivial + peer-vote baselines, Holm | `python scripts/compute_review_metrics.py` |
-| Figures | `python scripts/plot_v14_poisoning.py`, `plot_v14_baseline.py`, `plot_ablation.py`, `plot_results.py`, `plot_poisoning_curve.py` |
+| Manuscript item | Source file(s) | Produced by |
+|---|---|---|
+| Tables IV–IX, XI, XIII, Fig. 2, Table XIV C4 row, variance paragraph | `results/rerun_2026-10/*.json` → `rerun_analysis.json` | `scripts/r2_campaign.sh`, `scripts/analyze_rerun.py`, `scripts/plot_v14_poisoning.py --rerun` |
+| Table X (gate) | `results/rerun_2026-10/checker_policy_comparison.json` | `scripts/analyze_checker_policies.py` |
+| Sec. V-B, verified-label control | `results/rerun_2026-10/label_control.json`, `label_control_analysis.json` | `run_v14_poisoning_experiment.py --conditions C2 C2n`, `analyze_label_control.py` |
+| Order dependence of greedy decoding | `results/rerun_2026-10/inference_determinism.json` | `scripts/test_inference_determinism.py` |
+| Sec. III-B, IV-D, Table III | `endpoint_check_validation.json`, `integrity_mechanism_comparison.json` | `validate_endpoint_checks.py`, `compare_integrity_mechanisms.py` |
+| Table XII, 490-set rule arms | `transfer_multiseed_analysis.json`, `transfer_expanded_analysis.json` | `run_verification_transfer.py`, `analyze_transfer_multiseed.py` |
+| Sec. IV-E (T5, T5x) | `v14_recovery_baseline_analysis.json` | `run_recovery_baseline.py`, `analyze_recovery_baseline.py` |
+| Table XVI | `v14_boundary_attacks_analysis.json`, `rerun_2026-10/boundary_*.json` | `run_boundary_attacks.py`, `analyze_boundary_attacks.py` |
+| Table XV | `v14_predictor_fusion_adaptive_aug30.json` (+ `_aug0`, `_expanded_*`, standard-attack runs) | `run_predictor_fusion.py --attack adaptive` |
+| Table XVII (real cells) | `real_data_integrity.json` | `validate_real_data_integrity.py` |
 
-All sampling, poisoning, and attack-type assignments are seed-controlled
-(seed 42); raw results shipped in `results/` were produced by exactly
-these commands.
+`python scripts/verify_paper_numbers_r2.py` checks 73 manuscript numbers
+against these files.
+
+## Tests
+
+```
+python src/tests/test_r2_verification.py     # verifier, quorum, fail-closed (23)
+python src/tests/test_v14_attack_parity.py
+python src/tests/test_v14_physics_checker.py
+```
+
+## Reproducing the agent campaign
+
+Requires the benchmark dataset (below) for the classifier experiments,
+and Ollama for the agent. Greedy decoding is reproducible for a fixed
+request history but not for a fixed prompt: a re-run in a different
+order changes 14–22% of individual decisions while aggregate accuracy
+moves by a few points, so expect agreement in the tables, not decision
+for decision. The deterministic arms (rule, classifier, chain checks)
+reproduce exactly.
 
 ## Dataset
-
-The battery-safety benchmark is published separately on IEEE DataPort:
 
 > M. A. Dini Rage, J. N. Njoku, D.-S. Kim, J. M. Lee, "BattZitto: A
 > Realism-Characterized Synthetic Dataset for Li-Ion Battery Thermal
 > Runaway Detection and Forecasting," IEEE Dataport, 2026.
 > DOI: [10.21227/1m7z-2z53](https://dx.doi.org/10.21227/1m7z-2z53)
 
-The 235-scenario evaluation subset derived from it is included here as
-`data/synthetic/v14_scenarios.json`.
+The evaluation subsets derived from it are included as
+`data/synthetic/v14_scenarios.json` (235) and
+`v14_scenarios_expanded.json` (490).
+
+## Not included
+
+- No private key and no `.env`. The anchoring key is held by the
+  authors; everything above verifies with public values only.
+- Model weights (pulled through Ollama) and the benchmark dataset.
+
+## Limitations of the artifact
+
+The deployment exposes one public RPC endpoint, so the
+honest-endpoint assumption is stated rather than established. The
+six-block depth is an operational policy; Clique-style proof of
+authority has no formal finality. See `LIMITATIONS.md` and Section VI-G
+of the manuscript.
 
 ## License
 

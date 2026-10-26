@@ -113,7 +113,7 @@ def main():
     ax.grid(axis="y", alpha=0.3)
     # legend above the axes so it cannot occlude bars or value labels
     ax.legend(loc="lower center", bbox_to_anchor=(0.5, 1.0), ncol=4,
-              fontsize=9, framealpha=1.0, borderaxespad=0.2,
+              fontsize=10, framealpha=1.0, borderaxespad=0.2,
               handletextpad=0.5, columnspacing=1.0)
 
     # Annotate the central finding: actionable class collapse pattern

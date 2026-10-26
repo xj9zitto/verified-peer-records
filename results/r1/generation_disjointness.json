@@ -1,0 +1,79 @@
+{
+  "n_scenarios_checked": 235,
+  "n_identical_window": 0,
+  "n_run_or_window_unavailable": 14,
+  "match_rate": 0.0,
+  "conclusion": "trajectories are disjoint across generations; a run identifier does not name the same trajectory in both, so training on the current generation cannot overlap the frozen evaluation windows",
+  "per_scenario": {
+    "combined": {
+      "n": 17,
+      "identical": 0,
+      "unavailable": 0
+    },
+    "external_short_circuit": {
+      "n": 8,
+      "identical": 0,
+      "unavailable": 0
+    },
+    "fast_charge_abuse": {
+      "n": 11,
+      "identical": 0,
+      "unavailable": 3
+    },
+    "isc": {
+      "n": 8,
+      "identical": 0,
+      "unavailable": 1
+    },
+    "isc_physical": {
+      "n": 8,
+      "identical": 0,
+      "unavailable": 0
+    },
+    "lithium_plating": {
+      "n": 34,
+      "identical": 0,
+      "unavailable": 2
+    },
+    "mechanical_abuse": {
+      "n": 34,
+      "identical": 0,
+      "unavailable": 3
+    },
+    "mild_thermal_stress": {
+      "n": 17,
+      "identical": 0,
+      "unavailable": 2
+    },
+    "moderate_overcharge": {
+      "n": 11,
+      "identical": 0,
+      "unavailable": 0
+    },
+    "overcharge": {
+      "n": 11,
+      "identical": 0,
+      "unavailable": 0
+    },
+    "overdischarge": {
+      "n": 34,
+      "identical": 0,
+      "unavailable": 1
+    },
+    "overdischarge_fast_recharge": {
+      "n": 17,
+      "identical": 0,
+      "unavailable": 0
+    },
+    "partial_isc_stress": {
+      "n": 8,
+      "identical": 0,
+      "unavailable": 1
+    },
+    "thermal_abuse": {
+      "n": 17,
+      "identical": 0,
+      "unavailable": 1
+    }
+  }
+}

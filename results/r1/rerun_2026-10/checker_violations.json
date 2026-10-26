@@ -1,0 +1,11 @@
+{
+ "n": 940,
+ "fired": 744,
+ "violations": {
+  "action_mapping_violation": 452,
+  "stage_overstated": 200,
+  "p300_inconsistent_with_stage": 26,
+  "p300_unsupported": 352,
+  "stage_understated": 167
+ }
+}
